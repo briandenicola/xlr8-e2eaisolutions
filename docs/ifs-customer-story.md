@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Customer Story
-nav_order: 1
+nav_order: 2
+permalink: /docs/customer-story/
 ---
 
 # Customer Story: Innovate Financial Services AI Transformation

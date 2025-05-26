@@ -1,12 +1,12 @@
 ---
 layout: default
-title: AI Foundations Challenge
-nav_order: 2
+title: AI Ready Challenge
+nav_order: 1
 has_children: true
-permalink: /docs/alz-challenge/
+permalink: 01-aiready/
 ---
 
-# Challenge-Based Whiteboard Design Session: IFS AI Foundation & Hub
+# Challenge-Based Whiteboard Design Session: IFS AI Ready
 
 **Session Goal:** Design a secure, scalable, and governed Azure foundation for Innovate Financial Services (IFS) to support their AI transformation journey, addressing their business objectives and technical challenges.
 

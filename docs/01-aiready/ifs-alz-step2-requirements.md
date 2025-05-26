@@ -1,9 +1,12 @@
 ---
 layout: default
-title: Step 2 - Capture the Requirements
-parent: AI Foundations Challenge
-nav_order: 2
+title: Step 2: Requirements – AI Ready Challenge
+nav_order: 1
+has_children: false
+permalink: 01-aiready/step2-requirements/
 ---
+
+# Step 2: Requirements – AI Ready Challenge
 
 ## Step 2: Define High-Level Requirements (45 minutes)
 

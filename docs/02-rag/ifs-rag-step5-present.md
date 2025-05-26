@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Step 5 - Present and Justify
-parent: RAG Chatbot Challenge
+parent: RAG Challenge
 nav_order: 5
 ---
 

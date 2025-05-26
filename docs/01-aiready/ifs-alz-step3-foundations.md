@@ -1,9 +1,12 @@
 ---
 layout: default
-title: Step 3 - Design the Foundations
-parent: AI Foundations Challenge
-nav_order: 3
+title: Step 3: Foundations – AI Ready Challenge
+nav_order: 1
+has_children: false
+permalink: 01-aiready/step3-foundations/
 ---
+
+# Step 3: Foundations – AI Ready Challenge
 
 ## Step 3: Design Challenges (Foundations & Workloads) (1.5 hours)
 

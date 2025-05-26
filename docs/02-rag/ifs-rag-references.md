@@ -1,7 +1,7 @@
 ---
 layout: default
 title: References
-parent: RAG Chatbot Challenge
+parent: RAG Challenge
 nav_order: 6
 ---
 

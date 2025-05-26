@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Step 4 - Production Ready RAG
-parent: RAG Chatbot Challenge
+parent: RAG Challenge
 nav_order: 4
 ---
 

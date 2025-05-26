@@ -1,9 +1,12 @@
 ---
 layout: default
-title: Step 4 - Present and Justify
-parent: AI Foundations Challenge
-nav_order: 4
+title: Step 4: Present – AI Ready Challenge
+nav_order: 1
+has_children: false
+permalink: 01-aiready/step4-present/
 ---
+
+# Step 4: Present – AI Ready Challenge
 
 ## Step 4: Present and Justify (1 hour)
 

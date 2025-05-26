@@ -1,9 +1,12 @@
 ---
 layout: default
-title: Step 1 - Understand the Customer
-parent: AI Foundations Challenge
+title: Step 1: Customer Context – AI Ready Challenge
 nav_order: 1
+has_children: false
+permalink: 01-aiready/step1-customer/
 ---
+
+# Step 1: Customer Context – AI Ready Challenge
 
 ## Step 1: Understand the Customer (30 minutes)
 

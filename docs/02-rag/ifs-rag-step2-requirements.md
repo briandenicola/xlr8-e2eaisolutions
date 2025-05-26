@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Step 2 - Elicit Requirements
-parent: RAG Chatbot Challenge
+parent: RAG Challenge
 nav_order: 2
 ---
 

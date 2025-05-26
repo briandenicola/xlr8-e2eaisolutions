@@ -2,6 +2,8 @@
 layout: default
 title: Workshop Requirements
 nav_order: 6
+has_children: false
+permalink: 00-workshop/workshop-requirements/
 ---
 
 # Workshop Requirements

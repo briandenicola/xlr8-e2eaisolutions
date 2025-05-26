@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Step 1 - Define the Scenario
-parent: RAG Chatbot Challenge
+parent: RAG Challenge
 nav_order: 1
 ---
 

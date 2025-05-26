@@ -1,7 +1,7 @@
 ---
 layout: default
-title: RAG Chatbot Challenge
-nav_order: 4
+title: RAG Challenge
+nav_order: 3
 has_children: true
 permalink: /docs/rag-challenge/
 ---

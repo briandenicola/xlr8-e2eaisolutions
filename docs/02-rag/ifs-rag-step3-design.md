@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Step 3 - Design Architecture
-parent: RAG Chatbot Challenge
+parent: RAG Challenge
 nav_order: 3
 ---
 

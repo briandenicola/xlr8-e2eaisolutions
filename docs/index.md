@@ -25,13 +25,13 @@ This workshop is divided into multiple challenge sessions that guide you through
 ### [Customer Story](./ifs-customer-story.md)
 Understand IFS's background, challenges, and strategic vision for AI adoption.
 
-### [AI Foundations Challenge](./ifs-alz-overview.md)
+### [AI Ready Challenge](./01-aiready/ifs-alz-overview.md)
 Design a secure, scalable, and governed Azure foundation to support IFS's AI transformation journey.
 
-### [RAG Chatbot Challenge](./ifs-rag-overview.md)
+### [RAG Challenge](./02-rag/ifs-rag-overview.md)
 Design a secure internal Retrieval-Augmented Generation (RAG) chatbot application for IFS employees.
 
-### [AI Hub Challenge](./ifs-aihub-overview.md)
+### [AI Hub Challenge](./03-aihub/ifs-aihub-overview.md)
 Design a dedicated, secure "AI Hub" environment to centrally manage and control access to shared Azure AI services, expanding on the learnings from implementing the RAG chatbot workload.
 
 ### [Frequently Asked Questions](./ifs-faq.md)

@@ -32,7 +32,7 @@ The workshop follows a logical progression that mirrors an organization's AI ado
 
 **Materials:**  
 - [Customer Story](./docs/ifs-customer-story.md)
-- [Workshop Agenda](./docs/workshop-agenda.md)
+- [Workshop Agenda](./docs/04-workshop/workshop-agenda.md)
 
 ---
 
