@@ -17,3 +17,15 @@ nav_order: 7
 | Identity and Access Management | Authentication | Use Microsoft Entra ID PIM access reviews to periodically validate resource entitlements. | Microsoft Entra | 🔴 High | [link](https://learn.microsoft.com/azure/active-directory/privileged-identity-management/pim-create-roles-and-resource-roles-review) |
 | Identity and Access Management | Authentication | Require clients to authenticate using Entra ID when accessing AI model endpoints. | Azure API Management | 🔴 High | [link](https://github.com/Azure/apim-landing-zone-accelerator/blob/main/scenarios/workload-genai/README.md) |
 | Identity and Access Management | Entra ID based access | Key access (local authentication) is recommended to be disabled for security.  After disabling key based access, Microsoft Entra ID becomes the only access method, which allows maintaining minimum privilege principle and granular control.  | Azure OpenAI | 🔴 High | [link](https://learn.microsoft.com/azure/ai-services/authentication) |
+
+## Navigation
+- [⬅️ Back to Home](../index.md)
+- [Azure Best Practices Index](./index.md)
+- [Application Deployment](./application_deployment.md)
+- [BC and DR](./bc_and_dr.md)
+- [Best Practices Summary](./best-practices-summary.md)
+- [Cost Governance](./cost_governance.md)
+- [Governance and Security](./governance_and_security.md)
+- [Identity and Access Management](./identity_and_access_management.md)
+- [Network Topology and Connectivity](./network_topology_and_connectivity.md)
+- [Operations](./operations.md)

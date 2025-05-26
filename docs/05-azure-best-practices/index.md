@@ -40,6 +40,18 @@ Each markdown file contains a table with:
 - **Quota Management**: Monitor usage, request quota increases proactively, and leverage Provisioned Throughput Units (PTUs) for predictable performance.
 - **BCDR**: Deploy multi-region gateways (e.g., APIM + Azure Front Door) for high availability and disaster recovery.
 
+## Navigation
+- [⬅️ Back to Home](../index.md)
+- [Azure Best Practices Index](./index.md)
+- [Application Deployment](./application_deployment.md)
+- [BC and DR](./bc_and_dr.md)
+- [Best Practices Summary](./best-practices-summary.md)
+- [Cost Governance](./cost_governance.md)
+- [Governance and Security](./governance_and_security.md)
+- [Identity and Access Management](./identity_and_access_management.md)
+- [Network Topology and Connectivity](./network_topology_and_connectivity.md)
+- [Operations](./operations.md)
+
 ## How to Use
 These summaries help:
 - Validate your Azure OpenAI architecture

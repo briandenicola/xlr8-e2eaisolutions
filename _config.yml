@@ -1,4 +1,4 @@
-title: XLR8 Designing End to End AI Solutions
+title: XLR8 Design E2E Azure AI Solutions
 description: This workshop guides participants through the end-to-end process of designing a secure, scalable, and governed AI solution on Microsoft Azure, aligning with the Microsoft Cloud Adoption Framework (CAF) and Azure Well-Architected Framework (WAF) principles. The workshop begins with a realistic customer scenario, Innovate Financial Services (IFS). Participants will first design the foundational Azure platform using Azure Landing Zones concepts, including an AI Hub for governed access to AI services. Subsequently, they will design a specific AI workload that will leverage this platform foundation. The end game is to create a comprehensive trustworthy AI solution that meets the needs of IFS.
 # Theme settings - use the standard GitHub Pages theme approach
 remote_theme: pmarsceill/just-the-docs

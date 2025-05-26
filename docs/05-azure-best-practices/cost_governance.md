@@ -29,3 +29,15 @@ nav_order: 5
 | Cost Governance | Usage Optimization | Maximize Azure OpenAI price breakpoints like fine-tuning and model breakpoints like image generation to your advantage. Fine-tuning is charged per hour, use as much time as you have available per hour to improve results without slipping into the next billing period. The cost for generating 100 images is the same as the cost for 1 image | Azure OpenAI | 🟡 Medium | [link](https://learn.microsoft.com/azure/ai-services/openai/how-to/manage-costs) |
 | Cost Governance | Usage Optimization | Remove unused fine-tuned models when they're no longer being consumed to avoid incurring an ongoing hosting fee | Azure OpenAI | 🟡 Medium | [link](https://learn.microsoft.com/azure/ai-services/openai/how-to/manage-costs) |
 | Cost Governance | Token Optimization | Create concise prompts that provide enough context for the model to generate a useful response. Also ensure that you optimize the limit of the response length. | Azure OpenAI | 🟡 Medium | [link](https://learn.microsoft.com/azure/ai-services/openai/how-to/manage-costs) |
+
+## Navigation
+- [⬅️ Back to Home](../index.md)
+- [Azure Best Practices Index](./index.md)
+- [Application Deployment](./application_deployment.md)
+- [BC and DR](./bc_and_dr.md)
+- [Best Practices Summary](./best-practices-summary.md)
+- [Cost Governance](./cost_governance.md)
+- [Governance and Security](./governance_and_security.md)
+- [Identity and Access Management](./identity_and_access_management.md)
+- [Network Topology and Connectivity](./network_topology_and_connectivity.md)
+- [Operations](./operations.md)

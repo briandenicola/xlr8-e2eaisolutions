@@ -18,3 +18,15 @@ nav_order: 4
 | BC and DR  | Load balancing             | Deploy separate fine tuned models across regions if finetuning is employed                                                  | Azure OpenAI           | 🟡 Medium   | [link](https://learn.microsoft.com/azure/ai-services/openai/how-to/business-continuity-disaster-recovery) |
 | BC and DR  | Data Backup and Disaster Recovery | Regularly backup and replicate critical data to ensure data availability and recoverability in case of data loss or system failures. Leverage Azure's backup and disaster recovery services to protect your data. | Azure OpenAI           | 🟡 Medium   | [link](https://learn.microsoft.com/azure/backup/backup-overview) |
 | BC and DR  | SLA considerations         | Azure AI search service tiers should be choosen to have a SLA                                                               | Azure OpenAI           | 🔴 High     | [link](https://learn.microsoft.com/azure/search/search-reliability) |
+
+## Navigation
+- [⬅️ Back to Home](../index.md)
+- [Azure Best Practices Index](./index.md)
+- [Application Deployment](./application_deployment.md)
+- [BC and DR](./bc_and_dr.md)
+- [Best Practices Summary](./best-practices-summary.md)
+- [Cost Governance](./cost_governance.md)
+- [Governance and Security](./governance_and_security.md)
+- [Identity and Access Management](./identity_and_access_management.md)
+- [Network Topology and Connectivity](./network_topology_and_connectivity.md)
+- [Operations](./operations.md)

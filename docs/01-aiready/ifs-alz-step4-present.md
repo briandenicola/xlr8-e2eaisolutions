@@ -1,33 +1,51 @@
 ---
 layout: default
-title: Step 4 - Present
+title: Step 4 - Present & Justify
 parent: AI Ready Challenge
 nav_order: 4
 ---
 
-# Step 4: Present – AI Ready Challenge
+# Step 4: Present & Justify
 
-## Step 4: Present and Justify (1 hour)
-
-**Activity:** Prepare a high-level diagram of your proposed architecture, highlighting how it addresses the core requirements and challenges.
-
-**Outcome:** Briefly present your design, explaining:
-* The overall AI strategy for IFS.
-* The Landing Zone structure (Platform and Application).
-* The networking design and how it supports secure, private connectivity.
-* The resource organization design, including the hierarchy and naming conventions.
-* How your design meets key requirements like security, governance, scalability, and compliance.
-* Key Azure services used in each major component.
+This section is part of the **IFS AI Ready Challenge**. Here, you’ll present your Azure Landing Zone design and justify your decisions to the group.
 
 ---
 
-**Success Criteria:**
-By the end of this step, participants should be able to:
-- Present a clear, high-level architecture diagram showing the Platform Landing Zone, Application Landing Zone(s), and key networking components (Hub, Spokes, connectivity).
-- Verbally articulate the purpose and structure of the design recommendations for Management Groups, Subscriptions, and other resources.
-- Explain how **at least three** specific requirements from Step 2 (covering different areas like security, governance, connectivity) are addressed by their design, referencing specific architectural components or Azure services.
-- Justify the selection of **at least three** key Azure services used in their design, explaining why they were chosen over alternatives in the context of IFS's needs.
-- Demonstrate how the design adheres to core Landing Zone principles (e.g., policy-driven governance, private networking, separation of duties).
-- Clearly link specific design decisions back to IFS's business objectives (e.g., cost reduction, innovation speed) or regulatory requirements (e.g., PCI DSS).
+## Objective
+
+Communicate your design clearly, explain your choices, and demonstrate how your solution meets IFS’s business and technical requirements.
 
 ---
+
+## Activities
+
+- Prepare a short presentation (5–10 minutes) covering:
+  1. **Customer Context:** Briefly summarize IFS’s business drivers and objectives.
+  2. **Requirements:** Highlight the most important business, technical, and compliance requirements.
+  3. **Landing Zone Design:** Present your architecture diagram and explain your key design decisions.
+  4. **Justification:** Explain how your design addresses the requirements and best practices.
+  5. **Q&A:** Be ready to answer questions and defend your choices.
+
+---
+
+## Guidance
+
+> **Tip:** Use visuals (diagrams, tables) to support your explanation.
+> 
+> **Best Practice:** Reference the [Azure Best Practices](../05-azure-best-practices/) to support your justifications.
+> 
+> - Focus on clarity and alignment with IFS’s goals.
+> - Be concise—highlight the most important points.
+
+---
+
+## Success Criteria
+
+By the end of this step, you should have:
+- Presented your solution to the group
+- Clearly justified your design decisions
+- Demonstrated alignment with IFS’s business and technical needs
+
+---
+
+[⬅️ Back: Step 3 – Azure Foundations](./ifs-alz-step3-foundations.md) | [🏠 Back to Overview](./ifs-alz-overview.md)

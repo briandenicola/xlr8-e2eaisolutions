@@ -5,27 +5,50 @@ parent: RAG Challenge
 nav_order: 5
 ---
 
-# Step 5: Present – RAG Challenge
+# Step 5: Present & Justify
 
-## Step 5: Present and Justify (30 minutes)
-
-**Activity:** Prepare and deliver a concise presentation of your integrated RAG application design.
-
-**Outcome:** Successfully present the design to stakeholders, clearly articulating the architecture, integration points, and rationale, demonstrating alignment with ALZ principles.
+This section is part of the **IFS RAG Challenge**. Here, you’ll present your RAG solution and justify your design decisions to the group.
 
 ---
 
-**Success Criteria:**
+## Objective
 
-*   **Clear Architecture Diagram:** Present an accurate diagram showing RAG components within the entire Azure Landing Zones environment (both Platform and Application Landing Zones).
-*   **Component & Hosting Rationale:** Clearly identify the chosen Azure services and hosting options (e.g., App Service, Container Apps) with justifications based on requirements and guidelines (scalability, cost, compliance, etc.).
-*   **Network Integration Articulated:** Explain network integration, use of Private Endpoints, DNS Zones, ingress and egress traffic,  user to UI, etc. and how these can be enforced by using ALZ policies.
-*   **Security Measures Described:** Outline the use of identities (be specific on the type of identity used), secrets management, key rotation, private traffic flow enforcement, content safety, and data protection measures.
-*   **Monitoring Plan Summarized:** Briefly describe sending logs/metrics to the central Log Analytics workspace and key alert types.
-*   **Deployment Strategy Outlined:** Summarize the IaC approach and CI/CD integration within ALZ, including identity type and permissions.
-*   **Presentation Clarity:** Deliver the design and justifications clearly and concisely within the time limit.
+Communicate your design clearly, explain your choices, and demonstrate how your solution meets IFS’s business and technical requirements.
 
 ---
 
-**Note for Further Evolution:**
-While this RAG chatbot implementation meets the current requirements, the team should consider what limitations this approach might have as IFS scales to multiple AI workloads across different departments. This initial implementation will provide valuable insights that can inform the creation of a more centralized AI Hub in the future.
+## Activities
+
+- Prepare a short presentation (5–10 minutes) covering:
+  1. **Scenario:** Briefly summarize the business drivers and user needs.
+  2. **Requirements:** Highlight the most important business, technical, and compliance requirements.
+  3. **RAG Design:** Present your architecture diagram and explain your key design decisions.
+  4. **Integration:** Explain how your solution fits into Azure Landing Zones.
+  5. **Justification:** Explain how your design addresses requirements and best practices.
+  6. **Q&A:** Be ready to answer questions and defend your choices.
+
+---
+
+## Guidance
+
+> **Tip:** Use visuals (diagrams, tables) to support your explanation.
+> 
+> **Best Practice:** Reference the [Azure Best Practices](../05-azure-best-practices/) and [Baseline OpenAI E2E Chat reference architecture](https://learn.microsoft.com/azure/architecture/ai-ml/architecture/baseline-openai-e2e-chat) to support your justifications.
+> 
+> - Focus on clarity and alignment with IFS’s goals.
+> - Be concise—highlight the most important points.
+
+---
+
+## Success Criteria
+
+By the end of this step, you should have:
+- Presented your solution to the group
+- Clearly justified your design decisions
+- Demonstrated alignment with IFS’s business and technical needs
+
+---
+
+## Navigation
+- [⬅️ Back to Step 4](./ifs-rag-step4-integrate.md)
+- [Next: References ➡️](./ifs-rag-references.md)

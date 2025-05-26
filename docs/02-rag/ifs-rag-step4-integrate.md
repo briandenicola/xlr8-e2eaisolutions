@@ -5,35 +5,46 @@ parent: RAG Challenge
 nav_order: 4
 ---
 
-# Step 4: Integrate – RAG Challenge
+# Step 4: Integrate
 
-## Step 4:  (1 hour)
-
-**Desired Outcome**
-
-In this collaborative challenge, your team will design an end-to-end Retrieval-Augmented Generation (RAG) solution. Using [Microsoft’s baseline OpenAI chat architecture](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/architecture/baseline-openai-e2e-chat) as inspiration, you’ll plan a system where a user interface, knowledge retrieval service, and AI language model interact seamlessly.
-
-Your goal is to integrate this solution into a secure, scalable Azure Landing Zone environment in alignment with [Microsoft’s Azure OpenAI Landing Zone architecture](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/architecture/azure-openai-baseline-landing-zone). The final design should be production-ready, with built-in governance, security, and operational practices.
-
-**The Challenge**
-
-Design a real-world, enterprise-ready RAG application and demonstrate how it will operate within Azure Landing Zones. Your solution should:
-
-- Define key architectural components (UI, orchestration, retrieval, LLM backend)
-- Integrate with Azure Landing Zones using secure and governed practices
-- Emphasize identity, networking, compliance, and operational readiness
-
-This is your opportunity to show how a powerful AI solution can be securely deployed, governed, and scaled in the cloud—just like it would be in a production scenario.
+This section is part of the **IFS RAG Challenge**. Here, you’ll plan how to integrate your RAG solution into a secure, scalable Azure Landing Zone environment, following best practices and reference architectures.
 
 ---
 
-**Success Criteria:**
+## Objective
 
-Your team will have succeeded when you can present:
-
-- **Architecture Design:** A clear breakdown of your RAG solution’s components and how they work together.
-- **Landing Zone Integration:** A deployment plan showing how each component fits into the Azure Landing Zone, including networking, identity, and policy considerations.
-- **Security and Governance:** A description of how you’ll secure data flows, manage secrets, and enforce governance using Azure-native tools.
-- **Validation Strategy:** An outline of how you’ll test and validate your solution (e.g., functional, security, and performance testing).
+Demonstrate how your RAG solution will be securely deployed, governed, and operated within Azure Landing Zones (ALZ).
 
 ---
+
+## Activities
+
+- Map each RAG component (UI, orchestration, retrieval, LLM backend) to ALZ subnets, private endpoints, and policy controls.
+- As a team, discuss and document:
+  1. **Landing Zone Integration:** How will each component fit into the ALZ (networking, identity, policy)?
+  2. **Security & Governance:** How will you secure data flows, manage secrets, and enforce governance using Azure-native tools?
+  3. **Validation:** How will you test and validate your solution (functional, security, and performance testing)?
+
+---
+
+## Guidance
+
+> **Tip:** Reference the [Baseline OpenAI E2E Chat reference architecture](https://learn.microsoft.com/azure/architecture/ai-ml/architecture/baseline-openai-e2e-chat) and [Azure Best Practices](../05-azure-best-practices/) for integration, security, and governance recommendations.
+>
+> - Use visuals (diagrams, tables) to support your integration plan.
+> - Consider both platform and application landing zones.
+
+---
+
+## Success Criteria
+
+By the end of this step, you should have:
+- A clear integration plan for all components within ALZ (networking, identity, policy)
+- Described security and governance measures
+- Outlined your validation and testing strategy
+
+---
+
+## Navigation
+- [⬅️ Back to Step 3](./ifs-rag-step3-design.md)
+- [Next: Step 5 – Present ➡️](./ifs-rag-step5-present.md)

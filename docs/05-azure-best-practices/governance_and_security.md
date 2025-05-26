@@ -77,3 +77,15 @@ nav_order: 6
 | Governance and Security | Jail break Safety | Implement Prompt shields and groundedness detection using Content Safety | Azure OpenAI | 🔴 High | [link](https://learn.microsoft.com/azure/ai-services/content-safety/concepts/jailbreak-detection) |
 | Governance and Security | Governance | Adhere to Azure OpenAI or other LLMs terms of use, policies and guidance and allowed use cases | Azure OpenAI | 🔴 High | [link](https://learn.microsoft.com/legal/cognitive-services/openai/code-of-conduct) |
 | Governance and Security | Content Safety | Tune content filters to minimize false positives from overly aggressive filters. | Azure OpenAI | 🟡 Medium | [link](https://learn.microsoft.com/azure/ai-services/openai/how-to/content-filters) |
+
+## Navigation
+- [⬅️ Back to Home](../index.md)
+- [Azure Best Practices Index](./index.md)
+- [Application Deployment](./application_deployment.md)
+- [BC and DR](./bc_and_dr.md)
+- [Best Practices Summary](./best-practices-summary.md)
+- [Cost Governance](./cost_governance.md)
+- [Governance and Security](./governance_and_security.md)
+- [Identity and Access Management](./identity_and_access_management.md)
+- [Network Topology and Connectivity](./network_topology_and_connectivity.md)
+- [Operations](./operations.md)

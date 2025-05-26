@@ -5,41 +5,57 @@ parent: AI Ready Challenge
 nav_order: 1
 ---
 
-# Step 1: Customer Context – AI Ready Challenge
+# Step 1: Customer Context
 
-## Step 1: Understand the Customer (30 minutes)
+This section is part of the **IFS AI Ready Challenge**. Here, you’ll analyze the customer’s business drivers, objectives, and success metrics to inform your Azure AI platform design.
 
-**Activity:** Review the [Innovate Financial Services Customer Story](./ifs-customer-story.md).
+---
 
-**Outcome:** As a team, discuss and answer the following based *only* on the customer story:
+## Objective
 
-1.  **Why does IFS want to use Azure for AI, and what are their primary use cases for AI?**
-    * *Hint: Consider their market pressures, strategic goals, and specific financial service applications mentioned.*
-2.  **What are IFS's core business objectives driving this transformation?**
-    * *Hint: Focus on the desired outcomes related to fraud, customer experience, costs, and innovation speed.*
-3.  **How will IFS measure the success of this initiative?**
-    * *Hint: Identify the specific metrics and KPIs mentioned in the story.*
+Understand IFS’s motivations for adopting Azure AI, their core business objectives, and how success will be measured.
 
-> **Note:**
-> The customer story is intentionally high-level. The goal is to extract the key business drivers and objectives that will inform your design decisions. A mission statement helps you align your objectives and key results to your organization's overall business mission. To help you derive a statement for their business, consider these initial questions:
+---
 
-> - Why are they exploring to use Azure and AI? Where do they want to be in the future? When do they want to achieve this?
-> - What are their mandatory business objectives? And what are their nice-to-have objectives?
+## Activities
+
+- Review the [Innovate Financial Services Customer Story](../ifs-customer-story.md).
+- As a team, discuss and answer the following:
+
+  1. **Why does IFS want to use Azure for AI, and what are their primary use cases?**  
+     *Hint: Consider market pressures, strategic goals, and financial service applications mentioned.*
+
+  2. **What are IFS’s core business objectives driving this transformation?**  
+     *Hint: Focus on outcomes related to fraud, customer experience, costs, and innovation speed.*
+
+  3. **How will IFS measure the success of this initiative?**  
+     *Hint: Identify specific metrics and KPIs from the story.*
+
+---
+
+## Guidance
+
+> **Tip:** The customer story is intentionally high-level. Extract the key business drivers and objectives that will inform your design decisions.  
+> Consider these questions to help draft a mission statement:
+> - Why are they exploring Azure and AI? Where do they want to be in the future?
+> - What are their mandatory and nice-to-have objectives?
 > - What is your "definition of done"?
-> - What are the key metrics that will be used to measure success?
-> - What are the KPIs that will be used to measure success?
+> - What are the key metrics and KPIs for success?
 
-Use the answers to these questions to help define the customer's mission statement for their AI adoption cloud strategy. For example:
-
-> *"IFS will leverage Azure and AI to transform their financial services, enhancing customer experience and operational efficiency while ensuring compliance and security. Their goal is to innovate rapidly, reduce costs, and deliver high-quality services that meet the evolving needs of their customers."*
+**Example Mission Statement:**  
+*"IFS will leverage Azure and AI to transform their financial services, enhancing customer experience and operational efficiency while ensuring compliance and security. Their goal is to innovate rapidly, reduce costs, and deliver high-quality services that meet the evolving needs of their customers."*
 
 ---
 
-**Success Criteria:**  
-By the end of this step, participants should be able to:
-- Identify and list **at least three** distinct business drivers motivating IFS's AI adoption, referencing specific points from the customer story.
-- Identify and list **at least two** specific AI use cases IFS intends to implement, as mentioned in the customer story.
-- Identify and list **at least three** specific, measurable success metrics or KPIs (e.g., target reduction percentage, satisfaction score increase) that IFS will use to evaluate the initiative, based on the customer story.
-- Draft a concise mission statement (1-2 sentences) that accurately summarizes IFS's AI transformation goals, incorporating key drivers and desired outcomes mentioned in the story.
+## Success Criteria
+
+By the end of this step, you should be able to:
+
+- List **at least three** distinct business drivers motivating IFS’s AI adoption (with references to the customer story).
+- List **at least two** specific AI use cases IFS intends to implement.
+- List **at least three** measurable success metrics or KPIs (e.g., target reduction %, satisfaction score increase).
+- Draft a concise mission statement (1–2 sentences) summarizing IFS’s AI transformation goals.
 
 ---
+
+[⬅️ Back to Overview](./ifs-alz-overview.md) | [Next: Step 2 – Requirements ➡️](./ifs-alz-step2-requirements.md)

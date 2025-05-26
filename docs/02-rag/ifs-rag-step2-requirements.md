@@ -5,42 +5,58 @@ parent: RAG Challenge
 nav_order: 2
 ---
 
-# Step 2: Requirements – RAG Challenge
+# Step 2: Requirements
 
-## Step 2: Elicit Workload Requirements (45 minutes)
-
-**Activity:** Based on the scenario and the assumed context, define the specific functional and non-functional requirements for the *IFS Knowledge Assistant application itself*.
-
-**Outcome:** Document requirements covering:
-
-* **Functionality:**
-    * Requirement: Web-based user interface for submitting questions and viewing answers.
-    * Requirement: Backend logic to orchestrate the RAG process (receive query, retrieve documents from AI Search, formulate prompt, call OpenAI, process response).
-    * Requirement: Utilize the centrally managed Azure AI Search index for document retrieval.
-* **Security & Compliance:**
-    * Requirement: All application components (UI, backend API/logic) must reside within IFS's private network.
-    * Requirement: All communication between components and with dependent Azure services must use private network connections. No public endpoints for backend components.
-    * Requirement: Securely manage all application secrets (e.g., connection details, API keys if needed).
-    * Requirement: Implement appropriate authentication and authorization for application components using Managed Identities.
-* **Operations & Deployment:**
-    * Requirement: Implement comprehensive logging and monitoring for application health, performance, and usage (UI, backend, AI interactions).
-    * Requirement: Define an automated deployment process for both infrastructure (using IaC like Bicep/Terraform) and application code/logic.
-    * Requirement: The backend logic requires a well-defined authoring and testing process and a reliable hosting mechanism.
-    * Requirement: The solution should be designed for reliability (e.g., consider zone redundancy for key components) and scalability.
+This section is part of the **IFS RAG Challenge**. Here, you’ll identify and document the business and technical requirements for the IFS Knowledge Assistant chatbot.
 
 ---
 
-**Success Criteria:**
-By the end of this step, participants should be able to:
-- List **at least two** specific functional requirements detailing *what* the application must do (e.g., "Orchestrate RAG flow", "Provide web UI").
-- List **at least three** specific security requirements, explicitly mentioning:
-    - Private network integration (e.g., VNet integration, Private Endpoints).
-    - Secure secrets management (e.g., using Azure Key Vault).
-    - Secure service-to-service authentication (e.g., using Managed Identities).
-- List **at least two** specific operational requirements, covering:
-    - Monitoring and logging needs.
-    - Automated deployment (IaC and CI/CD).
-- Ensure all requirements align with the constraints defined in Step 1 (use of central AI Search/OpenAI, private network operation).
-- Present the requirements in a clearly categorized list (Functionality, Security & Compliance, Operations & Deployment).
+## Objective
+
+Capture all critical requirements—business, technical, security, compliance, and operational—that must be addressed in your solution.
 
 ---
+
+## Activities
+
+- Review your findings from Step 1 (Scenario).
+- As a team, discuss and document:
+  1. **Business Requirements:** What must the solution achieve for IFS to consider it a success?
+  2. **Technical Requirements:** What are the key technical needs?
+  3. **Security & Compliance:** What security, privacy, and compliance standards must be met?
+  4. **Operational Requirements:** What are the support, monitoring, and management needs?
+
+---
+
+## Guidance
+
+> **Best Practice:** Reference the [Azure Best Practices](../05-azure-best-practices/) and [Baseline OpenAI E2E Chat reference architecture](https://learn.microsoft.com/azure/architecture/ai-ml/architecture/baseline-openai-e2e-chat) for security, governance, and operational recommendations.
+> 
+> - Use bullet points for clarity.
+> - Prioritize requirements as "Must Have" or "Nice to Have".
+> - Consider both current and future needs.
+
+**Example Table:**
+
+| Requirement Type | Description | Priority |
+|------------------|-------------|----------|
+| Business         | Meet regulatory compliance for all chatbot data | Must Have |
+| Technical        | Integrate with Azure AI Search and OpenAI      | Must Have |
+| Security         | All data encrypted at rest and in transit      | Must Have |
+| Operational      | 24/7 monitoring and alerting                   | Nice to Have |
+
+---
+
+## Success Criteria
+
+By the end of this step, you should have:
+- Listed at least two specific functional requirements
+- Listed at least three specific security requirements
+- Listed at least two operational requirements
+- Presented requirements in a clearly categorized list or table
+
+---
+
+## Navigation
+- [⬅️ Back to Step 1](./ifs-rag-step1-scenario.md)
+- [Next: Step 3 – Design ➡️](./ifs-rag-step3-design.md)

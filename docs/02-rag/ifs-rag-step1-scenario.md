@@ -5,29 +5,56 @@ parent: RAG Challenge
 nav_order: 1
 ---
 
-# Step 1: Scenario – RAG Challenge
+# Step 1: Scenario
 
-## Step 1: Define the Workload Scenario (15 minutes)
+This section is part of the **IFS RAG Challenge**. Here, you’ll analyze the business scenario and user needs for the IFS Knowledge Assistant chatbot.
 
-**Scenario:**
+---
+
+## Objective
+
+Understand the business context, user needs, and high-level goals for the RAG chatbot solution.
+
+---
+
+## Activities
+
+- Review the scenario below.
+- As a team, discuss and answer:
+  1. **What are the main user needs and business drivers for the IFS Knowledge Assistant?**
+  2. **What are the high-level inputs, processes, and outputs for this solution?**
+  3. **What are the key constraints (e.g., private network, Azure AI Search, security)?**
+
+---
+
+## Scenario
 Innovate Financial Services (IFS) wants to empower its employees by providing quick and accurate answers to questions about internal policies, procedures, and market analysis reports. They have decided to build an internal web-based chatbot, the "IFS Knowledge Assistant". This application needs to:
 
-1.  Understand employee questions asked in natural language.
-2.  Securely access a curated set of internal documents which will be indexed and and made available via an Azure AI Search instance.
-3.  Use an approved Azure OpenAI model to generate relevant, grounded answers based on the retrieved documents.
-4.  Present the answers through a simple, intuitive web interface.
-5.  Adhere strictly to IFS's security and compliance standards, running entirely within their private Azure network.
-6.  Be maintainable and deployable using modern DevOps practices (including IaC).
-
-**Activity:** Discuss the core functional components required to fulfill this scenario. What are the high-level inputs, processes, and outputs?
+- Understand employee questions in natural language
+- Securely access a curated set of internal documents via Azure AI Search
+- Use an approved Azure OpenAI model to generate grounded answers
+- Present answers through a simple, intuitive web interface
+- Adhere to IFS's security and compliance standards, running entirely within their private Azure network
+- Be maintainable and deployable using modern DevOps practices (including IaC)
 
 ---
 
-**Success Criteria:**
-By the end of this step, participants should be able to:
-- Identify and list the primary input (user query) and output (generated answer) of the "IFS Knowledge Assistant".
-- Describe the core processing steps involved: retrieving relevant documents, augmenting the prompt, and generating the response using an LLM.
-- List **at least three** distinct functional components needed (e.g., User Interface, Orchestration Logic, Document Search, AI Model Interaction).
-- Acknowledge any key constraints mentioned in the scenario, for example the use of existing Azure AI Search and the requirement for private network operation.
+## Guidance
+
+> **Tip:** Focus on extracting the key business drivers, user needs, and constraints that will inform your design decisions. Reference the [Baseline OpenAI E2E Chat reference architecture](https://learn.microsoft.com/azure/architecture/ai-ml/architecture/baseline-openai-e2e-chat) and [Azure Best Practices](../05-azure-best-practices/).
 
 ---
+
+## Success Criteria
+
+By the end of this step, you should have:
+- Identified the primary input (user query) and output (generated answer)
+- Listed the core processing steps (retrieve, augment, generate)
+- Listed at least three distinct functional components (e.g., UI, Orchestration, Search, LLM interaction)
+- Acknowledged key constraints (private network, Azure AI Search, security)
+
+---
+
+## Navigation
+- [⬅️ Back to Overview](./ifs-rag-overview.md)
+- [Next: Step 2 – Requirements ➡️](./ifs-rag-step2-requirements.md)

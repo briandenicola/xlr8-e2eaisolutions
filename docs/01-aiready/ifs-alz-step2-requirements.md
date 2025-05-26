@@ -5,49 +5,55 @@ parent: AI Ready Challenge
 nav_order: 2
 ---
 
-# Step 2: Requirements – AI Ready Challenge
+# Step 2: Requirements
 
-## Step 2: Define High-Level Requirements (45 minutes)
-
-**Activity:** Based on the customer story and the goals of building a foundation for trustworthy AI adoption, define the key business and technical requirements. Focus on *what* needs to be achieved, not *how*.
-
-**Outcome:** Document requirements covering the following areas:
-
-* **Foundation & Governance:**
-    * How will you establish standardized environments for different workload types (e.g., core infrastructure, applications, data analytics, AI)?
-    * What approach will you use to implement centralized management and consistent governance policies across all cloud resources?
-    * How will you ensure clear separation of duties and environments for platform operations versus application development?
-    * How will you provide robust identity and access management integrated with existing enterprise systems?
-
-* **Security & Compliance:**
-    * What security controls will you enforce to meet financial industry regulations (PCI DSS, GDPR, etc.) and protect sensitive customer data?
-    * How will you ensure all network traffic between critical components is private and isolated from public exposure?
-    * How will you implement comprehensive monitoring for security threats and compliance deviations?
-    * How will you adhere to data sovereignty and residency requirements?
-
-* **Connectivity:**
-    * How will you enable secure and reliable connectivity between on-premises data centers and Azure environments?
-    * How will you segment network traffic effectively between different environments and workloads?
-
-* **AI Service Enablement:**
-    * How will you provide a controlled, centralized mechanism for discovering, accessing, and managing approved AI services?
-    * How will you ensure AI services can be accessed securely by internal applications without direct exposure to external networks?
-    * How will you implement governance for AI model lifecycle management (deployment, versioning, monitoring)?
-    * How will you track and potentially charge back the usage of shared AI services to different business units?
-
-* **Scalability & Operations:**
-    * How will your architecture scale to accommodate significant growth in data volume, users, and AI workload complexity?
-    * How will you optimize for operational efficiency, potentially through automation and standardized deployment patterns?
-    * How will you achieve target levels for reliability and disaster recovery for critical systems?
+This section is part of the **IFS AI Ready Challenge**. Here, you’ll identify and document the business and technical requirements that will shape your Azure AI platform design.
 
 ---
 
-**Success Criteria:**  
-By the end of this step, participants should be able to:
-- Draft **at least two** high-level requirement questions for each of the five specified areas (Foundation & Governance, Security & Compliance, Connectivity, AI Service Enablement, Scalability & Operations).
-- Categorize each requirement question accurately under its respective area.
-- For **at least one** requirement question in each category, explicitly mention a specific IFS business objective (e.g., reduce fraud, improve customer satisfaction) or regulatory obligation (e.g., PCI DSS, GDPR) from the customer story.
-- Present the final list of requirement questions in a **table** with columns for 'Category' and 'Requirement Question'.
-- Provide a **brief written justification (1-2 sentences)** for each requirement question, explaining how it contributes to building a trustworthy, secure, and scalable Azure AI platform for IFS.
+## Objective
+
+Capture all critical requirements—business, technical, security, compliance, and operational—that must be addressed in your solution.
 
 ---
+
+## Activities
+
+- Review your findings from Step 1 (Customer Context).
+- As a team, discuss and document:
+  1. **Business Requirements:** What must the solution achieve for IFS to consider it a success? (e.g., regulatory compliance, customer experience, cost targets)
+  2. **Technical Requirements:** What are the key technical needs? (e.g., scalability, integration, data residency, performance)
+  3. **Security & Compliance:** What security, privacy, and compliance standards must be met? (e.g., GDPR, SOC2, data encryption)
+  4. **Operational Requirements:** What are the support, monitoring, and management needs?
+
+---
+
+## Guidance
+
+> **Best Practice:** Reference the [Azure Best Practices](../05-azure-best-practices/) for security, governance, and operational recommendations.
+> 
+> - Use bullet points for clarity.
+> - Prioritize requirements as "Must Have" or "Nice to Have".
+> - Consider both current and future needs.
+
+**Example Table:**
+
+| Requirement Type | Description | Priority |
+|------------------|-------------|----------|
+| Business         | Meet GDPR compliance for all customer data | Must Have |
+| Technical        | Integrate with existing CRM system         | Must Have |
+| Security         | All data encrypted at rest and in transit  | Must Have |
+| Operational      | 24/7 monitoring and alerting               | Nice to Have |
+
+---
+
+## Success Criteria
+
+By the end of this step, you should have:
+- A documented list of business, technical, security, and operational requirements
+- Clear priorities for each requirement
+- Alignment across the team on what the solution must deliver
+
+---
+
+[⬅️ Back: Step 1 – Customer Context](./ifs-alz-step1-customer.md) | [Next: Step 3 – Foundations ➡️](./ifs-alz-step3-foundations.md)

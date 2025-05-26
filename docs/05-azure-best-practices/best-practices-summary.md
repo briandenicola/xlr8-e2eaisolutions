@@ -80,6 +80,18 @@ nav_order: 1
 - Implement a monitoring system to ensure AI workloads remain aligned with KPIs, and proactively identify performance bottlenecks and anomalies.
 - Standardize compute management, enable resource locks, and automate model promotion and retraining based on performance or business needs.
 
+## Navigation
+- [⬅️ Back to Home](../index.md)
+- [Azure Best Practices Index](./index.md)
+- [Application Deployment](./application_deployment.md)
+- [BC and DR](./bc_and_dr.md)
+- [Best Practices Summary](./best-practices-summary.md)
+- [Cost Governance](./cost_governance.md)
+- [Governance and Security](./governance_and_security.md)
+- [Identity and Access Management](./identity_and_access_management.md)
+- [Network Topology and Connectivity](./network_topology_and_connectivity.md)
+- [Operations](./operations.md)
+
 ---
 
 *This summary distills the best practices from the AI Landing Zone checklist and Microsoft’s official Azure OpenAI best practices. For detailed recommendations and implementation guidance, refer to the categorized markdown files and Microsoft documentation links provided in this repository.*

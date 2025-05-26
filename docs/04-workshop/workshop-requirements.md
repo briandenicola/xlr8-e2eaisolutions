@@ -144,6 +144,11 @@ The workshop will be more valuable if you have hands-on experience with:
 
 If you have questions about the prerequisites or need clarification, please reach out to the workshop organizers at workshop@contoso.com before the event.
 
+## Navigation
+- [⬅️ Back to Home](../index.md)
+- [Workshop Agenda](./workshop-agenda.md)
+- [Workshop Requirements](./workshop-requirements.md)
+
 ---
 
 *Note: This workshop is designed to accommodate various skill levels. While the above prerequisites are recommended for maximum benefit, facilitators will provide necessary context and guidance throughout the sessions.*

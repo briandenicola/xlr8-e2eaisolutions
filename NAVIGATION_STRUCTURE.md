@@ -1,7 +1,7 @@
 # Jekyll Navigation Structure Summary
 
 ## Overview
-The IFS AI Transformation Workshop documentation has been restructured to follow just-the-docs theme navigation patterns with proper parent-child relationships.
+The IFS AI Transformation Workshop documentation is structured for the just-the-docs theme, using clear parent-child relationships and navigation ordering for a seamless user experience.
 
 ## Navigation Hierarchy
 
@@ -31,61 +31,41 @@ The IFS AI Transformation Workshop documentation has been restructured to follow
 ├── 🎪 Workshop (nav_order: 6, has_children: true)
 │   ├── Agenda (nav_order: 1)
 │   └── Requirements (nav_order: 2)
-└── ❓ FAQ (nav_order: 7)
+├── 🛡️ Azure Best Practices (nav_order: 7, has_children: true)
+│   ├── Index (nav_order: 1)
+│   ├── Application Deployment (nav_order: 2)
+│   ├── BC and DR (nav_order: 3)
+│   ├── Best Practices Summary (nav_order: 4)
+│   ├── Cost Governance (nav_order: 5)
+│   ├── Governance and Security (nav_order: 6)
+│   ├── Identity and Access Management (nav_order: 7)
+│   ├── Network Topology and Connectivity (nav_order: 8)
+│   └── Operations (nav_order: 9)
+└── ❓ FAQ (nav_order: 8)
 ```
 
-## Key Changes Made
+## Key Navigation & Structure Principles
+- All parent pages use `has_children: true` in frontmatter.
+- All child pages specify their parent with `parent: [Parent Title]`.
+- Navigation order is set with `nav_order` in each file's frontmatter.
+- Clean permalinks are used for all major sections (e.g., `/ai-ready-challenge/`).
+- Numbered directories (01-aiready, 02-rag, etc.) are maintained for clarity.
+- Azure Best Practices section (05-azure-best-practices) is now included in the navigation hierarchy.
 
-### 1. Parent-Child Relationships
-- Added `has_children: true` to all parent pages
-- Added `parent: [Parent Title]` to all child pages
-- Removed unnecessary `permalink` attributes where not needed
-
-### 2. Navigation Ordering
-- Home: 1
-- Customer Story: 2
-- AI Ready Challenge: 3 (with 5 child pages)
-- RAG Challenge: 4 (with 6 child pages)
-- AI Hub Challenge: 5 (with 5 child pages)
-- Workshop: 6 (with 2 child pages)
-- FAQ: 7
-
-### 3. Clean Permalinks
-- Home: `/`
-- Customer Story: `/customer-story/`
-- AI Ready Challenge: `/ai-ready-challenge/`
-- RAG Challenge: `/rag-challenge/`
-- AI Hub Challenge: `/ai-hub-challenge/`
-- Workshop: `/workshop/`
-- FAQ: `/faq/`
-
-### 4. File Organization
-- Maintained numbered directory structure (01-aiready, 02-rag, 03-aihub, 04-workshop)
-- Created proper index.md for Workshop section
-- Updated all frontmatter to follow just-the-docs conventions
-
-### 5. Content Updates
-- Simplified step titles (removed redundant challenge names)
-- Updated index.md links to reflect new structure
-- Fixed reference file parent relationships
-
-## Just-the-Docs Features Enabled
-- ✅ Hierarchical navigation with collapsible sections
-- ✅ Auto-generated breadcrumbs
-- ✅ Parent-child page relationships
-- ✅ Proper navigation ordering
-- ✅ Clean URLs with permalinks
-- ✅ Auto-generated table of contents for parent pages
+## just-the-docs Features Used
+- Hierarchical navigation with collapsible sections
+- Auto-generated breadcrumbs and table of contents
+- Parent-child page relationships
+- Navigation ordering and clean URLs
 
 ## Next Steps
-1. Test the site locally with `bundle exec jekyll serve`
-2. Deploy to GitHub Pages to verify navigation works correctly
-3. Validate all internal links are working
-4. Confirm responsive navigation on mobile devices
+1. Test the site locally with `bundle exec jekyll serve`.
+2. Deploy to GitHub Pages and verify navigation and links.
+3. Confirm all internal links and navigation are working as expected.
+4. Review on mobile for responsive navigation.
 
-## Configuration
-The site is configured with:
+## Configuration Notes
 - **Theme**: just-the-docs (remote theme)
 - **Base URL**: `/xlr8-e2eaisolutions`
-- **Collections**: Properly configured for docs structure
+- **Collections**: Configured for docs structure
 - **Plugins**: jekyll-remote-theme, jekyll-seo-tag
