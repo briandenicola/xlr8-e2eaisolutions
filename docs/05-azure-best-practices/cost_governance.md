@@ -1,3 +1,10 @@
+---
+layout: default
+title: Cost Governance
+parent: Azure Best Practices
+nav_order: 5
+---
+
 # Cost Governance
 
 | Category         | Subcategory         | Recommendation                                                            | Service      | Priority | Reference |

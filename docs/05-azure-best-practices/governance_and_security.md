@@ -1,3 +1,10 @@
+---
+layout: default
+title: Governance & Security
+parent: Azure Best Practices
+nav_order: 6
+---
+
 # Governance and Security
 
 | Category                | Subcategory         | Recommendation                                                                 | Service      | Priority | Reference |

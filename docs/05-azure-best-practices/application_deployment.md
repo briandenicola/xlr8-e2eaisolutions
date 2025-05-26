@@ -1,3 +1,10 @@
+---
+layout: default
+title: Application Deployment
+parent: Azure Best Practices
+nav_order: 3
+---
+
 # Application Deployment
 
 | Category              | Subcategory         | Recommendation                                                                 | Service      | Priority | Reference |

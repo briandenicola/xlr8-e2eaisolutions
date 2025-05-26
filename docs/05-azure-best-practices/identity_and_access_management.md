@@ -1,3 +1,10 @@
+---
+layout: default
+title: Identity & Access Management
+parent: Azure Best Practices
+nav_order: 7
+---
+
 # Identity and Access Management
 
 | Category                    | Subcategory         | Recommendation                                                                 | Service      | Priority | Reference |

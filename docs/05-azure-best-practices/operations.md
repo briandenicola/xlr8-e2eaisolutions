@@ -1,3 +1,10 @@
+---
+layout: default
+title: Operations
+parent: Azure Best Practices
+nav_order: 9
+---
+
 # Operations
 
 | Category   | Subcategory         | Recommendation                                                                 | Service      | Priority | Reference |

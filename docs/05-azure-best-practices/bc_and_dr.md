@@ -1,3 +1,10 @@
+---
+layout: default
+title: Business Continuity & Disaster Recovery
+parent: Azure Best Practices
+nav_order: 4
+---
+
 # BC and DR
 
 | Category   | Subcategory                | Recommendation                                                                                                               | Service                | Priority | Reference |

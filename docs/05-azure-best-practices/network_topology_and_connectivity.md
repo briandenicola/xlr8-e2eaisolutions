@@ -1,3 +1,10 @@
+---
+layout: default
+title: Network Topology & Connectivity
+parent: Azure Best Practices
+nav_order: 8
+---
+
 # Network Topology and Connectivity
 
 | Category                      | Subcategory         | Recommendation                                                                 | Service      | Priority | Reference |
