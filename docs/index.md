@@ -37,6 +37,9 @@ Design a dedicated, secure "AI Hub" environment to centrally manage and control 
 ### [Workshop](./04-workshop/)
 Materials for organizing and running the IFS AI Transformation Workshop.
 
+### [Azure Best Practices](./05-azure-best-practices/)
+Comprehensive best practices and recommendations for deploying and managing Azure AI workloads, based on Microsoft's official guidance.
+
 ### [Frequently Asked Questions](./ifs-faq.md)
 Common questions and answers about the workshop and IFS's AI journey.
 

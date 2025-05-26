@@ -1,10 +1,18 @@
-# AI Landing Zone Checklist Summaries
+---
+layout: default
+title: Azure Best Practices
+nav_order: 6
+has_children: true
+permalink: /azure-best-practices/
+---
 
-![AI Best Practice Review](../../../media/images/ai-best-practice-review.jpg)
+# Azure Best Practices
 
-This repository provides categorized markdown summaries of best practices and recommendations for deploying and managing Azure OpenAI workloads. The content is based on Microsoft's official [Azure OpenAI Best Practices Quick Reference Guide](https://techcommunity.microsoft.com/blog/startupsatmicrosoftblog/azure-openai-best-practices-a-quick-reference-guide-to-optimize-your-deployments/4403546) and the comprehensive AI Landing Zone checklist.
+![AI Best Practice Review](../../media/images/ai-best-practice-review.jpg)
 
-## About the Markdown Files
+This section provides categorized best practices and recommendations for deploying and managing Azure AI workloads. The content is based on Microsoft's official [Azure OpenAI Best Practices Quick Reference Guide](https://techcommunity.microsoft.com/blog/startupsatmicrosoftblog/azure-openai-best-practices-a-quick-reference-guide-to-optimize-your-deployments/4403546) and the comprehensive AI Landing Zone checklist.
+
+## Best Practice Categories
 Each file in this folder corresponds to a key area of Azure OpenAI deployment:
 
 - 🚀 [**Application Deployment**](./application_deployment.md): Recommendations for application deployment, including DevOps and data classification.

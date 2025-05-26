@@ -56,11 +56,11 @@ The workshop follows a logical progression that mirrors an organization's AI ado
 - Azure Monitor.
 
 **Materials:**  
-- [Platform Challenge Overview](./docs/ifs-alz-overview.md)
-- [Step 1: Understand the Customer](./docs/ifs-alz-step1-customer.md)
-- [Step 2: Define Requirements](./docs/ifs-alz-step2-requirements.md)
-- [Step 3: Design Challenges](./docs/ifs-alz-step3-foundations.md)
-- [Step 4: Present and Justify](./docs/ifs-alz-step5-present.md)
+- [AI Ready Challenge Overview](./docs/01-aiready/ifs-alz-overview.md)
+- [Step 1: Understand the Customer](./docs/01-aiready/ifs-alz-step1-customer.md)
+- [Step 2: Define Requirements](./docs/01-aiready/ifs-alz-step2-requirements.md)
+- [Step 3: Design Foundations](./docs/01-aiready/ifs-alz-step3-foundations.md)
+- [Step 4: Present and Justify](./docs/01-aiready/ifs-alz-step4-present.md)
 - [References](./docs/ifs-alz-references.md)
 
 ---
@@ -93,13 +93,13 @@ The workshop follows a logical progression that mirrors an organization's AI ado
 - IaC (Bicep).
 
 **Materials:**  
-- [RAG Chatbot Challenge Overview](./docs/ifs-rag-overview.md)
-- [Step 1: Define the Scenario](./docs/ifs-rag-step1-scenario.md)
-- [Step 2: Elicit Requirements](./docs/ifs-rag-step2-requirements.md)
-- [Step 3: Design Architecture](./docs/ifs-rag-step3-design.md)
-- [Step 4: Integration](./docs/ifs-rag-step4-integrate.md)
-- [Step 5: Present and Justify](./docs/ifs-rag-step5-present.md)
-- [References](./docs/ifs-rag-references.md)
+- [RAG Challenge Overview](./docs/02-rag/ifs-rag-overview.md)
+- [Step 1: Define the Scenario](./docs/02-rag/ifs-rag-step1-scenario.md)
+- [Step 2: Elicit Requirements](./docs/02-rag/ifs-rag-step2-requirements.md)
+- [Step 3: Design Architecture](./docs/02-rag/ifs-rag-step3-design.md)
+- [Step 4: Integration](./docs/02-rag/ifs-rag-step4-integrate.md)
+- [Step 5: Present and Justify](./docs/02-rag/ifs-rag-step5-present.md)
+- [References](./docs/02-rag/ifs-rag-references.md)
 
 ---
 
@@ -125,12 +125,12 @@ The workshop follows a logical progression that mirrors an organization's AI ado
 - Comprehensive monitoring.
 
 **Materials:**  
-- [AI Hub Challenge Overview](./docs/ifs-aihub-overview.md)
-- [Step 1: Define the Scenario](./docs/ifs-aihub-step1-scenario.md)
-- [Step 2: Define Requirements](./docs/ifs-aihub-step2-requirements.md)
-- [Step 3: Design Architecture](./docs/ifs-aihub-step3-design.md)
-- [Step 4: Present and Justify](./docs/ifs-aihub-step4-present.md)
-- [References](./docs/ifs-aihub-references.md)
+- [AI Hub Challenge Overview](./docs/03-aihub/ifs-aihub-overview.md)
+- [Step 1: Define the Scenario](./docs/03-aihub/ifs-aihub-step1-scenario.md)
+- [Step 2: Define Requirements](./docs/03-aihub/ifs-aihub-step2-requirements.md)
+- [Step 3: Design Architecture](./docs/03-aihub/ifs-aihub-step3-design.md)
+- [Step 4: Present and Justify](./docs/03-aihub/ifs-aihub-step4-present.md)
+- [References](./docs/03-aihub/ifs-aihub-references.md)
 
 ---
 
@@ -169,11 +169,11 @@ The workshop follows a logical progression that mirrors an organization's AI ado
 ## Workshop Materials
 
 - [Workshop Home Page](./docs/index.md)
-- [Workshop Agenda](./docs/workshop-agenda.md)
+- [Workshop Agenda](./docs/04-workshop/workshop-agenda.md)
 - [Scenario definition for Innovate Financial Services](./docs/ifs-customer-story.md)
-- [Whiteboard Design Session guide for the Platform Foundation](./docs/ifs-alz-overview.md)
-- [Whiteboard Design Session guide for the RAG Chatbot Workload](./docs/ifs-rag-overview.md)
-- [Whiteboard Design Session guide for the AI Hub](./docs/ifs-aihub-overview.md)
+- [Whiteboard Design Session guide for the Platform Foundation](./docs/01-aiready/ifs-alz-overview.md)
+- [Whiteboard Design Session guide for the RAG Challenge Workload](./docs/02-rag/ifs-rag-overview.md)
+- [Whiteboard Design Session guide for the AI Hub](./docs/03-aihub/ifs-aihub-overview.md)
 - [Frequently Asked Questions](./docs/ifs-faq.md)
 - Workshop presentation slides (available separately)
 - IFS logo image at [media/images/ifs.png](./media/images/ifs.png)

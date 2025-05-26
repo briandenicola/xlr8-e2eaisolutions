@@ -1,3 +1,10 @@
+---
+layout: default
+title: Best Practices Summary
+parent: Azure Best Practices
+nav_order: 1
+---
+
 <!-- 
   This file provides a concise, bullet-point summary of Azure AI best practices across key domains such as DevOps, security, cost management, governance, networking, and operations. 
   It is intended as a quick reference for teams designing, deploying, and managing Azure AI workloads.
