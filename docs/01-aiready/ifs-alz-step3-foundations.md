@@ -61,35 +61,55 @@ Define the architecture, controls, and services needed for a robust Azure Landin
 
 | Foundation Area | Azure Service/Feature | Purpose |
 |-----------------|----------------------|---------|
-| Identity        | Azure AD, RBAC       | Access control |
-| Security        | Key Vault, Policy    | Secrets, compliance |
-| Monitoring      | Log Analytics        | Observability |
-| Networking      | VNet, Private Endpoints, DDoS, Firewall | Secure connectivity |
-| Governance      | Management Groups, Policy, Tags | Resource organization |
-| Reliability     | Multi-region, API Management, Quota Management | High availability |
+| Identity        | Azure AD, RBAC       | Access control for AI resources and endpoints |
+| Security        | Key Vault, Policy, Managed Identities | Secrets, compliance, secure access to AI models and data |
+| Monitoring      | Log Analytics, Azure Monitor, Defender for Cloud | Observability, AI risk detection, and threat protection |
+| Networking      | VNet, Private Endpoints, DDoS, Firewall | Secure connectivity for AI endpoints and data sources |
+| Governance      | Management Groups, Policy, Tags, Purview | Resource organization, data cataloging, compliance for AI workloads |
+| Reliability     | Multi-region, API Management, Quota Management | High availability and performance for AI models and endpoints |
+| Model Management| Azure AI Foundry, Azure Machine Learning | Model catalog, versioning, and deployment governance |
+| Content Safety  | Azure AI Content Safety | Harmful content detection and prompt/response filtering |
+
+**Example Azure Policy Table (AI Focus):**
+
+| Policy Name                                              | Purpose                                                                 | Assignment Location                |
+|----------------------------------------------------------|-------------------------------------------------------------------------|------------------------------------|
+| Allowed AI Model Deployments (Foundry)                   | Control which AI models can be deployed from the model catalog          | Subscription or Resource Group     |
+| Audit AI Model Diagnostic Settings                       | Ensure monitoring is enabled for deployed AI models                     | Subscription or Resource Group     |
+| Require Content Safety for Generative AI                 | Enforce use of Azure AI Content Safety for prompt and completion        | Resource Group or Subscription     |
+| Allowed locations for AI resources                       | Restrict AI resource deployment to approved regions                     | Management Group or Subscription   |
+| Enforce tag and its value for AI workloads               | Require specific tags for AI resource organization                      | Subscription or Resource Group     |
+| Require managed identity for AI endpoints                | Enforce use of managed identity for secure access to AI endpoints       | Resource Group or Subscription     |
+| Audit use of public endpoints for AI services            | Detect and restrict public exposure of AI endpoints                     | Subscription or Resource Group     |
+| Require private endpoint for AI PaaS services            | Enforce private connectivity for sensitive AI workloads                 | Resource Group or Subscription     |
+| Enforce regulatory compliance initiative for AI workloads| Apply industry-specific compliance standards to AI resources            | Management Group or Subscription   |
 
 ---
 
 ## Whiteboard Prompts
 
-- Draw your proposed Azure Landing Zone architecture. Label key components for identity, security, networking, and monitoring.
+- Draw your proposed Azure AI Ready platform architecture. Label key components for:
+  - Responsible AI controls (content safety, data privacy, model management)
+  - Identity, access, and data security for AI endpoints and data sources
+  - Networking and connectivity for AI services (private endpoints, firewalls, etc.)
+  - Monitoring, logging, and risk detection for AI workloads
 - Annotate your diagram to show:
-  - How you will achieve redundancy and failover for AI endpoints
-  - How you will separate and govern internal vs. internet-facing workloads
-  - How you will secure network access and monitor traffic
-  - Where you will apply policies and controls
-- List the Azure services and features you would use for each foundation area.
-- Identify any open questions or risks for your design.
+  - How you will ensure reliability, redundancy, and failover for critical AI services
+  - How you will separate and govern internal vs. external (internet-facing) AI workloads
+  - Where and how you will apply AI-specific Azure Policies (e.g., content safety, model deployment restrictions, data residency)
+  - How you will monitor and respond to AI risks (e.g., prompt injection, data leakage, model drift)
+- List the Azure services, features, and policies you would use for each AI governance and operational area
+- Identify any open questions or risks specific to AI adoption, governance, or responsible use in your design
 
 ---
 
 ## Success Criteria
 
 By the end of this step, you should have:
-- A high-level Azure Landing Zone architecture diagram
-- A list of core Azure services and controls with justifications
-- A plan for governance, security, reliability, and operational readiness
-- Documented design decisions and open questions for group discussion
+- A high-level Azure AI Ready platform architecture diagram
+- A list of core Azure services, features, and policies with justifications for AI governance and operations
+- A plan for responsible AI, security, reliability, and operational readiness
+- Documented design decisions, open questions, and identified AI-specific risks for group discussion
 
 ---
 
