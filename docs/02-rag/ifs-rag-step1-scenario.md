@@ -1,9 +1,11 @@
 ---
 layout: default
-title: Step 1 - Define the Scenario
+title: Step 1 - Scenario
 parent: RAG Challenge
 nav_order: 1
 ---
+
+# Step 1: Scenario – RAG Challenge
 
 ## Step 1: Define the Workload Scenario (15 minutes)
 

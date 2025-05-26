@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Workshop Agenda
-nav_order: 2
+title: Agenda
+parent: Workshop
+nav_order: 1
 ---
 
 # Workshop Agenda: Designing an End-to-End Azure AI Solution

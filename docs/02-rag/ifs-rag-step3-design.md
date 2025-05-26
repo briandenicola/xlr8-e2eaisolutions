@@ -1,9 +1,11 @@
 ---
 layout: default
-title: Step 3 - Design Architecture
+title: Step 3 - Design
 parent: RAG Challenge
 nav_order: 3
 ---
+
+# Step 3: Design – RAG Challenge
 
 ## Step 3: Design the Chat Application Architecture (1.5 hours)
 

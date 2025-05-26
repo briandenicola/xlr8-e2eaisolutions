@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Step 2: Requirements – AI Ready Challenge
-nav_order: 1
-has_children: false
-permalink: 01-aiready/step2-requirements/
+title: Step 2 - Requirements
+parent: AI Ready Challenge
+nav_order: 2
 ---
 
 # Step 2: Requirements – AI Ready Challenge

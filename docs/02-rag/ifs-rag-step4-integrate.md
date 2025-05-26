@@ -1,9 +1,11 @@
 ---
 layout: default
-title: Step 4 - Production Ready RAG
+title: Step 4 - Integrate
 parent: RAG Challenge
 nav_order: 4
 ---
+
+# Step 4: Integrate – RAG Challenge
 
 ## Step 4:  (1 hour)
 

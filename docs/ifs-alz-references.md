@@ -1,8 +1,8 @@
 ---
 layout: default
 title: References
-parent: AI Foundations Challenge
-nav_order: 6
+parent: AI Ready Challenge
+nav_order: 5
 ---
 
 ## References

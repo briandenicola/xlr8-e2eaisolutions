@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Step 4: Present – AI Ready Challenge
-nav_order: 1
-has_children: false
-permalink: 01-aiready/step4-present/
+title: Step 4 - Present
+parent: AI Ready Challenge
+nav_order: 4
 ---
 
 # Step 4: Present – AI Ready Challenge

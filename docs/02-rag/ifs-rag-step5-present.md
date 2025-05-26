@@ -1,9 +1,11 @@
 ---
 layout: default
-title: Step 5 - Present and Justify
+title: Step 5 - Present
 parent: RAG Challenge
 nav_order: 5
 ---
+
+# Step 5: Present – RAG Challenge
 
 ## Step 5: Present and Justify (30 minutes)
 

@@ -1,9 +1,11 @@
 ---
 layout: default
-title: Step 2 - Elicit Requirements
+title: Step 2 - Requirements
 parent: RAG Challenge
 nav_order: 2
 ---
+
+# Step 2: Requirements – RAG Challenge
 
 ## Step 2: Elicit Workload Requirements (45 minutes)
 

@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Step 3: Foundations – AI Ready Challenge
-nav_order: 1
-has_children: false
-permalink: 01-aiready/step3-foundations/
+title: Step 3 - Foundations
+parent: AI Ready Challenge
+nav_order: 3
 ---
 
 # Step 3: Foundations – AI Ready Challenge

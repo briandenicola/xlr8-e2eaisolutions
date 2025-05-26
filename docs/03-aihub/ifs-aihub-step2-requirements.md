@@ -1,9 +1,11 @@
 ---
 layout: default
-title: Step 2 - Define Requirements
+title: Step 2 - Requirements
 parent: AI Hub Challenge
 nav_order: 2
 ---
+
+# Step 2: Requirements – AI Hub Challenge
 
 ## Step 2: Define Requirements (45 minutes)
 

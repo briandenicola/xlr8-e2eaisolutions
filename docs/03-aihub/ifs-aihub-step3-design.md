@@ -1,9 +1,11 @@
 ---
 layout: default
-title: Step 3 - Design Architecture
+title: Step 3 - Design
 parent: AI Hub Challenge
 nav_order: 3
 ---
+
+# Step 3: Design – AI Hub Challenge
 
 ## Step 3: Design the AI Hub Architecture (2 hours)
 

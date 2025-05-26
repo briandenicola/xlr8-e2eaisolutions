@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Step 1: Customer Context – AI Ready Challenge
+title: Step 1 - Customer Context
+parent: AI Ready Challenge
 nav_order: 1
-has_children: false
-permalink: 01-aiready/step1-customer/
 ---
 
 # Step 1: Customer Context – AI Ready Challenge

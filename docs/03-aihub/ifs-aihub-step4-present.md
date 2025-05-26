@@ -1,9 +1,11 @@
 ---
 layout: default
-title: Step 4 - Present and Justify
+title: Step 4 - Present
 parent: AI Hub Challenge
 nav_order: 4
 ---
+
+# Step 4: Present – AI Hub Challenge
 
 ## Step 4: Present and Justify (30 minutes)
 

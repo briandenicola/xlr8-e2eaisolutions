@@ -1,9 +1,11 @@
 ---
 layout: default
-title: Step 1 - Define the Scenario
+title: Step 1 - Scenario
 parent: AI Hub Challenge
 nav_order: 1
 ---
+
+# Step 1: Scenario – AI Hub Challenge
 
 ## Step 1: Define the Scenario (15 minutes)
 

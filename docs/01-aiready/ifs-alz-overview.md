@@ -1,9 +1,9 @@
 ---
 layout: default
 title: AI Ready Challenge
-nav_order: 1
+nav_order: 3
 has_children: true
-permalink: 01-aiready/
+permalink: /ai-ready-challenge/
 ---
 
 # Challenge-Based Whiteboard Design Session: IFS AI Ready

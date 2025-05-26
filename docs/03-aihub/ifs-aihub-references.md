@@ -5,7 +5,7 @@ parent: AI Hub Challenge
 nav_order: 5
 ---
 
-## References
+# References – AI Hub Challenge
 
 * [Microsoft Cloud Adoption Framework - AI Scenario](https://learn.microsoft.com/azure/cloud-adoption-framework/scenarios/ai/)
 * [Azure OpenAI baseline Landing Zone reference architecture](https://learn.microsoft.com/azure/architecture/ai-ml/architecture/azure-openai-baseline-landing-zone)

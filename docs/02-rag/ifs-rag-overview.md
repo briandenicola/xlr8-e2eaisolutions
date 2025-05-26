@@ -1,9 +1,9 @@
 ---
 layout: default
 title: RAG Challenge
-nav_order: 3
+nav_order: 4
 has_children: true
-permalink: /docs/rag-challenge/
+permalink: /rag-challenge/
 ---
 
 # Challenge-Based Whiteboard Design Session: IFS Knowledge Assistant Chatbot Workload
