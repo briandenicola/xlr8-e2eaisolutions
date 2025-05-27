@@ -40,8 +40,8 @@ Define IFS’s AI strategy by identifying key business outcomes, selecting high-
 
 | Business Outcome       | AI Use Case              | CAF Phase     | Success Metric              |
 |------------------------|--------------------------|---------------|-----------------------------|
-| Reduce fraudulent loans| Anomaly detection model  | Strategy, Plan| <ul><li>10% fraud drop</li><li>False-positive <5%</li></ul>|
-| Improve customer NPS   | Personalized chatbot      | Strategy, Plan| <ul><li>+15 NPS points</li></ul>|
+| Reduce fraudulent loans| Anomaly detection model  | Strategy, Plan| 10% fraud drop<br>False-positive <5% |
+| Improve customer NPS   | Personalized chatbot     | Strategy, Plan| +15 NPS points |
 
 ---
 
