@@ -56,12 +56,12 @@ The workshop follows a logical progression that mirrors an organization's AI ado
 - Azure Monitor.
 
 **Materials:**  
-- [AI Ready Challenge Overview](./docs/01-aiready/ifs-alz-overview.md)
-- [Step 1: Understand the Customer](./docs/01-aiready/ifs-alz-step1-customer.md)
-- [Step 2: Define Requirements](./docs/01-aiready/ifs-alz-step2-requirements.md)
-- [Step 3: Design Foundations](./docs/01-aiready/ifs-alz-step3-foundations.md)
-- [Step 4: Present and Justify](./docs/01-aiready/ifs-alz-step4-present.md)
-- [References](./docs/ifs-alz-references.md)
+- [AI Ready Challenge Overview](./docs/01-aiready/ifs-ready-overview.md)
+- [Step 1: Understand the Customer](./docs/01-aiready/ifs-ready-step1-customer.md)
+- [Step 2: Define Requirements](./docs/01-aiready/ifs-ready-step2-requirements.md)
+- [Step 3: Design Foundations](./docs/01-aiready/ifs-ready-step3-foundations.md)
+- [Step 4: Present and Justify](./docs/01-aiready/ifs-ready-step4-present.md)
+- [References](./docs/ifs-ready-references.md)
 
 ---
 
@@ -171,7 +171,7 @@ The workshop follows a logical progression that mirrors an organization's AI ado
 - [Workshop Home Page](./docs/index.md)
 - [Workshop Agenda](./docs/04-workshop/workshop-agenda.md)
 - [Scenario definition for Innovate Financial Services](./docs/ifs-customer-story.md)
-- [Whiteboard Design Session guide for the Platform Foundation](./docs/01-aiready/ifs-alz-overview.md)
+- [Whiteboard Design Session guide for the Platform Foundation](./docs/01-aiready/ifs-ready-overview.md)
 - [Whiteboard Design Session guide for the RAG Challenge Workload](./docs/02-rag/ifs-rag-overview.md)
 - [Whiteboard Design Session guide for the AI Hub](./docs/03-aihub/ifs-aihub-overview.md)
 - [Frequently Asked Questions](./docs/ifs-faq.md)

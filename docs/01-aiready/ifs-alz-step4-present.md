@@ -7,7 +7,7 @@ nav_order: 4
 
 # Step 4: Present & Justify
 
-This section is part of the **IFS AI Ready Challenge**. Here, you’ll present your Azure Landing Zone design and justify your decisions to the group.
+This section is part of the **IFS AI Ready Challenge**. Here, you’ll present and validate your AI solution design, demonstrating alignment to CAF Govern & Manage phases and Azure WAF pillars.
 
 ---
 
@@ -19,33 +19,46 @@ Communicate your design clearly, explain your choices, and demonstrate how your 
 
 ## Activities
 
-- Prepare a short presentation (5–10 minutes) covering:
-  1. **Customer Context:** Briefly summarize IFS’s business drivers and objectives.
-  2. **Requirements:** Highlight the most important business, technical, and compliance requirements.
-  3. **Landing Zone Design:** Present your architecture diagram and explain your key design decisions.
-  4. **Justification:** Explain how your design addresses the requirements and best practices.
-  5. **Q&A:** Be ready to answer questions and defend your choices.
+- Prepare a **5–10 minute** presentation covering:
+  1. **AI Strategy & Plan Recap:** Summarize business outcomes, use cases, and metrics.
+  2. **Requirements & Plan:** Highlight key requirements and WAF mappings.
+  3. **Solution Design:** Present your architecture diagram and key AI workloads.
+  4. **Governance & Management:** Explain policies, monitoring plan, and responsible AI controls.
+  5. **Justification:** Show how your design meets CAF phases (Govern, Manage, Secure) and WAF pillars.
+  6. **Q&A:** Address feedback and questions.
 
 ---
 
 ## Guidance
 
-> **Tip:** Use visuals (diagrams, tables) to support your explanation.
-> 
-> **Best Practice:** Reference the [Azure Best Practices](../05-azure-best-practices/) to support your justifications.
-> 
-> - Focus on clarity and alignment with IFS’s goals.
-> - Be concise—highlight the most important points.
+> **Reference:**
+> - [CAF AI Govern phase](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/ai/governance)
+> - [CAF AI Manage phase](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/ai/operations)
+>
+> - Use visuals and a slide template that maps sections to CAF phases and WAF pillars.
+> - Include responsible AI controls (content safety, bias mitigation, privacy) and operational plans.
+
+**Presentation Scoring Rubric:**
+
+| Criteria                    | Description                                                         | Points |
+|-----------------------------|---------------------------------------------------------------------|--------|
+| Business Alignment          | Clear linkage of solution to business outcomes and metrics          | 20     |
+| CAF Phase Coverage          | Coverage of CAF AI Govern, Manage, and Secure phases               | 20     |
+| WAF Pillar Alignment        | Addresses at least 3 WAF pillars (e.g., Security, Reliability)      | 20     |
+| Technical Design Clarity    | Architecture diagram and AI workload design are clear and complete | 20     |
+| Responsible AI & Security   | Demonstrates ethical AI controls and security measures             | 10     |
+| Stakeholder Communication   | Effective Q&A responses and justification                            | 10     |
 
 ---
 
 ## Success Criteria
 
 By the end of this step, you should have:
-- Presented your solution to the group
-- Clearly justified your design decisions
-- Demonstrated alignment with IFS’s business and technical needs
+- Delivered a structured presentation mapping to CAF & WAF
+- Demonstrated governance, management, and security controls
+- Incorporated responsible AI evaluations
+- Received and acted on peer feedback
 
 ---
 
-[⬅️ Back: Step 3 – Azure Foundations](./ifs-alz-step3-foundations.md) | [🏠 Back to Overview](./ifs-alz-overview.md)
+[⬅️ Back: Step 3 – AI Solution Design](./ifs-ready-step3-foundations.md) | [🏠 Back to Overview](./ifs-ready-overview.md)

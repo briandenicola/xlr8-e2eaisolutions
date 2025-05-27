@@ -1,19 +1,19 @@
 ---
 layout: default
-title: Step 3 - Azure Foundations
+title: Step 3 - AI Solution Design
 parent: AI Ready Challenge
 nav_order: 3
 ---
 
-# Step 3: Azure Foundations
+# Step 3: AI Solution Design
 
-This section is part of the **IFS AI Ready Challenge**. Here, you’ll design the secure, scalable Azure foundation (Landing Zone) to support IFS’s AI transformation.
+This section is part of the **IFS AI Ready Challenge**. Here, you’ll design AI workloads and platform architecture, applying governance, management, and security controls as outlined in the CAF AI **Ready** phase and Azure Well-Architected Framework.
 
 ---
 
 ## Objective
 
-Define the architecture, controls, and services needed for a robust Azure Landing Zone that meets IFS’s requirements. Incorporate best practices for reliability, governance, networking, and operational excellence as outlined in the [AI Ready process](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/ai/ready).
+Architect and plan AI workloads by selecting appropriate Azure AI services, designing data and model pipelines, and embedding governance and security controls.
 
 ---
 
@@ -21,14 +21,12 @@ Define the architecture, controls, and services needed for a robust Azure Landin
 
 - Review your requirements from Step 2.
 - As a team, design and document:
-  1. **Landing Zone Architecture:** Sketch a high-level diagram of the Azure foundation (resource groups, networking, identity, security, monitoring, etc.)
-  2. **Key Azure Services:** List and justify the core Azure services and controls you will use (e.g., Policy, RBAC, Key Vault, Log Analytics).
-  3. **Governance & Security:** Describe how you will enforce governance, compliance, and security (e.g., policies, blueprints, tagging).
-  4. **Operational Readiness:** Outline how you will monitor, manage, and support the environment.
-  5. **AI Reliability:** How will you ensure high availability, redundancy, and performance for AI workloads? (Consider region selection, failover, quotas, and continuity.)
-  6. **AI Governance:** How will you organize resources, apply policies, and separate internal vs. internet-facing workloads? (Consider management groups, subscriptions, and policy baselines.)
-  7. **AI Networking:** What network topologies and controls will you use to secure and connect AI workloads? (Consider hub-and-spoke, DDoS, private endpoints, firewalls, and monitoring.)
-  8. **AI Foundation:** How will you use Azure landing zones or baseline resource hierarchies to support scalable, secure AI deployment?
+  1. **AI Workload Architecture:** Sketch a high-level diagram of AI components (data pipeline, model training/inference endpoints, orchestration).
+  2. **Data & Model Pipelines:** Define data ingestion, processing, storage, training, and deployment workflows using Azure AI services.
+  3. **AI Services Selection:** Choose and justify Azure services (OpenAI, ML Endpoints, AI Foundry, Search) and integration patterns.
+  4. **Governance & Security Controls:** Outline policies, access controls, and responsible AI checks (e.g., bias, content safety).
+  5. **Operational Plan:** Specify monitoring, logging, alerting, and incident response for AI workloads.
+  6. **Responsible AI & Compliance:** Map required ethical, privacy, and compliance controls (e.g., data residency, PII handling).
 
 ---
 
@@ -113,4 +111,4 @@ By the end of this step, you should have:
 
 ---
 
-[⬅️ Back: Step 2 – Requirements](./ifs-alz-step2-requirements.md) | [Next: Step 4 – Present & Justify ➡️](./ifs-alz-step4-present.md)
+[⬅️ Back: Step 2 – Requirements](./ifs-ready-step2-requirements.md) | [Next: Step 4 – Present & Justify ➡️](./ifs-ready-step4-present.md)

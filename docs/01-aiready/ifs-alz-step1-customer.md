@@ -1,61 +1,58 @@
 ---
 layout: default
-title: Step 1 - Customer Context
+title: Step 1 - AI Strategy & Plan
 parent: AI Ready Challenge
 nav_order: 1
 ---
 
-# Step 1: Customer Context
+# Step 1: AI Strategy & Plan
 
-This section is part of the **IFS AI Ready Challenge**. Here, you’ll analyze the customer’s business drivers, objectives, and success metrics to inform your Azure AI platform design.
+This section is part of the **IFS AI Ready Challenge**. Here you’ll define business outcomes, identify AI use cases, and plan the AI adoption phases (Strategy & Plan).
 
 ---
 
 ## Objective
 
-Understand IFS’s motivations for adopting Azure AI, their core business objectives, and how success will be measured.
+Define IFS’s AI strategy by identifying key business outcomes, selecting high-impact AI use cases, and establishing success metrics.
 
 ---
 
 ## Activities
 
 - Review the [Innovate Financial Services Customer Story](../ifs-customer-story.md).
-- As a team, discuss and answer the following:
-
-  1. **Why does IFS want to use Azure for AI, and what are their primary use cases?**  
-     *Hint: Consider market pressures, strategic goals, and financial service applications mentioned.*
-
-  2. **What are IFS’s core business objectives driving this transformation?**  
-     *Hint: Focus on outcomes related to fraud, customer experience, costs, and innovation speed.*
-
-  3. **How will IFS measure the success of this initiative?**  
-     *Hint: Identify specific metrics and KPIs from the story.*
+- As a team:
+  1. List **Top 3 Business Outcomes** for IFS’s AI adoption (e.g., fraud reduction, customer experience, cost optimization).
+  2. Identify **Key AI Use Cases** that deliver those outcomes.
+  3. Map each use case to CAF AI phases **Strategy** and **Plan** activities.
+  4. Define **Success Metrics** and KPIs to measure AI impact.
 
 ---
 
 ## Guidance
 
-> **Tip:** The customer story is intentionally high-level. Extract the key business drivers and objectives that will inform your design decisions.  
-> Consider these questions to help draft a mission statement:
-> - Why are they exploring Azure and AI? Where do they want to be in the future?
-> - What are their mandatory and nice-to-have objectives?
-> - What is your "definition of done"?
-> - What are the key metrics and KPIs for success?
+> **Reference:** [CAF AI Strategy and Plan](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/ai/strategy)
+>
+> - Focus on outcomes: what business value will AI deliver?
+> - Prioritize use cases by feasibility, impact, and alignment to IFS goals.
+> - Ensure metrics are measurable (e.g., % reduction, CPS improvement).
 
-**Example Mission Statement:**  
-*"IFS will leverage Azure and AI to transform their financial services, enhancing customer experience and operational efficiency while ensuring compliance and security. Their goal is to innovate rapidly, reduce costs, and deliver high-quality services that meet the evolving needs of their customers."*
+**Example Use Case Table:**
+
+| Business Outcome       | AI Use Case              | CAF Phase     | Success Metric              |
+|------------------------|--------------------------|---------------|-----------------------------|
+| Reduce fraudulent loans| Anomaly detection model  | Strategy, Plan| <ul><li>10% fraud drop</li><li>False-positive <5%</li></ul>|
+| Improve customer NPS   | Personalized chatbot      | Strategy, Plan| <ul><li>+15 NPS points</li></ul>|
 
 ---
 
 ## Success Criteria
 
-By the end of this step, you should be able to:
-
-- List **at least three** distinct business drivers motivating IFS’s AI adoption (with references to the customer story).
-- List **at least two** specific AI use cases IFS intends to implement.
-- List **at least three** measurable success metrics or KPIs (e.g., target reduction %, satisfaction score increase).
-- Draft a concise mission statement (1–2 sentences) summarizing IFS’s AI transformation goals.
+By the end of this step, you should have:
+- Defined **3 business outcomes** with clear descriptions
+- Identified **2–3 AI use cases** mapped to those outcomes
+- Established **2–3 success metrics** for each use case
+- A brief **AI Strategy & Plan summary** statement
 
 ---
 
-[⬅️ Back to Overview](./ifs-alz-overview.md) | [Next: Step 2 – Requirements ➡️](./ifs-alz-step2-requirements.md)
+[⬅️ Back to Overview](./ifs-ready-overview.md) | [Next: Step 2 – Requirements ➡️](./ifs-ready-step2-requirements.md)
