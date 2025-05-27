@@ -22,16 +22,6 @@ This challenge maps to the Cloud Adoption Framework for AI phases:
 5. **Manage** – Implement monitoring, operations, and risk detection
 6. **Secure** – Enforce security controls and data protection
 
-<details><summary>CAF AI Adoption Process Checklist</summary>
-
-- [Strategy Checklist](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/ai/strategy)
-- [Plan Checklist](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/ai/plan)
-- [Ready Checklist](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/ai/ready)
-- [Govern Checklist](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/ai/governance)
-- [Manage Checklist](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/ai/operations)
-- [Secure Checklist](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/ai/security)
-</details>
-
 ---
 
 ## Quick Strategy Checklist
