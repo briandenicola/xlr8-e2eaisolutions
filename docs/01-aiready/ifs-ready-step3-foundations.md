@@ -33,6 +33,9 @@ flowchart LR
 
 ## 🧰 Prerequisites
 
+> [!NOTE]
+> This step requires collaborative input from multiple teams. Schedule your design workshops in advance to ensure all key stakeholders can participate.
+
 What you need before starting:
 
 - **2-3 collaborative workshop sessions** (most teams complete this in 1-2 weeks)
@@ -76,6 +79,9 @@ Teams using ALZ consistently report:
 
 ### Essential Foundation Components
 
+> [!WARNING]
+> Skipping or bypassing the Azure Landing Zone components below can lead to significant security vulnerabilities, compliance gaps, and operational challenges that are costly and time-consuming to remediate later.
+
 The following ALZ components are **foundational** for IFS AI success:
 
 ✅ **Management Group hierarchy** with policy inheritance  
@@ -84,6 +90,40 @@ The following ALZ components are **foundational** for IFS AI success:
 ✅ **Identity governance** with least-privilege access  
 ✅ **Monitoring and alerting** for operational excellence  
 ✅ **Resource organization** with consistent naming and tagging  
+
+#### Example Azure Policy Definition for AI Workloads
+
+```json
+{
+  "properties": {
+    "displayName": "Deny OpenAI deployments without private endpoints",
+    "description": "This policy ensures that all Azure OpenAI deployments use private endpoints for secure access",
+    "mode": "All",
+    "parameters": {},
+    "policyRule": {
+      "if": {
+        "allOf": [
+          {
+            "field": "type",
+            "equals": "Microsoft.CognitiveServices/accounts"
+          },
+          {
+            "field": "Microsoft.CognitiveServices/accounts/kind",
+            "equals": "OpenAI"
+          },
+          {
+            "field": "Microsoft.CognitiveServices/accounts/properties.publicNetworkAccess",
+            "notEquals": "Disabled"
+          }
+        ]
+      },
+      "then": {
+        "effect": "deny"
+      }
+    }
+  }
+}
+```
 
 ---
 
@@ -101,6 +141,9 @@ Define a scalable, secure, and governed AI Ready Azure Landing Zone architecture
 ## Collaborative Design Activities
 
 **Teams work together** to design the ALZ foundation that supports everyone's needs. This collaborative approach ensures successful AI deployment.
+
+> [!TIP]
+> Use a visual collaboration tool like Microsoft Whiteboard or Miro for the design sessions to make it easier for remote participants to contribute effectively.
 
 ### Design Workshop Process (Recommended 2-3 Sessions)
 
@@ -166,10 +209,164 @@ Define a scalable, secure, and governed AI Ready Azure Landing Zone architecture
 > - Assign policy initiatives for required standards (e.g., GDPR, HIPAA, ISO).
 > - Enforce resource tagging and diagnostic settings at subscription scope.
 >
+> Example Azure Policy definition for enforcing tags:
+>
+> ```json
+> {
+>   "properties": {
+>     "displayName": "Require 'Environment' tag on resources",
+>     "description": "Enforces the 'Environment' tag on all resources",
+>     "mode": "Indexed",
+>     "parameters": {
+>       "tagName": {
+>         "type": "String",
+>         "metadata": {
+>           "displayName": "Tag Name",
+>           "description": "Name of the tag to enforce"
+>         },
+>         "defaultValue": "Environment"
+>       }
+>     },
+>     "policyRule": {
+>       "if": {
+>         "field": "[concat('tags[', parameters('tagName'), ']')]",
+>         "exists": "false"
+>       },
+>       "then": {
+>         "effect": "deny"
+>       }
+>     }
+>   }
+> }
+> ```
+>
 > **Networking:**
 > - Implement hub-and-spoke topology with Azure Firewall and DDoS protection.
 > - Use private endpoints to secure PaaS resource access.
 > - Deploy Web Application Firewall (WAF) for application layer protection and secure application delivery.
+>
+> <!-- tabs -->
+> # [Azure Portal](#tab/azure-portal)
+> 
+> 1. Navigate to the Azure Portal
+> 2. Select **Virtual Networks** from the menu
+> 3. Click **+ Create** to create your hub VNet
+> 4. Configure address space, subnets, and security features
+> 5. Repeat for spoke VNets
+> 6. Set up VNet peering between hub and spokes
+> 
+> # [Azure CLI](#tab/azure-cli)
+> 
+> ```bash
+> # Create Hub VNet
+> az network vnet create \
+>   --name hub-vnet \
+>   --resource-group rg-networking-prod \
+>   --address-prefixes 10.0.0.0/16 \
+>   --subnet-name AzureFirewallSubnet \
+>   --subnet-prefixes 10.0.0.0/24
+> 
+> # Create Spoke VNet
+> az network vnet create \
+>   --name spoke-ai-vnet \
+>   --resource-group rg-ai-prod \
+>   --address-prefixes 10.1.0.0/16 \
+>   --subnet-name default \
+>   --subnet-prefixes 10.1.0.0/24
+> 
+> # Create VNet Peering
+> az network vnet peering create \
+>   --name hub-to-spoke \
+>   --vnet-name hub-vnet \
+>   --resource-group rg-networking-prod \
+>   --remote-vnet spoke-ai-vnet \
+>   --allow-vnet-access
+> ```
+> 
+> # [PowerShell](#tab/powershell)
+> 
+> ```powershell
+> # Create Hub VNet
+> $hubVNet = @{
+>   Name = 'hub-vnet'
+>   ResourceGroupName = 'rg-networking-prod'
+>   Location = 'eastus2'
+>   AddressPrefix = '10.0.0.0/16'
+> }
+> $hubNetwork = New-AzVirtualNetwork @hubVNet
+> 
+> # Add Azure Firewall subnet
+> $hubSubnet = @{
+>   Name = 'AzureFirewallSubnet'
+>   VirtualNetwork = $hubNetwork
+>   AddressPrefix = '10.0.0.0/24'
+> }
+> Add-AzVirtualNetworkSubnetConfig @hubSubnet | Set-AzVirtualNetwork
+> 
+> # Create Spoke VNet
+> $spokeVNet = @{
+>   Name = 'spoke-ai-vnet'
+>   ResourceGroupName = 'rg-ai-prod'
+>   Location = 'eastus2'
+>   AddressPrefix = '10.1.0.0/16'
+> }
+> $spokeNetwork = New-AzVirtualNetwork @spokeVNet
+> 
+> # Add subnet to spoke
+> $spokeSubnet = @{
+>   Name = 'default'
+>   VirtualNetwork = $spokeNetwork
+>   AddressPrefix = '10.1.0.0/24'
+> }
+> Add-AzVirtualNetworkSubnetConfig @spokeSubnet | Set-AzVirtualNetwork
+> ```
+> 
+> # [Bicep](#tab/bicep)
+> 
+> ```bicep
+> // Hub VNet
+> resource hubVnet 'Microsoft.Network/virtualNetworks@2021-05-01' = {
+>   name: 'hub-vnet'
+>   location: resourceGroup().location
+>   properties: {
+>     addressSpace: {
+>       addressPrefixes: [
+>         '10.0.0.0/16'
+>       ]
+>     }
+>     subnets: [
+>       {
+>         name: 'AzureFirewallSubnet'
+>         properties: {
+>           addressPrefix: '10.0.0.0/24'
+>         }
+>       }
+>     ]
+>   }
+> }
+> 
+> // Spoke VNet
+> resource spokeVnet 'Microsoft.Network/virtualNetworks@2021-05-01' = {
+>   name: 'spoke-ai-vnet'
+>   location: resourceGroup().location
+>   properties: {
+>     addressSpace: {
+>       addressPrefixes: [
+>         '10.1.0.0/16'
+>       ]
+>     }
+>     subnets: [
+>       {
+>         name: 'default'
+>         properties: {
+>           addressPrefix: '10.1.0.0/24'
+>         }
+>       }
+>     ]
+>   }
+> }
+> ```
+> <!-- tab end -->
 >
 > **Identity:**
 > - Use Entra ID for tenant-level identity and Managed Identities for resource access.
@@ -178,6 +375,9 @@ Define a scalable, secure, and governed AI Ready Azure Landing Zone architecture
 > **Operations:**
 > - Use Azure Policy and Azure Blueprints for repeatable landing zone deployment.
 > - Set up monitoring and alerting with Log Analytics workspaces.
+>
+> [!IMPORTANT]
+> For AI workloads, set up dedicated Log Analytics workspaces that collect comprehensive telemetry from both infrastructure components and AI services. This is crucial for end-to-end monitoring and AI-specific operational insights.
 
 **Example Landing Zone Architecture Table:**
 

@@ -35,6 +35,9 @@ flowchart LR
 
 ## 🎯 Objective
 
+> [!NOTE]
+> This is the most technical step of the challenge. Involve architects, developers, and security specialists in your design sessions to ensure comprehensive coverage of all aspects.
+
 Define the architecture, controls, and Azure services needed for a robust, secure, and scalable RAG solution.
 
 [🔝 Back to Top](#step-4-solution-design)
@@ -133,13 +136,100 @@ Consider these key aspects for your design:
 * **Azure AI Search:** How will you configure indexes and semantic search features?
 * **Vector Storage:** How will you implement and optimize vector search capabilities?
 
+> [!TIP]
+> Example Azure OpenAI configuration in Bicep:
+> 
+> ```bicep
+> resource openAiService 'Microsoft.CognitiveServices/accounts@2023-05-01' = {
+>   name: openAiServiceName
+>   location: location
+>   kind: 'OpenAI'
+>   sku: {
+>     name: 'S0'
+>   }
+>   properties: {
+>     customSubDomainName: openAiServiceName
+>     publicNetworkAccess: 'Disabled'
+>     networkAcls: {
+>       defaultAction: 'Deny'
+>       virtualNetworkRules: [
+>         {
+>           id: webAppSubnet.id
+>           ignoreMissingVnetServiceEndpoint: false
+>         }
+>       ]
+>     }
+>   }
+> }
+> 
+> resource gpt4Deployment 'Microsoft.CognitiveServices/accounts/deployments@2023-05-01' = {
+>   parent: openAiService
+>   name: 'gpt-4o'
+>   properties: {
+>     model: {
+>       name: 'gpt-4o'
+>       version: '2024-05-13'
+>     }
+>     scaleSettings: {
+>       capacity: 10
+>     }
+>   }
+> }
+> 
+> resource embeddingDeployment 'Microsoft.CognitiveServices/accounts/deployments@2023-05-01' = {
+>   parent: openAiService
+>   name: 'text-embedding-3-small'
+>   properties: {
+>     model: {
+>       name: 'text-embedding-3-small'
+>       version: '2024-03-01-preview'
+>     }
+>     scaleSettings: {
+>       capacity: 10
+>     }
+>   }
+> }
+> ```
+
 ### 3. Data Architecture
 
 * **Ingestion Pipeline:** How will documents flow into the system?
 * **Storage Strategy:** Where and how will source documents be stored?
 * **Chunking & Embedding:** What strategies will you use for optimal retrieval?
 
+> [!TIP]
+> Example configuration for document chunking strategy in Azure App Configuration:
+>
+> ```yaml
+> # appconfig-chunking-strategy.yaml
+> chunking:
+>   strategy: "recursive"
+>   chunk_size: 1000
+>   chunk_overlap: 200
+>   separators:
+>     - "\n\n"
+>     - "\n"
+>     - " "
+>     - ""
+>   metadata_includes:
+>     - "source"
+>     - "page"
+>     - "section"
+>   additional_metadata:
+>     organization: "IFS"
+>     sensitivity: "internal"
+>     content_type: "documentation"
+>
+> embedding:
+>   model: "text-embedding-3-small"
+>   dimensions: 1536
+>   vector_store: "azure-ai-search"
+> ```
+
 ### 4. Security Architecture
+
+> [!WARNING]
+> Security is critical for AI agent systems. Inadequate security controls can lead to data leakage, unauthorized access to AI capabilities, and compliance violations.
 
 * **Network Security:** How will you implement isolation and segmentation?
 * **Identity & Access:** How will you manage authentication and authorization?
@@ -191,6 +281,186 @@ Consider these key aspects for your design:
 
 ### Deployment Strategy
 [Outline your deployment approach]
+
+<!-- tabs -->
+# [Azure DevOps](#tab/azure-devops)
+
+```yaml
+# azure-pipelines.yml
+trigger:
+  branches:
+    include:
+    - main
+    - release/*
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+stages:
+- stage: Build
+  jobs:
+  - job: BuildJob
+    steps:
+    - task: DotNetCoreCLI@2
+      displayName: 'Build Application'
+      inputs:
+        command: 'build'
+        projects: '**/*.csproj'
+    
+    - task: DotNetCoreCLI@2
+      displayName: 'Publish Application'
+      inputs:
+        command: 'publish'
+        publishWebProjects: true
+        arguments: '--configuration Release --output $(Build.ArtifactStagingDirectory)'
+        zipAfterPublish: true
+    
+    - task: PublishBuildArtifacts@1
+      displayName: 'Publish Artifacts'
+      inputs:
+        PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+        ArtifactName: 'drop'
+        publishLocation: 'Container'
+
+- stage: Deploy
+  dependsOn: Build
+  jobs:
+  - job: DeployJob
+    steps:
+    - task: AzureResourceManagerTemplateDeployment@3
+      displayName: 'Deploy Infrastructure'
+      inputs:
+        deploymentScope: 'Resource Group'
+        azureResourceManagerConnection: 'Azure Connection'
+        subscriptionId: '$(subscriptionId)'
+        action: 'Create Or Update Resource Group'
+        resourceGroupName: '$(resourceGroupName)'
+        location: '$(location)'
+        templateLocation: 'Linked artifact'
+        csmFile: '$(Pipeline.Workspace)/drop/infra/main.bicep'
+        overrideParameters: '-environmentName $(environment)'
+        deploymentMode: 'Incremental'
+    
+    - task: AzureWebApp@1
+      displayName: 'Deploy Web App'
+      inputs:
+        azureSubscription: 'Azure Connection'
+        appType: 'webApp'
+        appName: '$(webAppName)'
+        package: '$(Pipeline.Workspace)/drop/**/*.zip'
+        deploymentMethod: 'auto'
+```
+
+# [GitHub Actions](#tab/github-actions)
+
+```yaml
+# .github/workflows/deploy.yml
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - main
+      - release/*
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '7.0.x'
+    
+    - name: Build
+      run: dotnet build --configuration Release
+    
+    - name: Publish
+      run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/app
+    
+    - name: Upload artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: app
+        path: ${{env.DOTNET_ROOT}}/app
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment: production
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Download artifact
+      uses: actions/download-artifact@v3
+      with:
+        name: app
+        path: app
+        
+    - name: Login to Azure
+      uses: azure/login@v1
+      with:
+        creds: ${{ secrets.AZURE_CREDENTIALS }}
+        
+    - name: Deploy Bicep
+      uses: azure/arm-deploy@v1
+      with:
+        subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
+        resourceGroupName: ${{ secrets.AZURE_RG }}
+        template: ./infra/main.bicep
+        parameters: environmentName=${{ secrets.ENVIRONMENT_NAME }}
+        
+    - name: Deploy Web App
+      uses: azure/webapps-deploy@v2
+      with:
+        app-name: ${{ secrets.WEBAPP_NAME }}
+        package: app
+```
+
+# [Azure CLI](#tab/azure-cli)
+
+```bash
+#!/bin/bash
+# deploy.sh
+
+# Variables
+RESOURCE_GROUP="rg-ai-agent-prod"
+LOCATION="eastus"
+APP_NAME="ai-agent-app"
+COSMOS_ACCOUNT="ai-agent-cosmos"
+SEARCH_SERVICE="ai-agent-search"
+OPENAI_SERVICE="ai-agent-openai"
+
+# Create Resource Group if it doesn't exist
+az group create --name $RESOURCE_GROUP --location $LOCATION
+
+# Deploy Bicep template
+az deployment group create \
+  --resource-group $RESOURCE_GROUP \
+  --template-file ./infra/main.bicep \
+  --parameters environmentName=prod \
+                 appName=$APP_NAME \
+                 cosmosAccountName=$COSMOS_ACCOUNT \
+                 searchServiceName=$SEARCH_SERVICE \
+                 openAiServiceName=$OPENAI_SERVICE
+
+# Build and publish the app
+dotnet publish -c Release -o ./publish
+
+# Deploy the app to App Service
+cd ./publish
+zip -r site.zip .
+az webapp deployment source config-zip \
+  --resource-group $RESOURCE_GROUP \
+  --name $APP_NAME \
+  --src site.zip
+```
+<!-- tab end -->
 ```
 
 ---
