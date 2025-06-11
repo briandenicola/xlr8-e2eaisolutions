@@ -7,6 +7,10 @@ nav_order: 0
 
 # AI Ready Challenge Overview
 
+[Home](../../index.md) > [AI Ready Challenge](../../ai-ready-challenge.md) > [Overview](./ifs-ready-overview.md)
+
+- [Next: Step 1 - AI Strategy & Plan ➡️](./ifs-ready-step1-customer.md)
+
 Welcome to the **IFS AI Ready Challenge**. You'll help customers safely adopt Azure for AI by following the [Cloud Adoption Framework for AI](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/ai/) process and proven Azure Well-Architected Framework (WAF) patterns.
 
 ---
@@ -164,3 +168,11 @@ The statistics and claims used in this document are based on the following indus
 - [Azure AI documentation](https://docs.microsoft.com/en-us/azure/ai-services/)
 - [Enterprise AI adoption patterns](https://docs.microsoft.com/en-us/azure/architecture/ai-ml/)
 - [AI security and compliance guidance](https://docs.microsoft.com/en-us/security/ai/)
+
+[🔝 Back to Top](#ai-ready-challenge-overview)
+
+---
+
+## Navigation
+- [Next: Step 1 - AI Strategy & Plan ➡️](./ifs-ready-step1-customer.md)
+- [🏠 AI Ready Challenge Home](../../ai-ready-challenge.md)

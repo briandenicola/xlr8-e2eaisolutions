@@ -1,3 +1,4 @@
+<!-- filepath: c:\Repos\xlr8-e2eaisolutions\docs\03-aihub\ifs-aihub-step3-design.md -->
 ---
 layout: default
 title: Step 3 - Design
@@ -7,7 +8,12 @@ nav_order: 3
 
 # Step 3: Design
 
-This section is part of the **IFS AI Hub Challenge**. Here, you’ll design the end-to-end architecture for the AI Hub, ensuring alignment with Azure best practices and reference architectures.
+[Home](../../index.md) > [AI Hub Challenge](../../ai-hub-challenge.md) > [Step 3 - Design](./ifs-aihub-step3-design.md)
+
+- [⬅️ Previous: Step 2 - Requirements](./ifs-aihub-step2-requirements.md)
+- [Next: Step 4 - Present ➡️](./ifs-aihub-step4-present.md)
+
+This section is part of the **IFS AI Hub Challenge**. Here, you'll design the end-to-end architecture for the AI Hub, ensuring alignment with Azure best practices and reference architectures.
 
 ---
 
@@ -15,41 +21,51 @@ This section is part of the **IFS AI Hub Challenge**. Here, you’ll design the 
 
 Define the architecture, controls, and Azure services needed for a robust, secure, and scalable AI Hub solution.
 
+[🔝 Back to Top](#step-3-design)
+
 ---
 
 ## Activities
 
-- Review your requirements from Step 2.
+- Review your findings from Steps 1 and 2.
 - As a team, design and document:
-  1. **Architecture Diagram:** Sketch a high-level diagram of the AI Hub (shared services, networking, identity, security, monitoring, etc.)
-  2. **Azure Services:** List and justify the core Azure services and controls you will use (e.g., API Management, OpenAI, AI Search, Key Vault, Log Analytics).
-  3. **Security & Governance:** Describe how you will enforce governance, compliance, and security (e.g., policies, private endpoints, managed identities).
-  4. **Operational Readiness:** Outline how you will monitor, manage, and support the environment.
-  5. **Scalability & Connectivity:** How will you support multiple workloads and secure cross-environment connectivity?
-  6. **Deployment:** How will you use IaC and CI/CD to automate deployment and updates?
+  1. **Architecture:** Draw a high-level architecture diagram showing the AI Hub architecture.
+  2. **Service Selection:** List Azure services that will be part of the AI Hub.
+  3. **Network Security:** Detail the network design including VNets, subnets, NSGs, and private endpoints.
+  4. **Identity & Access:** Define the identity model, service principals, managed identities, and RBAC.
+  5. **Cost Controls:** Design the approach for cost tagging, budgets, and alerts.
+  6. **Monitoring & Operations:** Design the monitoring strategy, logs, and alerts.
+  7. **Resource Management:** Define the resource group structure, tagging strategy, and governance controls.
+
+[🔝 Back to Top](#step-3-design)
 
 ---
 
 ## Guidance
 
-> **Reference:** [Azure OpenAI baseline Landing Zone reference architecture](https://learn.microsoft.com/azure/architecture/ai-ml/architecture/azure-openai-baseline-landing-zone) and [Azure Best Practices](../05-azure-best-practices/)
+> **Best Practice:** Reference the [Azure OpenAI baseline Landing Zone reference architecture](https://learn.microsoft.com/azure/architecture/ai-ml/architecture/azure-openai-baseline-landing-zone) and apply these principles to your broader AI Hub design.
 >
-> - Use diagrams and tables to clarify your design.
-> - Justify your Azure service choices based on requirements and best practices.
-> - Consider both current and future needs for scalability and governance.
+> - Incorporate architectural patterns from [Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/).
+> - Apply the [Well-Architected Framework](https://docs.microsoft.com/en-us/azure/architecture/framework/) pillars.
+> - Consider use of Infrastructure as Code (Bicep/ARM/Terraform) for deployment.
+
+[🔝 Back to Top](#step-3-design)
 
 ---
 
 ## Success Criteria
 
 By the end of this step, you should have:
-- Presented a clear architecture diagram with all major components and Azure services
-- Justified your service selection and design decisions
-- Described your approach to security, governance, and operational excellence
-- Outlined your deployment and monitoring strategy
+- A comprehensive AI Hub architecture diagram
+- Clear rationale for Azure service selections
+- Documentation of network, identity, cost, and operational controls
+- A governance model that meets IFS requirements
+
+[🔝 Back to Top](#step-3-design)
 
 ---
 
 ## Navigation
-- [⬅️ Back to Step 2](./ifs-aihub-step2-requirements.md)
-- [Next: Step 4 – Present ➡️](./ifs-aihub-step4-present.md)
+- [⬅️ Previous: Step 2 - Requirements](./ifs-aihub-step2-requirements.md)
+- [Next: Step 4 - Present ➡️](./ifs-aihub-step4-present.md)
+- [🏠 AI Hub Challenge Home](../../ai-hub-challenge.md)

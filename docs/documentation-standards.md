@@ -96,9 +96,39 @@ flowchart LR
 
 ## Navigation Standards
 
-Consistent navigation elements should appear at the bottom of pages:
+Each page should include three types of navigation elements:
 
-### Main Challenge Pages
+1. **Breadcrumb Navigation** at the top of the page
+2. **Previous/Next Navigation** at the top of the page
+3. **"Back to Top" Links** after each major section
+4. **Bottom Navigation** at the bottom of the page with Previous, Next, and Home links
+
+### Breadcrumb Navigation
+```markdown
+[Home](../../index.md) > [Challenge Name](../../challenge-name.md) > [Current Page](./current-page.md)
+```
+
+### Top Previous/Next Navigation
+```markdown
+- [⬅️ Previous: Previous Page](./previous-page.md)
+- [Next: Next Page ➡️](./next-page.md)
+```
+
+### Back to Top Links
+After each major section:
+```markdown
+[🔝 Back to Top](#section-heading-id)
+```
+
+### Bottom Navigation for Step Pages
+```markdown
+## Navigation
+- [⬅️ Previous: Previous Step](./previous-step-file.md)
+- [Next: Next Step ➡️](./next-step-file.md)
+- [🏠 Challenge Home](../../challenge-home.md)
+```
+
+### Main Challenge Pages Bottom Navigation
 ```markdown
 ## Navigation
 - [⬅️ Back to Home](./index.md)
@@ -106,13 +136,6 @@ Consistent navigation elements should appear at the bottom of pages:
 - [AI Ready Challenge](./ai-ready-challenge.md)
 - [AI Agent Challenge](./ai-agent-challenge.md)
 - [AI Hub Challenge](./ai-hub-challenge.md)
-```
-
-### Challenge Step Pages
-```markdown
-## Navigation
-- [⬅️ Back to Previous Step](./previous-step-file.md)
-- [Next: Step X – Name ➡️](./next-step-file.md)
 ```
 
 ## Frontmatter Standards

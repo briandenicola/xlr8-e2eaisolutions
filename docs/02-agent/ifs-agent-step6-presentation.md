@@ -7,6 +7,10 @@ nav_order: 6
 
 # Step 6: Present & Justify
 
+[Home](../../index.md) > [AI Agent Challenge](../../ai-agent-challenge.md) > [Step 6 - Present & Justify](./ifs-agent-step6-presentation.md)
+
+- [⬅️ Previous: Step 5 - Integration](./ifs-agent-step5-integration.md)
+
 This section is part of the **IFS AI Agent Challenge**. Here, you'll present your RAG solution and justify your design decisions to the group.
 
 ---
@@ -14,6 +18,8 @@ This section is part of the **IFS AI Agent Challenge**. Here, you'll present you
 ## Objective
 
 Communicate your design clearly, explain your choices, and demonstrate how your agentic RAG solution meets IFS's business and technical requirements while showcasing responsible AI implementation.
+
+[🔝 Back to Top](#step-6-present--justify)
 
 ---
 
@@ -181,5 +187,6 @@ Your solution will be evaluated on:
 ---
 
 ## Navigation
-- [⬅️ Back to Step 5](./ifs-agent-step5-integration.md)
-- [Back to Challenge Overview ➡️](./ifs-agent-overview.md)
+- [⬅️ Previous: Step 5 - Integration](./ifs-agent-step5-integration.md)
+- [Next: References ➡️](./ifs-agent-references.md)
+- [🏠 AI Agent Challenge Home](../../ai-agent-challenge.md)

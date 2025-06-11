@@ -7,6 +7,10 @@ nav_order: 4
 
 # Step 4: Present & Justify
 
+[Home](../../index.md) > [AI Ready Challenge](../../ai-ready-challenge.md) > [Step 4 - Present & Justify](./ifs-ready-step4-present.md)
+
+- [⬅️ Previous: Step 3 - AI Platform Design](./ifs-ready-step3-foundations.md)
+
 This section is part of the **IFS AI Ready Challenge**. Here, you'll present and validate your AI solution design, demonstrating alignment to CAF Govern & Manage phases and Azure WAF pillars.
 
 ---
@@ -130,7 +134,9 @@ By the end of this step, you will have successfully:
 
 ---
 
-[⬅️ Back: Step 3 – AI Solution Design](./ifs-ready-step3-foundations.md) | [🏠 Back to Overview](./ifs-ready-overview.md)
+## Navigation
+- [⬅️ Previous: Step 3 - AI Platform Design](./ifs-ready-step3-foundations.md)
+- [🏠 AI Ready Challenge Home](../../ai-ready-challenge.md)
 
 ---
 

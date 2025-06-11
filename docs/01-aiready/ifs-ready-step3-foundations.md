@@ -7,6 +7,11 @@ nav_order: 3
 
 # Step 3: AI Platform Design
 
+[Home](../../index.md) > [AI Ready Challenge](../../ai-ready-challenge.md) > [Step 3 - AI Platform Design](./ifs-ready-step3-foundations.md)
+
+- [⬅️ Previous: Step 2 - Requirements & Plan](./ifs-ready-step2-requirements.md)
+- [Next: Step 4 - Presentation ➡️](./ifs-ready-step4-present.md)
+
 This section is part of the **IFS AI Ready Challenge**. Here, you'll design the AI Ready Azure Landing Zone platform environment that meets IFS's regulatory, compliance, and best practice requirements, providing the foundation for future AI workloads.
 
 ---
@@ -19,6 +24,8 @@ What you need before starting:
 - **Key team representatives** available for design discussions
 - **Basic understanding of current Azure setup** (if any exists)
 - **Requirements from Step 2** as input for design decisions
+
+[🔝 Back to Top](#step-3-ai-platform-design)
 - **Access to architecture documentation** (if available)
 
 ---
@@ -224,7 +231,10 @@ Define a scalable, secure, and governed AI Ready Azure Landing Zone architecture
 
 ---
 
-[⬅️ Back: Step 2 – Requirements & Plan](./ifs-alz-step2-requirements.md) | [Next: Step 4 – Present & Justify ➡️](./ifs-ready-step4-present.md)
+## Navigation
+- [⬅️ Previous: Step 2 - Requirements & Plan](./ifs-ready-step2-requirements.md)
+- [Next: Step 4 - Presentation ➡️](./ifs-ready-step4-present.md)
+- [🏠 AI Ready Challenge Home](../../ai-ready-challenge.md)
 
 ---
 

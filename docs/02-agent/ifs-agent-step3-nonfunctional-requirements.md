@@ -7,6 +7,11 @@ nav_order: 3
 
 # Step 3: Non-Functional Requirements
 
+[Home](../../index.md) > [AI Agent Challenge](../../ai-agent-challenge.md) > [Step 3 - Non-Functional Requirements](./ifs-agent-step3-nonfunctional-requirements.md)
+
+- [⬅️ Previous: Step 2 - Functional Requirements](./ifs-agent-step2-functional-requirements.md)
+- [Next: Step 4 - Solution Design ➡️](./ifs-agent-step4-solution-design.md)
+
 This section is part of the **IFS AI Agent Challenge**. Here, you'll identify and document the business and technical requirements for the IFS Knowledge Assistant chatbot.
 
 ---
@@ -49,6 +54,8 @@ Consider aspects like:
    - Ability to expand knowledge domains without architecture redesign
    - Multi-language support (English initial phase, expansion later)
 
+[🔝 Back to Top](#step-3-non-functional-requirements)
+
 ### Technical Requirements
 
 Document requirements such as:
@@ -68,6 +75,8 @@ Document requirements such as:
    - Regional failover capabilities
    - No single point of failure in critical path
    - Graceful degradation under load
+
+[🔝 Back to Top](#step-3-non-functional-requirements)
 
 ### Security & Compliance Requirements
 
@@ -91,6 +100,8 @@ Ensure you cover:
    - Content filtering to prevent inappropriate responses
    - Content attribution for all responses
 
+[🔝 Back to Top](#step-3-non-functional-requirements)
+
 ### Operational Requirements
 
 Define needs for:
@@ -113,8 +124,11 @@ Define needs for:
    - User feedback collection and analysis
    - Regular security and compliance reviews
 
+[🔝 Back to Top](#step-3-non-functional-requirements)
+
 ---
 
 ## Navigation
-- [⬅️ Back to Step 2](./ifs-agent-step2-functional-requirements.md)
-- [Next: Step 4 – Solution Design ➡️](./ifs-agent-step4-solution-design.md)
+- [⬅️ Previous: Step 2 - Functional Requirements](./ifs-agent-step2-functional-requirements.md)
+- [Next: Step 4 - Solution Design ➡️](./ifs-agent-step4-solution-design.md)
+- [🏠 AI Agent Challenge Home](../../ai-agent-challenge.md)

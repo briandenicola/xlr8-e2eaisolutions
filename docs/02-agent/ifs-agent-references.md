@@ -7,6 +7,10 @@ nav_order: 7
 
 # References – AI Agent Challenge
 
+[Home](../../index.md) > [AI Agent Challenge](../../ai-agent-challenge.md) > [References](./ifs-agent-references.md)
+
+- [⬅️ Previous: Step 6 - Present & Justify](./ifs-agent-step6-presentation.md)
+
 - [Baseline OpenAI E2E Chat Reference Architecture (Microsoft Learn)](https://learn.microsoft.com/azure/architecture/ai-ml/architecture/baseline-openai-e2e-chat)
 - [Azure OpenAI baseline in an Azure landing zone](https://learn.microsoft.com/azure/architecture/ai-ml/architecture/azure-openai-baseline-landing-zone)
 - [Azure Best Practices](../05-azure-best-practices/)
@@ -15,5 +19,5 @@ nav_order: 7
 ---
 
 ## Navigation
-- [⬅️ Back to Step 6](./ifs-agent-step6-presentation.md)
-- [⬅️ Back to Overview](./ifs-agent-overview.md)
+- [⬅️ Previous: Step 6 - Present & Justify](./ifs-agent-step6-presentation.md)
+- [🏠 AI Agent Challenge Home](../../ai-agent-challenge.md)

@@ -7,6 +7,11 @@ nav_order: 5
 
 # Step 5: Integration
 
+[Home](../../index.md) > [AI Agent Challenge](../../ai-agent-challenge.md) > [Step 5 - Integration](./ifs-agent-step5-integration.md)
+
+- [⬅️ Previous: Step 4 - Solution Design](./ifs-agent-step4-solution-design.md)
+- [Next: Step 6 - Presentation ➡️](./ifs-agent-step6-presentation.md)
+
 This section is part of the **IFS AI Agent Challenge**. Here, you'll plan how to integrate your RAG solution into a secure, scalable Azure Landing Zone environment, following best practices and reference architectures.
 
 ---
@@ -14,6 +19,8 @@ This section is part of the **IFS AI Agent Challenge**. Here, you'll plan how to
 ## Objective
 
 Demonstrate how your RAG solution will be securely deployed, governed, and operated within Azure Landing Zones (ALZ).
+
+[🔝 Back to Top](#step-5-integration)
 
 ---
 
@@ -173,5 +180,6 @@ Your integration plan should address:
 ---
 
 ## Navigation
-- [⬅️ Back to Step 4](./ifs-agent-step4-solution-design.md)
-- [Next: Step 6 – Presentation ➡️](./ifs-agent-step6-presentation.md)
+- [⬅️ Previous: Step 4 - Solution Design](./ifs-agent-step4-solution-design.md)
+- [Next: Step 6 - Presentation ➡️](./ifs-agent-step6-presentation.md)
+- [🏠 AI Agent Challenge Home](../../ai-agent-challenge.md)

@@ -7,6 +7,10 @@ nav_order: 5
 
 # References – AI Hub Challenge
 
+[Home](../../index.md) > [AI Hub Challenge](../../ai-hub-challenge.md) > [References](./ifs-aihub-references.md)
+
+- [⬅️ Previous: Step 4 - Presentation](./ifs-aihub-step4-present.md)
+
 - [Microsoft Cloud Adoption Framework - AI Scenario](https://learn.microsoft.com/azure/cloud-adoption-framework/scenarios/ai/)
 - [Azure OpenAI baseline Landing Zone reference architecture](https://learn.microsoft.com/azure/architecture/ai-ml/architecture/azure-openai-baseline-landing-zone)
 - [Private networking for Azure AI services](https://learn.microsoft.com/azure/ai-services/cognitive-services-virtual-networks)
@@ -18,7 +22,13 @@ nav_order: 5
 - [Azure AI services governance](https://learn.microsoft.com/azure/cloud-adoption-framework/scenarios/ai/ai-ready/govern-ai-workloads)
 - [Cost management for AI workloads](https://learn.microsoft.com/azure/cloud-adoption-framework/scenarios/ai/ai-ready/track-costs)
 
+[🔝 Back to Top](#references--ai-hub-challenge)
+
 ---
+
+## Navigation
+- [⬅️ Previous: Step 4 - Presentation](./ifs-aihub-step4-present.md)
+- [🏠 AI Hub Challenge Home](../../ai-hub-challenge.md)
 
 ## Navigation
 - [⬅️ Back to Step 4](./ifs-aihub-step4-present.md)

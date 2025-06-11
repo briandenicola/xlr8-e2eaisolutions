@@ -1,3 +1,4 @@
+<!-- filepath: c:\Repos\xlr8-e2eaisolutions\docs\03-aihub\ifs-aihub-step2-requirements.md -->
 ---
 layout: default
 title: Step 2 - Requirements
@@ -7,13 +8,20 @@ nav_order: 2
 
 # Step 2: Requirements
 
-This section is part of the **IFS AI Hub Challenge**. Here, you’ll identify and document the business, technical, and governance requirements for a centralized AI Hub.
+[Home](../../index.md) > [AI Hub Challenge](../../ai-hub-challenge.md) > [Step 2 - Requirements](./ifs-aihub-step2-requirements.md)
+
+- [⬅️ Previous: Step 1 - Scenario](./ifs-aihub-step1-scenario.md)
+- [Next: Step 3 - Design ➡️](./ifs-aihub-step3-design.md)
+
+This section is part of the **IFS AI Hub Challenge**. Here, you'll identify and document the business, technical, and governance requirements for a centralized AI Hub.
 
 ---
 
 ## Objective
 
 Capture all critical requirements—network, access, secrets, monitoring, governance, and scalability—that must be addressed in your solution.
+
+[🔝 Back to Top](#step-2-requirements)
 
 ---
 
@@ -28,6 +36,8 @@ Capture all critical requirements—network, access, secrets, monitoring, govern
   5. **Governance:** What are the requirements for policy enforcement, resource management, compliance, and cost control?
   6. **Scalability:** What are the requirements for supporting multiple workloads and onboarding new services?
 
+[🔝 Back to Top](#step-2-requirements)
+
 ---
 
 ## Guidance
@@ -38,6 +48,8 @@ Capture all critical requirements—network, access, secrets, monitoring, govern
 > - Prioritize requirements as "Must Have" or "Nice to Have".
 > - Consider both current and future needs.
 
+[🔝 Back to Top](#step-2-requirements)
+
 ---
 
 ## Success Criteria
@@ -47,8 +59,11 @@ By the end of this step, you should have:
 - Prioritized requirements and aligned them with business needs
 - Ensured requirements reflect lessons learned from the RAG chatbot implementation
 
+[🔝 Back to Top](#step-2-requirements)
+
 ---
 
 ## Navigation
-- [⬅️ Back to Step 1](./ifs-aihub-step1-scenario.md)
-- [Next: Step 3 – Design ➡️](./ifs-aihub-step3-design.md)
+- [⬅️ Previous: Step 1 - Scenario](./ifs-aihub-step1-scenario.md)
+- [Next: Step 3 - Design ➡️](./ifs-aihub-step3-design.md)
+- [🏠 AI Hub Challenge Home](../../ai-hub-challenge.md)

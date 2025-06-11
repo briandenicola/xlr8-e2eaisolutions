@@ -7,6 +7,11 @@ nav_order: 1
 
 # Step 1: Agentic AI Principles & Patterns
 
+[Home](../../index.md) > [AI Agent Challenge](../../ai-agent-challenge.md) > [Step 1 - Agentic AI Principles & Patterns](./ifs-agent-step1-principles.md)
+
+- [⬅️ Previous: Challenge Overview](./ifs-agent-overview.md)
+- [Next: Step 2 - Functional Requirements ➡️](./ifs-agent-step2-functional-requirements.md)
+
 This step provides essential understanding of Agentic AI principles and patterns needed for the IFS AI Agent Challenge. Complete this foundational learning before proceeding to the functional requirements in Step 2.
 
 ---

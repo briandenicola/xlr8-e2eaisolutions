@@ -7,6 +7,11 @@ nav_order: 2
 
 # Step 2: Requirements & Plan
 
+[Home](../../index.md) > [AI Ready Challenge](../../ai-ready-challenge.md) > [Step 2 - Requirements & Plan](./ifs-ready-step2-requirements.md)
+
+- [⬅️ Previous: Step 1 - AI Strategy & Plan](./ifs-ready-step1-customer.md)
+- [Next: Step 3 - Foundations ➡️](./ifs-ready-step3-foundations.md)
+
 This section is part of the **IFS AI Ready Challenge**. Here, you'll capture and categorize all requirements—business outcomes, constraints, compliance, responsible AI guardrails, and operational needs—and map them to Azure Well-Architected Framework pillars.
 
 ---
@@ -21,6 +26,8 @@ This section is part of the **IFS AI Ready Challenge**. Here, you'll capture and
 - **Reduced scope creep** with documented boundaries
 - **Higher success rates** by focusing on achievable outcomes
 
+[🔝 Back to Top](#step-2-requirements--plan)
+
 ### Benefits of Structured Requirements
 
 | Benefit | With Clear Requirements | Without Clear Requirements |
@@ -29,6 +36,8 @@ This section is part of the **IFS AI Ready Challenge**. Here, you'll capture and
 | **Budget Management** | Controlled costs within planned budget | Cost overruns from unclear expectations |
 | **Team Alignment** | Everyone understands the goal | Confusion and conflicting priorities |
 | **Quality Outcomes** | Focused solutions that meet needs | Misaligned solutions requiring rework |
+
+[🔝 Back to Top](#step-2-requirements--plan)
 
 ---
 
@@ -42,6 +51,8 @@ What you need before starting:
 - **One person to capture notes**
 - **Key stakeholders available** for quick questions
 
+[🔝 Back to Top](#step-2-requirements--plan)
+
 ---
 
 ## Objective
@@ -51,6 +62,8 @@ Capture what you need AI to do for IFS by documenting:
 - Any constraints or limitations
 - Security, compliance, and safety requirements
 - Basic operational needs
+
+[🔝 Back to Top](#step-2-requirements--plan)
 
 ---
 
@@ -78,6 +91,8 @@ Mark each requirement as:
 - **Must Have** - Critical for success
 - **Should Have** - Important but not blocking
 - **Nice to Have** - Beneficial if time/budget allows
+
+[🔝 Back to Top](#step-2-requirements--plan)
 
 ---
 
@@ -110,6 +125,8 @@ Instead of complex WAF mapping, use these simple categories:
 - **Performance & Reliability** - Speed, accuracy, availability  
 - **Cost & Operations** - Budget, monitoring, support
 
+[🔝 Back to Top](#step-2-requirements--plan)
+
 ---
 
 ## Success Criteria
@@ -126,9 +143,14 @@ By the end of this step, you should have:
 - Have we covered the essential requirements?
 - Can we explain these requirements to leadership?
 
+[🔝 Back to Top](#step-2-requirements--plan)
+
 ---
 
-[⬅️ Back: Step 1 – AI Strategy & Plan](./ifs-ready-step1-customer.md) | [Next: Step 3 – AI Solution Design ➡️](./ifs-ready-step3-foundations.md)
+## Navigation
+- [⬅️ Previous: Step 1 – AI Strategy & Plan](./ifs-ready-step1-customer.md)
+- [Next: Step 3 – AI Solution Design ➡️](./ifs-ready-step3-foundations.md)
+- [🏠 AI Ready Challenge Home](../../ai-ready-challenge.md)
 
 ---
 
@@ -149,3 +171,5 @@ The statistics and claims used in this document are based on the following indus
 - [Cloud Adoption Framework for AI Planning](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/ai/plan)
 - [Azure Well-Architected Framework](https://docs.microsoft.com/en-us/azure/well-architected/)
 - [Requirements engineering best practices](https://docs.microsoft.com/en-us/azure/architecture/framework/)
+
+[🔝 Back to Top](#step-2-requirements--plan)

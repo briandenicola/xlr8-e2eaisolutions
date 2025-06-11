@@ -7,6 +7,11 @@ nav_order: 2
 
 # Step 2: Functional Requirements
 
+[Home](../../index.md) > [AI Agent Challenge](../../ai-agent-challenge.md) > [Step 2 - Functional Requirements](./ifs-agent-step2-functional-requirements.md)
+
+- [⬅️ Previous: Step 1 - Principles](./ifs-agent-step1-principles.md)
+- [Next: Step 3 - Non-Functional Requirements ➡️](./ifs-agent-step3-nonfunctional-requirements.md)
+
 This section is part of the **IFS AI Agent Challenge**. Here, you'll analyze the business scenario and user needs for the IFS Knowledge Assistant chatbot.
 
 ---
@@ -14,6 +19,8 @@ This section is part of the **IFS AI Agent Challenge**. Here, you'll analyze the
 ## Objective
 
 Understand the business context, user needs, and high-level goals for the RAG chatbot solution.
+
+[🔝 Back to Top](#step-2-functional-requirements)
 
 ---
 
@@ -92,12 +99,14 @@ The solution must integrate with:
    - Logging and monitoring solutions
 
 4. **Frontend interfaces**:
-   - Web application interface
-   - Teams integration (future phase)
+   - Web application interface   - Teams integration (future phase)
    - Mobile accessibility (future phase)
+   
+[🔝 Back to Top](#step-2-functional-requirements)
 
 ---
 
 ## Navigation
-- [⬅️ Back to Step 1](./ifs-agent-step1-principles.md)
-- [Next: Step 3 – Non-Functional Requirements ➡️](./ifs-agent-step3-nonfunctional-requirements.md)
+- [⬅️ Previous: Step 1 - Principles](./ifs-agent-step1-principles.md)
+- [Next: Step 3 - Non-Functional Requirements ➡️](./ifs-agent-step3-nonfunctional-requirements.md)
+- [🏠 AI Agent Challenge Home](../../ai-agent-challenge.md)

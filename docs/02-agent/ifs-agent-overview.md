@@ -7,6 +7,10 @@ nav_order: 0
 
 # AI Agent Challenge Overview
 
+[Home](../../index.md) > [AI Agent Challenge](../../ai-agent-challenge.md) > [Overview](./ifs-agent-overview.md)
+
+- [Next: Step 1 - Principles ➡️](./ifs-agent-step1-principles.md)
+
 Welcome to the **IFS AI Agent Challenge**. This challenge guides you through designing, deploying, and operationalizing an internal AI workload using Agentic AI principles, building on the foundation established in the AI Ready Challenge.
 
 ---
@@ -19,6 +23,8 @@ Before starting this challenge, ensure you have:
 - **Azure Landing Zone foundation** established from Challenge 1
 - **Access to internal stakeholders** for use case validation and requirements gathering
 - **One selected use case** from the AI Ready Challenge for detailed implementation
+
+[🔝 Back to Top](#ai-agent-challenge-overview)
 
 ---
 
@@ -125,6 +131,5 @@ By completing this challenge, teams will gain:
 ---
 
 ## Navigation
-
-- [⬅️ Back to AI Ready Challenge](../01-aiready/)
-- [Next: Step 1 – Agentic AI Principles & Patterns ➡️](./ifs-agent-step1-principles.md)
+- [Next: Step 1 - Principles ➡️](./ifs-agent-step1-principles.md)
+- [🏠 AI Agent Challenge Home](../../ai-agent-challenge.md)

@@ -7,6 +7,10 @@ nav_order: 1
 
 # Step 1: AI Strategy & Plan
 
+[Home](../../index.md) > [AI Ready Challenge](../../ai-ready-challenge.md) > [Step 1 - AI Strategy & Plan](./ifs-ready-step1-customer.md)
+
+- [Next: Step 2 – Requirements ➡️](./ifs-ready-step2-requirements.md)
+
 This section is part of the **IFS AI Ready Challenge**. Here you'll define business outcomes, identify AI use cases, and plan the AI adoption phases (Strategy & Plan).
 
 ---
@@ -21,6 +25,8 @@ This section is part of the **IFS AI Ready Challenge**. Here you'll define busin
 - **Stakeholder resistance** due to unclear value proposition
 - **Compliance and ethical risks** from unplanned AI deployment
 
+[🔝 Back to Top](#step-1-ai-strategy--plan)
+
 ### Strategic Success Framework
 
 | Success Factor | With Structured Strategy | Without Strategic Planning |
@@ -30,6 +36,8 @@ This section is part of the **IFS AI Ready Challenge**. Here you'll define busin
 | **Resource Allocation** | Prioritized, efficient investment | Scattered resources, competing priorities |
 | **Risk Management** | Proactive identification and mitigation | Reactive firefighting and compliance issues |
 | **Success Measurement** | Clear metrics and tracking | Ambiguous outcomes and accountability |
+
+[🔝 Back to Top](#step-1-ai-strategy--plan)
 
 ---
 
@@ -42,6 +50,8 @@ Before starting this step, gather:
 - **Simple current state overview** (what technology exists today)
 - **Understanding of IFS priorities** (what matters most to leadership)
 - **Executive alignment** (sponsor understands the goal)
+
+[🔝 Back to Top](#step-1-ai-strategy--plan)
 
 ---
 
@@ -57,8 +67,9 @@ Define IFS’s AI strategy by identifying key business outcomes, selecting high-
 - As a team:
   1. List **Top 3 Business Outcomes** for IFS’s AI adoption (e.g., fraud reduction, customer experience, cost optimization).
   2. Identify **Key AI Use Cases** that deliver those outcomes.
-  3. Map each use case to CAF AI phases **Strategy** and **Plan** activities.
-  4. Define **Success Metrics** and KPIs to measure AI impact.
+  3. Map each use case to CAF AI phases **Strategy** and **Plan** activities.  4. Define **Success Metrics** and KPIs to measure AI impact.
+
+[🔝 Back to Top](#step-1-ai-strategy--plan)
 
 ---
 
@@ -79,6 +90,8 @@ Define IFS’s AI strategy by identifying key business outcomes, selecting high-
 | Reduce fraudulent loans| Anomaly detection model  | Strategy, Plan| 10% fraud drop<br>False-positive <5% |
 | Improve customer NPS   | Personalized chatbot     | Strategy, Plan| +15 NPS points |
 
+[🔝 Back to Top](#step-1-ai-strategy--plan)
+
 ---
 
 ## Success Criteria
@@ -89,9 +102,14 @@ By the end of this step, you should have:
 - Established **3 success metrics** for each use case
 - A brief **AI Strategy & Plan summary** statement
 
+[🔝 Back to Top](#step-1-ai-strategy--plan)
+
 ---
 
-[⬅️ Back to Overview](./ifs-ready-overview.md) | [Next: Step 2 – Requirements ➡️](./ifs-ready-step2-requirements.md)
+## Navigation
+- [⬅️ Previous: Overview](./ifs-ready-overview.md) 
+- [Next: Step 2 – Requirements ➡️](./ifs-ready-step2-requirements.md)
+- [🏠 AI Ready Challenge Home](../../ai-ready-challenge.md)
 
 ---
 
@@ -113,3 +131,5 @@ The statistics and claims used in this document are based on the following indus
 - [Cloud Adoption Framework for AI](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/ai/)
 - [AI project management best practices](https://docs.microsoft.com/en-us/azure/architecture/ai-ml/guide/ai-project-lifecycle)
 - [Responsible AI strategic planning](https://www.microsoft.com/en-us/ai/responsible-ai)
+
+[🔝 Back to Top](#step-1-ai-strategy--plan)
