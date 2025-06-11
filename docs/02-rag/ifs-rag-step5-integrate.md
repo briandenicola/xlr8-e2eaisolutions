@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Step 5 - Integration
-parent: Agentic AI Challenge
+parent: AI Agent Challenge
 nav_order: 5
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Step 3 - Non-Functional Requirements
-parent: Agentic AI Challenge
+parent: AI Agent Challenge
 nav_order: 3
 ---
 

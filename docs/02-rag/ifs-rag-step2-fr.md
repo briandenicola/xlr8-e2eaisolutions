@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Step 2 - Functional Requirements
-parent: Agentic AI Challenge
+parent: AI Agent Challenge
 nav_order: 2
 ---
 

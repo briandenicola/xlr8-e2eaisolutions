@@ -1,0 +1,120 @@
+---
+layout: default
+title: Step 3 - Non-Functional Requirements
+parent: AI Agent Challenge
+nav_order: 3
+---
+
+# Step 3: Non-Functional Requirements
+
+This section is part of the **IFS AI Agent Challenge**. Here, you'll identify and document the business and technical requirements for the IFS Knowledge Assistant chatbot.
+
+---
+
+## Objective
+
+Capture all critical requirements—business, technical, security, compliance, and operational—that must be addressed in your solution.
+
+---
+
+## Activities
+
+- Review your findings from Step 2 (Functional Requirements).
+- As a team, discuss and document:
+  1. **Business Requirements:** What must the solution achieve for IFS to consider it a success?
+  2. **Technical Requirements:** What are the key technical needs?
+  3. **Security & Compliance:** What security, privacy, and compliance standards must be met?
+  4. **Operational Requirements:** What are the support, monitoring, and management needs?
+
+---
+
+## Guidance
+
+### Business Requirements
+
+Consider aspects like:
+
+1. **Cost Efficiency and ROI:**
+   - Implementation costs should be offset by productivity gains within 12 months
+   - Reduced time spent searching for information (target: 30% reduction)
+   - Integration with existing IT investments to minimize additional expenditure
+
+2. **User Adoption and Experience:**
+   - Interface must be intuitive with minimal training needed
+   - Response time must be under 3 seconds for standard queries
+   - Accuracy rate of 90%+ for responses with high confidence scores
+
+3. **Scalability and Growth:**
+   - Support for 5,000+ global employees
+   - Ability to expand knowledge domains without architecture redesign
+   - Multi-language support (English initial phase, expansion later)
+
+### Technical Requirements
+
+Document requirements such as:
+
+1. **Performance:**
+   - Sub-3 second response time for 95% of queries
+   - Support for 500+ concurrent users
+   - 99.9% system availability during business hours
+   - Efficient resource utilization with auto-scaling
+
+2. **Scalability:**
+   - Index capacity for 100,000+ documents (500GB+ of content)
+   - Support for document additions of 1,000+ per month
+   - Ability to scale to handle 25,000+ queries per day
+
+3. **Resilience:**
+   - Regional failover capabilities
+   - No single point of failure in critical path
+   - Graceful degradation under load
+
+### Security & Compliance Requirements
+
+Ensure you cover:
+
+1. **Data Protection:**
+   - All data must remain within approved Azure regions
+   - All data at rest and in transit must be encrypted
+   - No PII should be stored in logs or analytics
+   - Private network connectivity only (no public internet exposure)
+
+2. **Authentication & Authorization:**
+   - Integration with Azure Entra ID
+   - Role-based access control for different information categories
+   - Comprehensive audit logs of all system access and usage
+   - Secure service-to-service communication with managed identities
+
+3. **Compliance:**
+   - Adherence to financial industry regulations
+   - Ability to exclude certain sensitive document types from indexing
+   - Content filtering to prevent inappropriate responses
+   - Content attribution for all responses
+
+### Operational Requirements
+
+Define needs for:
+
+1. **Monitoring & Management:**
+   - Comprehensive logging and monitoring solution
+   - Real-time operational dashboards
+   - Alerting for performance, security, or availability issues
+   - Usage analytics and reporting capabilities
+
+2. **Support & Maintenance:**
+   - Automated deployment pipeline for updates
+   - Regular model retraining and content refreshing
+   - Clear versioning and rollback capabilities
+   - Knowledge management processes for content governance
+
+3. **Governance:**
+   - Process for content approval and review
+   - Continuous relevancy assessment of indexed materials
+   - User feedback collection and analysis
+   - Regular security and compliance reviews
+
+---
+
+## Navigation
+- [⬅️ Back to Step 2](./ifs-agent-step2-functional-requirements.md)
+- [Next: Step 4 – Solution Design ➡️](./ifs-agent-step4-solution-design.md)

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Step 1 - Agentic AI Principles & Patterns
-parent: Agentic AI Challenge
+parent: AI Agent Challenge
 nav_order: 1
 ---
 

@@ -28,8 +28,8 @@ Understand IFS's background, challenges, and strategic vision for AI adoption.
 ### [AI Ready Challenge](./ai-ready-challenge.md)
 Design a secure, scalable, and governed Azure foundation to support IFS's AI transformation journey.
 
-### [Agentic AI Challenge](./rag-challenge.md)
-Design a secure internal Retrieval-Augmented Generation (RAG) chatbot application for IFS employees.
+### [AI Agent Challenge](./ai-agent-challenge.md)
+Design a secure internal Retrieval-Augmented Generation (RAG) chatbot application for IFS employees using agentic AI principles.
 
 ### [AI Hub Challenge](./ai-hub-challenge.md)
 Design a dedicated, secure "AI Hub" environment to centrally manage and control access to shared Azure AI services.
@@ -40,8 +40,24 @@ Materials for organizing and running the IFS AI Transformation Workshop.
 ### [Azure Best Practices](./05-azure-best-practices/)
 Comprehensive best practices and recommendations for deploying and managing Azure AI workloads, based on Microsoft's official guidance.
 
+### [Documentation Standards](./documentation-standards.md)
+Standards for file naming, document structure, and content formatting.
+
 ### [Frequently Asked Questions](./ifs-faq.md)
 Common questions and answers about the workshop and IFS's AI journey.
+
+## Challenge Sequence
+
+The challenges are designed to be completed in sequence, building upon each other:
+
+```mermaid
+flowchart LR
+    A[AI Ready<br>Challenge]-->B[AI Agent<br>Challenge]-->C[AI Hub<br>Challenge]
+    
+    classDef challenge fill:#0072C6,stroke:#025,color:white,stroke-width:2px
+    
+    class A,B,C challenge
+```
 
 ## About the Challenges
 

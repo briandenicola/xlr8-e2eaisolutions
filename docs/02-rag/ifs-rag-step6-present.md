@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Step 6 - Present & Justify
-parent: Agentic AI Challenge
+parent: AI Agent Challenge
 nav_order: 6
 ---
 

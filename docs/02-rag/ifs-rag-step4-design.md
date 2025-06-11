@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Step 4 - Solution Design
-parent: Agentic AI Challenge
+parent: AI Agent Challenge
 nav_order: 4
 ---
 

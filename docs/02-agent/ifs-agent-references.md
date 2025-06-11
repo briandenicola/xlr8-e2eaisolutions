@@ -15,5 +15,5 @@ nav_order: 7
 ---
 
 ## Navigation
-- [⬅️ Back to Step 5](./ifs-rag-step5-present.md)
-- [⬅️ Back to Overview](./ifs-rag-overview.md)
+- [⬅️ Back to Step 6](./ifs-agent-step6-presentation.md)
+- [⬅️ Back to Overview](./ifs-agent-overview.md)
