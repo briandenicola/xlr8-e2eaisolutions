@@ -8,6 +8,10 @@ nav_order: 1
 # Step 1: AI Strategy & Plan
 
 **📊 Progress:** Step 1 of 4
+**⏱️ Estimated Time:** 1 hour
+
+## Executive Summary
+In this foundational step, you'll develop a strategic AI roadmap for IFS that aligns technology initiatives with business outcomes. By identifying high-impact use cases and establishing clear success metrics, you'll create the blueprint for a successful AI transformation journey.
 
 [Home](../../index.md) > [AI Ready Challenge](../../ai-ready-challenge.md) > [Step 1 - AI Strategy & Plan](./ifs-ready-step1-customer.md)
 
@@ -19,10 +23,10 @@ This section is part of the **IFS AI Ready Challenge**. Here you'll define busin
 
 ```mermaid
 flowchart LR
-    A[🚀 Start] --> B[📝 Step 1:\nStrategy & Plan]
-    B -->|Current| C[📋 Step 2:\nRequirements]
-    C --> D[🏗️ Step 3:\nFoundations]
-    D --> E[📊 Step 4:\nPresentation]
+    A[🚀 Start] --> B[📝 Step 1 Strategy & Plan]
+    B -->|Current| C[📋 Step 2 Requirements]
+    C --> D[🏗️ Step 3 Foundations]
+    D --> E[📊 Step 4 Presentation]
     style B fill:#90EE90,stroke:#333,stroke-width:2px
 ```
 
@@ -105,13 +109,15 @@ Define IFS’s AI strategy by identifying key business outcomes, selecting high-
 
 ---
 
-## Success Criteria
+## Success Criteria ✅
 
 By the end of this step, you should have:
-- Defined **3 business outcomes** with clear descriptions
-- Identified **3 AI use cases** mapped to those outcomes
-- Established **3 success metrics** for each use case
-- A brief **AI Strategy & Plan summary** statement
+- ✓ Defined **3 business outcomes** with clear descriptions
+- ✓ Identified **3 AI use cases** mapped to those outcomes
+- ✓ Established **3 success metrics** for each use case
+- ✓ A brief **AI Strategy & Plan summary** statement
+
+To successfully complete this step, ensure all items above are documented in your deliverable.
 
 [🔝 Back to Top](#step-1-ai-strategy--plan)
 

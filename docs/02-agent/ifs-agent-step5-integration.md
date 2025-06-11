@@ -8,10 +8,14 @@ nav_order: 5
 # Step 5: Integration
 
 **📊 Progress:** Step 5 of 6
+**⏱️ Estimated Time:** 1 hour
+
+## Executive Summary
+This step bridges your AI agent solution with IFS's enterprise architecture by ensuring proper integration with Azure Landing Zones. You'll develop a comprehensive plan that addresses networking, identity, security, and governance requirements while enabling your solution to operate within IFS's existing cloud environment.
 
 [Home](../../index.md) > [AI Agent Challenge](../../ai-agent-challenge.md) > [Step 5 - Integration](./ifs-agent-step5-integration.md)
 
-- [⬅️ Previous: Step 4 - Solution Design](./ifs-agent-step4-solution-design.md)
+- [⬅️ Previous: Step 4 - Solution Design](./ifs-agent-step4-solution-design.md) *(prerequisite)*
 - [Next: Step 6 - Presentation ➡️](./ifs-agent-step6-presentation.md)
 
 This section is part of the **IFS AI Agent Challenge**. Here, you'll plan how to integrate your RAG solution into a secure, scalable Azure Landing Zone environment, following best practices and reference architectures.
@@ -20,12 +24,12 @@ This section is part of the **IFS AI Agent Challenge**. Here, you'll plan how to
 
 ```mermaid
 flowchart LR
-    A[🚀 Start] --> B[📚 Step 1:\nPrinciples]
-    B --> C[📋 Step 2:\nFunctional Req]
-    C --> D[🔒 Step 3:\nNon-Functional Req]
-    D --> E[🏗️ Step 4:\nSolution Design]
-    E --> F[🔄 Step 5:\nIntegration]
-    F -->|Current| G[📊 Step 6:\nPresentation]
+    A[🚀 Start] --> B[📚 Step 1 Principles]
+    B --> C[📋 Step 2 Functional Req]
+    C --> D[🔒 Step 3 Non-Functional Req]
+    D --> E[🏗️ Step 4 Solution Design]
+    E --> F[🔄 Step 5 Integration]
+    F -->|Current| G[📊 Step 6 Presentation]
     style F fill:#90EE90,stroke:#333,stroke-width:2px
 ```
 
@@ -189,6 +193,21 @@ Your integration plan should address:
 ### Validation Strategy
 [Describe testing and validation approach]
 ```
+
+---
+
+## Success Criteria ✅
+
+By the end of this step, you should have:
+
+- ✓ **Identified the appropriate subscription and resource organization** for your solution
+- ✓ **Designed network integration** with proper segmentation, connectivity, and security controls
+- ✓ **Planned identity and access management** aligned with IFS's enterprise policies
+- ✓ **Documented policy compliance strategies** to meet organizational requirements
+- ✓ **Created a management integration approach** for monitoring, backup, and operations
+- ✓ **Established a clear validation strategy** to verify the solution works within the ALZ
+
+To successfully complete this step, your integration plan should demonstrate how your AI agent solution will operate securely and effectively within IFS's enterprise cloud environment.
 
 ---
 

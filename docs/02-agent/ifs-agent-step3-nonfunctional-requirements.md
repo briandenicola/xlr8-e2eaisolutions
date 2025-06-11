@@ -8,10 +8,14 @@ nav_order: 3
 # Step 3: Non-Functional Requirements
 
 **📊 Progress:** Step 3 of 6
+**⏱️ Estimated Time:** 1 hour
+
+## Executive Summary
+This step focuses on the critical quality attributes and operational constraints that will ensure your AI agent solution is secure, compliant, and performant. By identifying and addressing non-functional requirements early, you'll build a robust solution that meets IFS's enterprise standards while delivering a superior user experience.
 
 [Home](../../index.md) > [AI Agent Challenge](../../ai-agent-challenge.md) > [Step 3 - Non-Functional Requirements](./ifs-agent-step3-nonfunctional-requirements.md)
 
-- [⬅️ Previous: Step 2 - Functional Requirements](./ifs-agent-step2-functional-requirements.md)
+- [⬅️ Previous: Step 2 - Functional Requirements](./ifs-agent-step2-functional-requirements.md) *(prerequisite)*
 - [Next: Step 4 - Solution Design ➡️](./ifs-agent-step4-solution-design.md)
 
 This section is part of the **IFS AI Agent Challenge**. Here, you'll identify and document the business and technical requirements for the IFS Knowledge Assistant chatbot.
@@ -20,12 +24,12 @@ This section is part of the **IFS AI Agent Challenge**. Here, you'll identify an
 
 ```mermaid
 flowchart LR
-    A[🚀 Start] --> B[📚 Step 1:\nPrinciples]
-    B --> C[📋 Step 2:\nFunctional Req]
-    C --> D[🔒 Step 3:\nNon-Functional Req]
-    D -->|Current| E[🏗️ Step 4:\nSolution Design]
-    E --> F[🔄 Step 5:\nIntegration]
-    F --> G[📊 Step 6:\nPresentation]
+    A[🚀 Start] --> B[📚 Step 1 Principles]
+    B --> C[📋 Step 2 Functional Req]
+    C --> D[🔒 Step 3 Non-Functional Req]
+    D -->|Current| E[🏗️ Step 4 Solution Design]
+    E --> F[🔄 Step 5 Integration]
+    F --> G[📊 Step 6 Presentation]
     style D fill:#90EE90,stroke:#333,stroke-width:2px
 ```
 
@@ -138,6 +142,20 @@ Define needs for:
    - Regular security and compliance reviews
 
 [🔝 Back to Top](#step-3-non-functional-requirements)
+
+---
+
+## Success Criteria ✅
+
+By the end of this step, you should have:
+
+- ✓ **Documented security and compliance requirements** specific to IFS's industry and data types
+- ✓ **Defined performance metrics** including response times, throughput, and availability targets
+- ✓ **Identified responsible AI controls** needed to ensure ethical and trustworthy operation
+- ✓ **Specified operational requirements** for monitoring, management, and maintenance
+- ✓ **Established disaster recovery parameters** including RPO/RTO and business continuity needs
+
+To successfully complete this step, ensure all non-functional requirements are clearly documented and prioritized for incorporation into your solution design.
 
 ---
 

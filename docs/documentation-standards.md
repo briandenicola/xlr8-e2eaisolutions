@@ -83,7 +83,7 @@ Each challenge should include consistent workflow diagrams using Mermaid:
 ```mermaid
 flowchart LR
     Start([Start]) --> Step1
-    Step1[Step 1:\nName] --> Step2
+    Step1[Step 1 Name] --> Step2
     Step2 --> Step3
     Step3 --> End([End])
     

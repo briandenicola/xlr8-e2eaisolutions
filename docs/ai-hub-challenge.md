@@ -30,9 +30,9 @@ This section focuses on creating a scalable architecture for enterprise-wide AI 
 flowchart LR
     %% Define the flow of the AI Hub Challenge
     Start([Start]) --> Step1
-    Step1[Step 1:\nScenario] --> Step2[Step 2:\nRequirements]
-    Step2 --> Step3[Step 3:\nDesign]
-    Step3 --> Step4[Step 4:\nPresent & Justify]
+    Step1[Step 1 Scenario] --> Step2[Step 2 Requirements]
+    Step2 --> Step3[Step 3 Design]
+    Step3 --> Step4[Step 4 Present & Justify]
     Step4 --> End([End])
     
     %% Add descriptions

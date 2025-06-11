@@ -9,10 +9,14 @@ nav_order: 3
 # Step 3: Design
 
 **📊 Progress:** Step 3 of 4
+**⏱️ Estimated Time:** 5-6 hours
+
+## Executive Summary
+This step represents the core architecture work for the AI Hub solution. You'll create a comprehensive technical design that addresses IFS's requirements while following Azure best practices for secure, scalable AI platforms. Your design will establish a central foundation for accelerating AI innovation across the organization.
 
 [Home](../../index.md) > [AI Hub Challenge](../../ai-hub-challenge.md) > [Step 3 - Design](./ifs-aihub-step3-design.md)
 
-- [⬅️ Previous: Step 2 - Requirements](./ifs-aihub-step2-requirements.md)
+- [⬅️ Previous: Step 2 - Requirements](./ifs-aihub-step2-requirements.md) *(prerequisite)*
 - [Next: Step 4 - Present ➡️](./ifs-aihub-step4-present.md)
 
 This section is part of the **IFS AI Hub Challenge**. Here, you'll design the end-to-end architecture for the AI Hub, ensuring alignment with Azure best practices and reference architectures.
@@ -21,10 +25,10 @@ This section is part of the **IFS AI Hub Challenge**. Here, you'll design the en
 
 ```mermaid
 flowchart LR
-    A[🚀 Start] --> B[📝 Step 1:\nScenario]
-    B --> C[📋 Step 2:\nRequirements]
-    C --> D[🏗️ Step 3:\nDesign]
-    D -->|Current| E[📊 Step 4:\nPresentation]
+    A[🚀 Start] --> B[📝 Step 1 Scenario]
+    B --> C[📋 Step 2 Requirements]
+    C --> D[🏗️ Step 3 Design]
+    D -->|Current| E[📊 Step 4 Presentation]
     style D fill:#90EE90,stroke:#333,stroke-width:2px
 ```
 
@@ -64,13 +68,15 @@ Define the architecture, controls, and Azure services needed for a robust, secur
 
 ---
 
-## Success Criteria
+## Success Criteria ✅
 
 By the end of this step, you should have:
-- A comprehensive AI Hub architecture diagram
-- Clear rationale for Azure service selections
-- Documentation of network, identity, cost, and operational controls
-- A governance model that meets IFS requirements
+- ✓ A comprehensive AI Hub architecture diagram
+- ✓ Clear rationale for Azure service selections
+- ✓ Documentation of network, identity, cost, and operational controls
+- ✓ A governance model that meets IFS requirements
+
+To successfully complete this step, your design should provide a complete technical blueprint for implementing the AI Hub that addresses all requirements identified in the previous step.
 
 [🔝 Back to Top](#step-3-design)
 

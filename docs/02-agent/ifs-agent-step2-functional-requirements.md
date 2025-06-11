@@ -8,10 +8,14 @@ nav_order: 2
 # Step 2: Functional Requirements
 
 **📊 Progress:** Step 2 of 6
+**⏱️ Estimated Time:** 1 hour
+
+## Executive Summary
+This step focuses on understanding the business context and user requirements for the IFS Knowledge Assistant. By analyzing the scenario and identifying key functional needs, you'll establish a clear foundation for your agentic AI solution that delivers tangible value to IFS employees and customers.
 
 [Home](../../index.md) > [AI Agent Challenge](../../ai-agent-challenge.md) > [Step 2 - Functional Requirements](./ifs-agent-step2-functional-requirements.md)
 
-- [⬅️ Previous: Step 1 - Principles](./ifs-agent-step1-principles.md)
+- [⬅️ Previous: Step 1 - Principles](./ifs-agent-step1-principles.md) *(prerequisite)*
 - [Next: Step 3 - Non-Functional Requirements ➡️](./ifs-agent-step3-nonfunctional-requirements.md)
 
 This section is part of the **IFS AI Agent Challenge**. Here, you'll analyze the business scenario and user needs for the IFS Knowledge Assistant chatbot.
@@ -20,12 +24,12 @@ This section is part of the **IFS AI Agent Challenge**. Here, you'll analyze the
 
 ```mermaid
 flowchart LR
-    A[🚀 Start] --> B[📚 Step 1:\nPrinciples]
-    B --> C[📋 Step 2:\nFunctional Req]
-    C -->|Current| D[🔒 Step 3:\nNon-Functional Req]
-    D --> E[🏗️ Step 4:\nSolution Design]
-    E --> F[🔄 Step 5:\nIntegration]
-    F --> G[📊 Step 6:\nPresentation]
+    A[🚀 Start] --> B[📚 Step 1 Principles]
+    B --> C[📋 Step 2 Functional Req]
+    C -->|Current| D[🔒 Step 3 Non-Functional Req]
+    D --> E[🏗️ Step 4 Solution Design]
+    E --> F[🔄 Step 5 Integration]
+    F --> G[📊 Step 6 Presentation]
     style C fill:#90EE90,stroke:#333,stroke-width:2px
 ```
 
@@ -116,6 +120,19 @@ The solution must integrate with:
    - Mobile accessibility (future phase)
    
 [🔝 Back to Top](#step-2-functional-requirements)
+
+---
+
+## Success Criteria ✅
+
+By the end of this step, you should have:
+
+- ✓ **Identified the key business drivers** for the IFS Knowledge Assistant
+- ✓ **Documented core user needs** based on the scenario analysis
+- ✓ **Defined primary use cases** that the agent should support
+- ✓ **Listed integration requirements** with existing systems
+
+To successfully complete this step, ensure you have a clear understanding of what the IFS Knowledge Assistant needs to accomplish from a business and user perspective.
 
 ---
 

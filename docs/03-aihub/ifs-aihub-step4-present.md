@@ -9,10 +9,14 @@ nav_order: 4
 # Step 4: Present & Justify
 
 **📊 Progress:** Step 4 of 4
+**⏱️ Estimated Time:** 3-4 hours (preparation) + 30 minutes (presentation)
+
+## Executive Summary
+This final step showcases your AI Hub solution to key stakeholders at IFS. By developing a compelling presentation that highlights business value, architectural decisions, and implementation approach, you'll build confidence in your design and demonstrate how it will enable secure, governed AI innovation across the organization.
 
 [Home](../../index.md) > [AI Hub Challenge](../../ai-hub-challenge.md) > [Step 4 - Present & Justify](./ifs-aihub-step4-present.md)
 
-- [⬅️ Previous: Step 3 - Design](./ifs-aihub-step3-design.md)
+- [⬅️ Previous: Step 3 - Design](./ifs-aihub-step3-design.md) *(prerequisite)*
 
 This section is part of the **IFS AI Hub Challenge**. Here, you'll present your AI Hub solution and justify your design decisions to the group.
 
@@ -20,10 +24,10 @@ This section is part of the **IFS AI Hub Challenge**. Here, you'll present your 
 
 ```mermaid
 flowchart LR
-    A[🚀 Start] --> B[📝 Step 1:\nScenario]
-    B --> C[📋 Step 2:\nRequirements]
-    C --> D[🏗️ Step 3:\nDesign]
-    D --> E[📊 Step 4:\nPresentation]
+    A[🚀 Start] --> B[📝 Step 1 Scenario]
+    B --> C[📋 Step 2 Requirements]
+    C --> D[🏗️ Step 3 Design]
+    D --> E[📊 Step 4 Presentation]
     style E fill:#90EE90,stroke:#333,stroke-width:2px
 ```
 
@@ -85,13 +89,15 @@ Your solution will be evaluated on:
 - [Effective Technical Presentations](https://aka.ms/EffectiveTechPresentations)
 - [Azure Architecture Diagrams](https://learn.microsoft.com/en-us/azure/architecture/browse/)
 
-## Success Criteria
+## Success Criteria ✅
 
 By the end of this step, you should have:
-- Delivered a clear, compelling presentation of your AI Hub solution
-- Demonstrated how your design meets business and technical requirements
-- Explained your architectural decisions and their alignment with best practices
-- Received and responded to feedback from peers
+- ✓ Delivered a clear, compelling presentation of your AI Hub solution
+- ✓ Demonstrated how your design meets business and technical requirements
+- ✓ Explained your architectural decisions and their alignment with best practices
+- ✓ Received and responded to feedback from peers
+
+To successfully complete this step, your presentation should effectively communicate the business value and technical excellence of your AI Hub solution in a way that builds stakeholder confidence and support.
 
 [🔝 Back to Top](#step-4-present--justify)
 

@@ -9,6 +9,10 @@ nav_order: 1
 # Step 1: Scenario
 
 **📊 Progress:** Step 1 of 4
+**⏱️ Estimated Time:** 2 hours
+
+## Executive Summary
+This initial step establishes the business context and drivers for creating a centralized AI Hub at IFS. By analyzing the organizational challenges and needs, you'll develop a clear understanding of how a well-designed AI Hub can accelerate innovation while maintaining governance and security.
 
 [Home](../../index.md) > [AI Hub Challenge](../../ai-hub-challenge.md) > [Step 1 - Scenario](./ifs-aihub-step1-scenario.md)
 
@@ -20,10 +24,10 @@ This section is part of the **IFS AI Hub Challenge**. Here, you'll analyze the b
 
 ```mermaid
 flowchart LR
-    A[🚀 Start] --> B[📝 Step 1:\nScenario]
-    B -->|Current| C[📋 Step 2:\nRequirements]
-    C --> D[🏗️ Step 3:\nDesign]
-    D --> E[📊 Step 4:\nPresentation]
+    A[🚀 Start] --> B[📝 Step 1 Scenario]
+    B -->|Current| C[📋 Step 2 Requirements]
+    C --> D[🏗️ Step 3 Design]
+    D --> E[📊 Step 4 Presentation]
     style B fill:#90EE90,stroke:#333,stroke-width:2px
 ```
 
@@ -69,12 +73,14 @@ To address these emerging needs, IFS has decided to build a dedicated "AI Hub" t
 
 ---
 
-## Success Criteria
+## Success Criteria ✅
 
 By the end of this step, you should have:
-- Identified the primary business drivers and user needs for the AI Hub
-- Listed the core architectural and governance elements required
-- Acknowledged key lessons learned from the RAG chatbot implementation
+- ✓ Identified the primary business drivers and user needs for the AI Hub
+- ✓ Listed the core architectural and governance elements required
+- ✓ Acknowledged key lessons learned from the RAG chatbot implementation
+
+To successfully complete this step, ensure you have a clear understanding of why IFS needs a centralized AI Hub and what primary challenges it must address.
 
 [🔝 Back to Top](#step-1-scenario)
 

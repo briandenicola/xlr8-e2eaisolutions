@@ -8,10 +8,14 @@ nav_order: 2
 # Step 2: Requirements & Plan
 
 **📊 Progress:** Step 2 of 4
+**⏱️ Estimated Time:** 1 hour
+
+## Executive Summary
+This step translates strategic objectives into structured requirements that will guide your technical implementation. By documenting business, regulatory, and technical constraints, you'll create a comprehensive framework that ensures IFS's AI platform meets all necessary compliance and performance standards.
 
 [Home](../../index.md) > [AI Ready Challenge](../../ai-ready-challenge.md) > [Step 2 - Requirements & Plan](./ifs-ready-step2-requirements.md)
 
-- [⬅️ Previous: Step 1 - AI Strategy & Plan](./ifs-ready-step1-customer.md)
+- [⬅️ Previous: Step 1 - AI Strategy & Plan](./ifs-ready-step1-customer.md) *(prerequisite)*
 - [Next: Step 3 - Foundations ➡️](./ifs-ready-step3-foundations.md)
 
 This section is part of the **IFS AI Ready Challenge**. Here, you'll capture and categorize all requirements—business outcomes, constraints, compliance, responsible AI guardrails, and operational needs—and map them to Azure Well-Architected Framework pillars.
@@ -20,10 +24,10 @@ This section is part of the **IFS AI Ready Challenge**. Here, you'll capture and
 
 ```mermaid
 flowchart LR
-    A[🚀 Start] --> B[📝 Step 1:\nStrategy & Plan]
-    B --> C[📋 Step 2:\nRequirements]
-    C -->|Current| D[🏗️ Step 3:\nFoundations]
-    D --> E[📊 Step 4:\nPresentation]
+    A[🚀 Start] --> B[📝 Step 1 Strategy & Plan]
+    B --> C[📋 Step 2 Requirements]
+    C -->|Current| D[🏗️ Step 3 Foundations]
+    D --> E[📊 Step 4 Presentation]
     style C fill:#90EE90,stroke:#333,stroke-width:2px
 ```
 
@@ -140,13 +144,15 @@ Instead of complex WAF mapping, use these simple categories:
 
 ---
 
-## Success Criteria
+## Success Criteria ✅
 
 By the end of this step, you should have:
-- **5-10 key requirements** documented in simple language
-- **Clear priorities** (Must/Should/Nice to Have)
-- **Basic categorization** for each requirement
-- **Team agreement** on what matters most
+- ✓ **5-10 key requirements** documented in simple language
+- ✓ **Clear priorities** (Must/Should/Nice to Have)
+- ✓ **Basic categorization** for each requirement
+- ✓ **Team agreement** on what matters most
+
+To successfully complete this step, ensure your requirements document captures all business, technical, and regulatory constraints in a structured format with clear prioritization.
 
 ### Validation Questions
 - Does this make sense for our business?

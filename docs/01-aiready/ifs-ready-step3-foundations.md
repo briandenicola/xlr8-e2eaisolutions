@@ -8,10 +8,14 @@ nav_order: 3
 # Step 3: AI Platform Design
 
 **📊 Progress:** Step 3 of 4
+**⏱️ Estimated Time:** 2 hours
+
+## Executive Summary
+This step involves designing a secure, compliant Azure Landing Zone optimized for AI workloads. You'll create a comprehensive technical architecture that addresses IFS's requirements while following Azure best practices for deploying enterprise-grade AI solutions at scale.
 
 [Home](../../index.md) > [AI Ready Challenge](../../ai-ready-challenge.md) > [Step 3 - AI Platform Design](./ifs-ready-step3-foundations.md)
 
-- [⬅️ Previous: Step 2 - Requirements & Plan](./ifs-ready-step2-requirements.md)
+- [⬅️ Previous: Step 2 - Requirements & Plan](./ifs-ready-step2-requirements.md) *(prerequisite)*
 - [Next: Step 4 - Presentation ➡️](./ifs-ready-step4-present.md)
 
 This section is part of the **IFS AI Ready Challenge**. Here, you'll design the AI Ready Azure Landing Zone platform environment that meets IFS's regulatory, compliance, and best practice requirements, providing the foundation for future AI workloads.
@@ -20,10 +24,10 @@ This section is part of the **IFS AI Ready Challenge**. Here, you'll design the 
 
 ```mermaid
 flowchart LR
-    A[🚀 Start] --> B[📝 Step 1:\nStrategy & Plan]
-    B --> C[📋 Step 2:\nRequirements]
-    C --> D[🏗️ Step 3:\nFoundations]
-    D -->|Current| E[📊 Step 4:\nPresentation]
+    A[🚀 Start] --> B[📝 Step 1 Strategy & Plan]
+    B --> C[📋 Step 2 Requirements]
+    C --> D[🏗️ Step 3 Foundations]
+    D -->|Current| E[📊 Step 4 Presentation]
     style D fill:#90EE90,stroke:#333,stroke-width:2px
 ```
 
@@ -199,17 +203,19 @@ Define a scalable, secure, and governed AI Ready Azure Landing Zone architecture
 
 ---
 
-## Success Criteria & Team Alignment
+## Success Criteria ✅
 
 **Meeting these criteria ensures your ALZ foundation will support successful AI deployment.**
 
 ### Key Deliverables
 
+To successfully complete this step, you must produce:
+
 ✅ **Management group and subscription layout diagram** - Validated by Infrastructure and Security teams  
 ✅ **Policy baseline assignments** covering regulatory & compliance controls  
 ✅ **Network topology diagram** showing secure connectivity - Confirmed by Network team  
 ✅ **Identity and access plan** with least-privileged operations - Validated by Security team  
-✅ **Operational readiness plan** with monitoring, management, automation - Confirmed by Operations team  
+✅ **Operational readiness plan** with monitoring, management, automation - Confirmed by Operations team
 
 ### Team Validation Process
 

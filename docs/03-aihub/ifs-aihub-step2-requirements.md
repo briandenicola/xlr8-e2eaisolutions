@@ -9,10 +9,14 @@ nav_order: 2
 # Step 2: Requirements
 
 **📊 Progress:** Step 2 of 4
+**⏱️ Estimated Time:** 3-4 hours
+
+## Executive Summary
+In this step, you'll define the specific functional and non-functional requirements for IFS's AI Hub. By clearly documenting technical, security, governance, and operational needs, you'll establish a comprehensive framework that will guide your architecture design and ensure that the solution addresses all stakeholder concerns.
 
 [Home](../../index.md) > [AI Hub Challenge](../../ai-hub-challenge.md) > [Step 2 - Requirements](./ifs-aihub-step2-requirements.md)
 
-- [⬅️ Previous: Step 1 - Scenario](./ifs-aihub-step1-scenario.md)
+- [⬅️ Previous: Step 1 - Scenario](./ifs-aihub-step1-scenario.md) *(prerequisite)*
 - [Next: Step 3 - Design ➡️](./ifs-aihub-step3-design.md)
 
 This section is part of the **IFS AI Hub Challenge**. Here, you'll identify and document the business, technical, and governance requirements for a centralized AI Hub.
@@ -21,10 +25,10 @@ This section is part of the **IFS AI Hub Challenge**. Here, you'll identify and 
 
 ```mermaid
 flowchart LR
-    A[🚀 Start] --> B[📝 Step 1:\nScenario]
-    B --> C[📋 Step 2:\nRequirements]
-    C -->|Current| D[🏗️ Step 3:\nDesign]
-    D --> E[📊 Step 4:\nPresentation]
+    A[🚀 Start] --> B[📝 Step 1 Scenario]
+    B --> C[📋 Step 2 Requirements]
+    C -->|Current| D[🏗️ Step 3 Design]
+    D --> E[📊 Step 4 Presentation]
     style C fill:#90EE90,stroke:#333,stroke-width:2px
 ```
 
@@ -63,12 +67,14 @@ Capture all critical requirements—network, access, secrets, monitoring, govern
 
 ---
 
-## Success Criteria
+## Success Criteria ✅
 
 By the end of this step, you should have:
-- Documented requirements for each major area (network, access, secrets, monitoring, governance, scalability)
-- Prioritized requirements and aligned them with business needs
-- Ensured requirements reflect lessons learned from the RAG chatbot implementation
+- ✓ Documented requirements for each major area (network, access, secrets, monitoring, governance, scalability)
+- ✓ Prioritized requirements and aligned them with business needs
+- ✓ Ensured requirements reflect lessons learned from the RAG chatbot implementation
+
+To successfully complete this step, ensure your requirements are specific, measurable, and address all key aspects of the AI Hub solution.
 
 [🔝 Back to Top](#step-2-requirements)
 

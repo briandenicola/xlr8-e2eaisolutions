@@ -8,10 +8,14 @@ nav_order: 4
 # Step 4: Solution Design
 
 **📊 Progress:** Step 4 of 6
+**⏱️ Estimated Time:** 2 hours
+
+## Executive Summary
+This is the core technical design phase where you'll architect a sophisticated agentic AI solution for IFS. Building on your requirements analysis, you'll create a comprehensive architecture that leverages Azure AI services, implements multi-agent patterns, and ensures enterprise-grade security and scalability.
 
 [Home](../../index.md) > [AI Agent Challenge](../../ai-agent-challenge.md) > [Step 4 - Solution Design](./ifs-agent-step4-solution-design.md)
 
-- [⬅️ Previous: Step 3 - Non-Functional Requirements](./ifs-agent-step3-nonfunctional-requirements.md)
+- [⬅️ Previous: Step 3 - Non-Functional Requirements](./ifs-agent-step3-nonfunctional-requirements.md) *(prerequisite)*
 - [Next: Step 5 - Integration ➡️](./ifs-agent-step5-integration.md)
 
 This section is part of the **IFS AI Agent Challenge**. Here, you'll design the end-to-end architecture for the IFS Knowledge Assistant chatbot, ensuring alignment with Azure best practices and the Baseline OpenAI E2E Chat reference architecture.
@@ -20,12 +24,12 @@ This section is part of the **IFS AI Agent Challenge**. Here, you'll design the 
 
 ```mermaid
 flowchart LR
-    A[🚀 Start] --> B[📚 Step 1:\nPrinciples]
-    B --> C[📋 Step 2:\nFunctional Req]
-    C --> D[🔒 Step 3:\nNon-Functional Req]
-    D --> E[🏗️ Step 4:\nSolution Design]
-    E -->|Current| F[🔄 Step 5:\nIntegration]
-    F --> G[📊 Step 6:\nPresentation]
+    A[🚀 Start] --> B[📚 Step 1 Principles]
+    B --> C[📋 Step 2 Functional Req]
+    C --> D[🔒 Step 3 Non-Functional Req]
+    D --> E[🏗️ Step 4 Solution Design]
+    E -->|Current| F[🔄 Step 5 Integration]
+    F --> G[📊 Step 6 Presentation]
     style E fill:#90EE90,stroke:#333,stroke-width:2px
 ```
 
@@ -188,6 +192,21 @@ Consider these key aspects for your design:
 ### Deployment Strategy
 [Outline your deployment approach]
 ```
+
+---
+
+## Success Criteria ✅
+
+By the end of this step, you should have:
+
+- ✓ **Created a comprehensive architecture diagram** showing all components of your solution
+- ✓ **Designed the agent orchestration approach** with clearly defined agent roles and interactions
+- ✓ **Selected appropriate Azure services** for each part of the solution
+- ✓ **Addressed all functional and non-functional requirements** identified in previous steps
+- ✓ **Incorporated security and governance controls** throughout the solution architecture
+- ✓ **Established a clear deployment and operations strategy** for ongoing management
+
+To successfully complete this step, your solution design should be technically sound, align with Azure best practices, and provide a clear roadmap for implementation.
 
 ---
 

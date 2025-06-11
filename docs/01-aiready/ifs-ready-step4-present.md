@@ -8,10 +8,14 @@ nav_order: 4
 # Step 4: Present & Justify
 
 **📊 Progress:** Step 4 of 4
+**⏱️ Estimated Time:** 30 minutes (preparation) + 20 minutes (presentation, per team)
+
+## Executive Summary
+In this final step, you'll craft a compelling presentation that showcases your AI Ready solution to key stakeholders. By highlighting business value, technical excellence, and strategic alignment, you'll build confidence in your design and secure buy-in for implementation.
 
 [Home](../../index.md) > [AI Ready Challenge](../../ai-ready-challenge.md) > [Step 4 - Present & Justify](./ifs-ready-step4-present.md)
 
-- [⬅️ Previous: Step 3 - AI Platform Design](./ifs-ready-step3-foundations.md)
+- [⬅️ Previous: Step 3 - AI Platform Design](./ifs-ready-step3-foundations.md) *(prerequisite)*
 
 This section is part of the **IFS AI Ready Challenge**. Here, you'll present and validate your AI solution design, demonstrating alignment to CAF Govern & Manage phases and Azure WAF pillars.
 
@@ -19,10 +23,10 @@ This section is part of the **IFS AI Ready Challenge**. Here, you'll present and
 
 ```mermaid
 flowchart LR
-    A[🚀 Start] --> B[📝 Step 1:\nStrategy & Plan]
-    B --> C[📋 Step 2:\nRequirements]
-    C --> D[🏗️ Step 3:\nFoundations]
-    D --> E[📊 Step 4:\nPresentation]
+    A[🚀 Start] --> B[📝 Step 1 Strategy & Plan]
+    B --> C[📋 Step 2 Requirements]
+    C --> D[🏗️ Step 3 Foundations]
+    D --> E[📊 Step 4 Presentation]
     style E fill:#90EE90,stroke:#333,stroke-width:2px
 ```
 
@@ -127,15 +131,17 @@ Communicate your design clearly, explain your choices, and demonstrate how your 
 
 ---
 
-## Success Criteria
+## Success Criteria ✅
 
 By the end of this step, you will have successfully:
-- [ ] **Delivered a compelling presentation** that connects technical design to business value
-- [ ] **Demonstrated comprehensive coverage** of CAF phases and WAF pillars
-- [ ] **Showcased responsible AI** and security controls throughout your solution
-- [ ] **Engaged stakeholders** effectively through clear communication and confident Q&A
-- [ ] **Received constructive feedback** and incorporated insights for refinement
-- [ ] **Built organizational confidence** in your AI solution approach
+- ✓ **Delivered a compelling presentation** that connects technical design to business value
+- ✓ **Demonstrated comprehensive coverage** of CAF phases and WAF pillars
+- ✓ **Showcased responsible AI** and security controls throughout your solution
+- ✓ **Engaged stakeholders** effectively through clear communication and confident Q&A
+- ✓ **Received constructive feedback** and incorporated insights for refinement
+- ✓ **Built organizational confidence** in your AI solution approach
+
+To successfully complete this step, prepare and deliver a presentation that clearly communicates your solution's business value, technical excellence, and strategic alignment with IFS's goals.
 
 **Validation Checkpoints:**
 - Stakeholders can clearly articulate the business value of your solution

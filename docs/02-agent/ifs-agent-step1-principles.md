@@ -8,6 +8,10 @@ nav_order: 1
 # Step 1: Agentic AI Principles & Patterns
 
 **📊 Progress:** Step 1 of 6
+**⏱️ Estimated Time:** 1 hour
+
+## Executive Summary
+This foundational step introduces the key concepts, patterns, and architectures for building effective agentic AI systems. By understanding these principles, you'll establish the knowledge base required to design a sophisticated AI agent solution for IFS that goes beyond simple RAG implementations.
 
 [Home](../../index.md) > [AI Agent Challenge](../../ai-agent-challenge.md) > [Step 1 - Agentic AI Principles & Patterns](./ifs-agent-step1-principles.md)
 
@@ -20,12 +24,12 @@ This step provides essential understanding of Agentic AI principles and patterns
 
 ```mermaid
 flowchart LR
-    A[🚀 Start] --> B[📚 Step 1:\nPrinciples]
-    B -->|Current| C[📋 Step 2:\nFunctional Req]
-    C --> D[🔒 Step 3:\nNon-Functional Req]
-    D --> E[🏗️ Step 4:\nSolution Design]
-    E --> F[🔄 Step 5:\nIntegration]
-    F --> G[📊 Step 6:\nPresentation]
+    A[🚀 Start] --> B[📚 Step 1 Principles]
+    B -->|Current| C[📋 Step 2 Functional Req]
+    C --> D[🔒 Step 3 Non-Functional Req]
+    D --> E[🏗️ Step 4 Solution Design]
+    E --> F[🔄 Step 5 Integration]
+    F --> G[📊 Step 6 Presentation]
     style B fill:#90EE90,stroke:#333,stroke-width:2px
 ```
 
@@ -359,6 +363,19 @@ flowchart TD
 * Critique their own outputs
 * Iteratively improve responses through self-evaluation
 * Implement internal testing and validation
+
+---
+
+## Success Criteria ✅
+
+By the end of this step, you should:
+
+- ✓ **Understand the fundamental concepts** of agentic AI and how they differ from traditional AI systems
+- ✓ **Recognize the key patterns** for designing effective AI agents
+- ✓ **Identify appropriate architectures** for different types of agent systems
+- ✓ **Comprehend orchestration approaches** for coordinating multiple agents
+
+To successfully complete this step, ensure you can explain these concepts to your team and apply them to the upcoming challenge requirements.
 
 ---
 

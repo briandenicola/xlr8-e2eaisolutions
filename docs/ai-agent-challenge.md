@@ -32,11 +32,11 @@ This section focuses on creating a chatbot architecture that integrates with the
 flowchart LR
     %% Define the flow of the AI Agent Challenge
     Start([Start]) --> Step1
-    Step1[Step 1:\nAgentic AI Principles] --> Step2[Step 2:\nFunctional Req.]
-    Step2 --> Step3[Step 3:\nNon-Functional Req.]
-    Step3 --> Step4[Step 4:\nSolution Design]
-    Step4 --> Step5[Step 5:\nIntegration]
-    Step5 --> Step6[Step 6:\nPresent & Justify]
+    Step1[Step 1 Agentic AI Principles] --> Step2[Step 2 Functional Req.]
+    Step2 --> Step3[Step 3 Non-Functional Req.]
+    Step3 --> Step4[Step 4 Solution Design]
+    Step4 --> Step5[Step 5 Integration]
+    Step5 --> Step6[Step 6 Present & Justify]
     Step6 --> End([End])
     
     %% Add descriptions

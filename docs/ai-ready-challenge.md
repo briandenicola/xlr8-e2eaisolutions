@@ -30,9 +30,9 @@ This section walks you through the process of designing Azure Landing Zones alig
 flowchart LR
     %% Define the flow of the AI Ready Challenge
     Start([Start]) --> Step1
-    Step1[Step 1:\nCustomer Context] --> Step2[Step 2:\nRequirements]
-    Step2 --> Step3[Step 3:\nFoundations Design]
-    Step3 --> Step4[Step 4:\nPresent & Justify]
+    Step1[Step 1 Customer Context] --> Step2[Step 2 Requirements]
+    Step2 --> Step3[Step 3 Foundations Design]
+    Step3 --> Step4[Step 4 Present & Justify]
     Step4 --> End([End])
     
     %% Add descriptions
