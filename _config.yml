@@ -17,11 +17,30 @@ exclude:
   - "workshop-assets/**"
   - vendor/
   - "vendor/**"
+  - "*.md"
+  - "!docs/**/*.md"
   - README.md
   - LICENSE
+  - NAVIGATION_STRUCTURE.md
+  - raci.md
+  - ".*"
+  - NAVIGATION_STRUCTURE.md
+  - raci.md
+  - Gemfile
+  - Gemfile.lock
+  - "*.lock"
+  - "*.log"
+  - "*.yml"
+  - "*.md.saved"
 
 aux_links:
   Template Repository: https://github.com/jonathan-vella/xlr8-e2eaisolutions
+
+# Collapse the "On This Page" navigation for each page
+toc:
+  enabled: true
+  h_min: 2
+  h_max: 3
 
 # For proper linking in the navigation
 # This is entirely commented out to prevent duplicate navigation

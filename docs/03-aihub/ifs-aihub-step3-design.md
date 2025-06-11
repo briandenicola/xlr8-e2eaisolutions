@@ -1,4 +1,3 @@
-<!-- filepath: c:\Repos\xlr8-e2eaisolutions\docs\03-aihub\ifs-aihub-step3-design.md -->
 ---
 layout: default
 title: Step 3 - Design
