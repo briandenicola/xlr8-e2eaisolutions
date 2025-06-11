@@ -1,3 +1,12 @@
+---
+layout: default
+title: Simplified RACI Model for AI on Azure
+nav_exclude: true
+search_exclude: true
+sitemap: false
+permalink: /raci-model/
+---
+
 # Simplified RACI Model for AI on Azure
 
 ## Introduction

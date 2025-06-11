@@ -1,3 +1,12 @@
+---
+layout: default
+title: Navigation Structure
+nav_exclude: true
+search_exclude: true
+sitemap: false
+permalink: /nav-structure/
+---
+
 # Jekyll Navigation Structure Summary
 
 ## Overview

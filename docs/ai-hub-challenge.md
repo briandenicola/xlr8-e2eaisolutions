@@ -51,10 +51,3 @@ flowchart LR
     classDef annotation fill:#F8F9FA,stroke:#DDD,color:#333
     class Ann1,Ann2,Ann3,Ann4 annotation
 ```
-
-## Navigation
-- [⬅️ Back to Home](./index.md) 
-- [Customer Story](./ifs-customer-story.md)
-- [AI Ready Challenge](./ai-ready-challenge.md)
-- [AI Agent Challenge](./ai-agent-challenge.md)
-- [AI Hub Challenge](./ai-hub-challenge.md)
