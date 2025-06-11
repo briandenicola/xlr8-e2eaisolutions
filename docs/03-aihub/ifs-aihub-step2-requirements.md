@@ -8,6 +8,8 @@ nav_order: 2
 
 # Step 2: Requirements
 
+**📊 Progress:** Step 2 of 4
+
 [Home](../../index.md) > [AI Hub Challenge](../../ai-hub-challenge.md) > [Step 2 - Requirements](./ifs-aihub-step2-requirements.md)
 
 - [⬅️ Previous: Step 1 - Scenario](./ifs-aihub-step1-scenario.md)
@@ -17,7 +19,16 @@ This section is part of the **IFS AI Hub Challenge**. Here, you'll identify and 
 
 ---
 
-## Objective
+```mermaid
+flowchart LR
+    A[🚀 Start] --> B[📝 Step 1:\nScenario]
+    B --> C[📋 Step 2:\nRequirements]
+    C -->|Current| D[🏗️ Step 3:\nDesign]
+    D --> E[📊 Step 4:\nPresentation]
+    style C fill:#90EE90,stroke:#333,stroke-width:2px
+```
+
+## 🎯 Objective
 
 Capture all critical requirements—network, access, secrets, monitoring, governance, and scalability—that must be addressed in your solution.
 
@@ -25,7 +36,7 @@ Capture all critical requirements—network, access, secrets, monitoring, govern
 
 ---
 
-## Activities
+## 📝 Activities
 
 - Review your findings from Step 1 (Scenario).
 - As a team, discuss and document:

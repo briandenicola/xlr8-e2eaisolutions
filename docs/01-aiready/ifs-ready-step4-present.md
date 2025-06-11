@@ -7,6 +7,8 @@ nav_order: 4
 
 # Step 4: Present & Justify
 
+**📊 Progress:** Step 4 of 4
+
 [Home](../../index.md) > [AI Ready Challenge](../../ai-ready-challenge.md) > [Step 4 - Present & Justify](./ifs-ready-step4-present.md)
 
 - [⬅️ Previous: Step 3 - AI Platform Design](./ifs-ready-step3-foundations.md)
@@ -15,7 +17,16 @@ This section is part of the **IFS AI Ready Challenge**. Here, you'll present and
 
 ---
 
-## Why Effective Presentation Matters
+```mermaid
+flowchart LR
+    A[🚀 Start] --> B[📝 Step 1:\nStrategy & Plan]
+    B --> C[📋 Step 2:\nRequirements]
+    C --> D[🏗️ Step 3:\nFoundations]
+    D --> E[📊 Step 4:\nPresentation]
+    style E fill:#90EE90,stroke:#333,stroke-width:2px
+```
+
+## 🎤 Why Effective Presentation Matters
 
 Great AI solutions can fail if they're not communicated effectively. Research shows that **75% of IT projects fail due to poor communication** rather than technical issues. Your presentation is the bridge between excellent technical work and business success.
 

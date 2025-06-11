@@ -7,6 +7,8 @@ nav_order: 4
 
 # Step 4: Solution Design
 
+**📊 Progress:** Step 4 of 6
+
 [Home](../../index.md) > [AI Agent Challenge](../../ai-agent-challenge.md) > [Step 4 - Solution Design](./ifs-agent-step4-solution-design.md)
 
 - [⬅️ Previous: Step 3 - Non-Functional Requirements](./ifs-agent-step3-nonfunctional-requirements.md)
@@ -16,7 +18,18 @@ This section is part of the **IFS AI Agent Challenge**. Here, you'll design the 
 
 ---
 
-## Objective
+```mermaid
+flowchart LR
+    A[🚀 Start] --> B[📚 Step 1:\nPrinciples]
+    B --> C[📋 Step 2:\nFunctional Req]
+    C --> D[🔒 Step 3:\nNon-Functional Req]
+    D --> E[🏗️ Step 4:\nSolution Design]
+    E -->|Current| F[🔄 Step 5:\nIntegration]
+    F --> G[📊 Step 6:\nPresentation]
+    style E fill:#90EE90,stroke:#333,stroke-width:2px
+```
+
+## 🎯 Objective
 
 Define the architecture, controls, and Azure services needed for a robust, secure, and scalable RAG solution.
 
@@ -24,11 +37,11 @@ Define the architecture, controls, and Azure services needed for a robust, secur
 
 ---
 
-## Activities
+## 📝 Activities
 
 - Review your requirements from Step 3.
 - As a team, design and document:
-  1. **Architecture Diagram:** Sketch a high-level diagram of the RAG solution (UI, orchestration, retrieval, LLM backend, networking, identity, security, monitoring, etc.)
+  1. **🏗️ Architecture Diagram:** Sketch a high-level diagram of the RAG solution (UI, orchestration, retrieval, LLM backend, networking, identity, security, monitoring, etc.)
   2. **Azure Services:** List and justify the core Azure services and controls you will use (e.g., App Service, AI Search, OpenAI, Key Vault, Log Analytics).
   3. **Security & Governance:** Describe how you will enforce governance, compliance, and security (e.g., policies, private endpoints, managed identities).
   4. **Operational Readiness:** Outline how you will monitor, manage, and support the environment.

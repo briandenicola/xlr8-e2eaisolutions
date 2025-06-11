@@ -8,6 +8,8 @@ nav_order: 1
 
 # Step 1: Scenario
 
+**📊 Progress:** Step 1 of 4
+
 [Home](../../index.md) > [AI Hub Challenge](../../ai-hub-challenge.md) > [Step 1 - Scenario](./ifs-aihub-step1-scenario.md)
 
 - [Next: Step 2 - Requirements ➡️](./ifs-aihub-step2-requirements.md)
@@ -16,7 +18,16 @@ This section is part of the **IFS AI Hub Challenge**. Here, you'll analyze the b
 
 ---
 
-## Objective
+```mermaid
+flowchart LR
+    A[🚀 Start] --> B[📝 Step 1:\nScenario]
+    B -->|Current| C[📋 Step 2:\nRequirements]
+    C --> D[🏗️ Step 3:\nDesign]
+    D --> E[📊 Step 4:\nPresentation]
+    style B fill:#90EE90,stroke:#333,stroke-width:2px
+```
+
+## 🎯 Objective
 
 Understand the business context, drivers, and high-level goals for the AI Hub solution.
 
@@ -24,11 +35,11 @@ Understand the business context, drivers, and high-level goals for the AI Hub so
 
 ---
 
-## Activities
+## 📝 Activities
 
 - Review the scenario below.
 - As a team, discuss and answer:
-  1. **What are the main business drivers and user needs for a centralized AI Hub?**
+  1. **📊 What are the main business drivers and user needs for a centralized AI Hub?**
   2. **What are the high-level architectural elements, security considerations, and governance mechanisms needed?**
   3. **What lessons from the RAG chatbot implementation should inform the AI Hub design?**
 

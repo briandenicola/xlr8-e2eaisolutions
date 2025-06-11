@@ -7,6 +7,8 @@ nav_order: 1
 
 # Step 1: Agentic AI Principles & Patterns
 
+**📊 Progress:** Step 1 of 6
+
 [Home](../../index.md) > [AI Agent Challenge](../../ai-agent-challenge.md) > [Step 1 - Agentic AI Principles & Patterns](./ifs-agent-step1-principles.md)
 
 - [⬅️ Previous: Challenge Overview](./ifs-agent-overview.md)
@@ -16,7 +18,18 @@ This step provides essential understanding of Agentic AI principles and patterns
 
 ---
 
-## What is Agentic AI?
+```mermaid
+flowchart LR
+    A[🚀 Start] --> B[📚 Step 1:\nPrinciples]
+    B -->|Current| C[📋 Step 2:\nFunctional Req]
+    C --> D[🔒 Step 3:\nNon-Functional Req]
+    D --> E[🏗️ Step 4:\nSolution Design]
+    E --> F[🔄 Step 5:\nIntegration]
+    F --> G[📊 Step 6:\nPresentation]
+    style B fill:#90EE90,stroke:#333,stroke-width:2px
+```
+
+## 🤖 What is Agentic AI?
 
 **Agentic AI** represents a paradigm shift from traditional AI systems that simply respond to queries, to intelligent systems that can autonomously plan, execute, and coordinate complex workflows. These systems operate as **digital agents** that can work independently or collaboratively to achieve business objectives.
 

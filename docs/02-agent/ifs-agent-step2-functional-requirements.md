@@ -7,6 +7,8 @@ nav_order: 2
 
 # Step 2: Functional Requirements
 
+**📊 Progress:** Step 2 of 6
+
 [Home](../../index.md) > [AI Agent Challenge](../../ai-agent-challenge.md) > [Step 2 - Functional Requirements](./ifs-agent-step2-functional-requirements.md)
 
 - [⬅️ Previous: Step 1 - Principles](./ifs-agent-step1-principles.md)
@@ -16,7 +18,18 @@ This section is part of the **IFS AI Agent Challenge**. Here, you'll analyze the
 
 ---
 
-## Objective
+```mermaid
+flowchart LR
+    A[🚀 Start] --> B[📚 Step 1:\nPrinciples]
+    B --> C[📋 Step 2:\nFunctional Req]
+    C -->|Current| D[🔒 Step 3:\nNon-Functional Req]
+    D --> E[🏗️ Step 4:\nSolution Design]
+    E --> F[🔄 Step 5:\nIntegration]
+    F --> G[📊 Step 6:\nPresentation]
+    style C fill:#90EE90,stroke:#333,stroke-width:2px
+```
+
+## 🎯 Objective
 
 Understand the business context, user needs, and high-level goals for the RAG chatbot solution.
 
@@ -24,7 +37,7 @@ Understand the business context, user needs, and high-level goals for the RAG ch
 
 ---
 
-## Activities
+## 📝 Activities
 
 - Review the scenario below.
 - As a team, discuss and answer:

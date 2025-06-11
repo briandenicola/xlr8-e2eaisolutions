@@ -7,6 +7,8 @@ nav_order: 2
 
 # Step 2: Requirements & Plan
 
+**📊 Progress:** Step 2 of 4
+
 [Home](../../index.md) > [AI Ready Challenge](../../ai-ready-challenge.md) > [Step 2 - Requirements & Plan](./ifs-ready-step2-requirements.md)
 
 - [⬅️ Previous: Step 1 - AI Strategy & Plan](./ifs-ready-step1-customer.md)
@@ -16,7 +18,16 @@ This section is part of the **IFS AI Ready Challenge**. Here, you'll capture and
 
 ---
 
-## Why Clear Requirements Matter
+```mermaid
+flowchart LR
+    A[🚀 Start] --> B[📝 Step 1:\nStrategy & Plan]
+    B --> C[📋 Step 2:\nRequirements]
+    C -->|Current| D[🏗️ Step 3:\nFoundations]
+    D --> E[📊 Step 4:\nPresentation]
+    style C fill:#90EE90,stroke:#333,stroke-width:2px
+```
+
+## 📋 Why Clear Requirements Matter
 
 **Well-defined requirements are the key to successful AI projects.** Teams with structured requirements experience:
 
@@ -28,7 +39,7 @@ This section is part of the **IFS AI Ready Challenge**. Here, you'll capture and
 
 [🔝 Back to Top](#step-2-requirements--plan)
 
-### Benefits of Structured Requirements
+### 📈 Benefits of Structured Requirements
 
 | Benefit | With Clear Requirements | Without Clear Requirements |
 |---------|------------------------|----------------------------|

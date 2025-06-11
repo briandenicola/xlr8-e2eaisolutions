@@ -7,6 +7,8 @@ nav_order: 1
 
 # Step 1: AI Strategy & Plan
 
+**📊 Progress:** Step 1 of 4
+
 [Home](../../index.md) > [AI Ready Challenge](../../ai-ready-challenge.md) > [Step 1 - AI Strategy & Plan](./ifs-ready-step1-customer.md)
 
 - [Next: Step 2 – Requirements ➡️](./ifs-ready-step2-requirements.md)
@@ -15,7 +17,16 @@ This section is part of the **IFS AI Ready Challenge**. Here you'll define busin
 
 ---
 
-## Why Strategic Planning is Critical
+```mermaid
+flowchart LR
+    A[🚀 Start] --> B[📝 Step 1:\nStrategy & Plan]
+    B -->|Current| C[📋 Step 2:\nRequirements]
+    C --> D[🏗️ Step 3:\nFoundations]
+    D --> E[📊 Step 4:\nPresentation]
+    style B fill:#90EE90,stroke:#333,stroke-width:2px
+```
+
+## 🧭 Why Strategic Planning is Critical
 
 **Proper AI strategy is the foundation of successful AI transformation.** Organizations that skip strategic planning face:
 
@@ -27,7 +38,7 @@ This section is part of the **IFS AI Ready Challenge**. Here you'll define busin
 
 [🔝 Back to Top](#step-1-ai-strategy--plan)
 
-### Strategic Success Framework
+### 🎯 Strategic Success Framework
 
 | Success Factor | With Structured Strategy | Without Strategic Planning |
 |----------------|-------------------------|----------------------------|

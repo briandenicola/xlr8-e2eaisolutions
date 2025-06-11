@@ -7,6 +7,8 @@ nav_order: 5
 
 # Step 5: Integration
 
+**📊 Progress:** Step 5 of 6
+
 [Home](../../index.md) > [AI Agent Challenge](../../ai-agent-challenge.md) > [Step 5 - Integration](./ifs-agent-step5-integration.md)
 
 - [⬅️ Previous: Step 4 - Solution Design](./ifs-agent-step4-solution-design.md)
@@ -16,7 +18,18 @@ This section is part of the **IFS AI Agent Challenge**. Here, you'll plan how to
 
 ---
 
-## Objective
+```mermaid
+flowchart LR
+    A[🚀 Start] --> B[📚 Step 1:\nPrinciples]
+    B --> C[📋 Step 2:\nFunctional Req]
+    C --> D[🔒 Step 3:\nNon-Functional Req]
+    D --> E[🏗️ Step 4:\nSolution Design]
+    E --> F[🔄 Step 5:\nIntegration]
+    F -->|Current| G[📊 Step 6:\nPresentation]
+    style F fill:#90EE90,stroke:#333,stroke-width:2px
+```
+
+## 🎯 Objective
 
 Demonstrate how your RAG solution will be securely deployed, governed, and operated within Azure Landing Zones (ALZ).
 
@@ -24,11 +37,11 @@ Demonstrate how your RAG solution will be securely deployed, governed, and opera
 
 ---
 
-## Activities
+## 📝 Activities
 
 - Map each RAG component (UI, orchestration, retrieval, LLM backend) to ALZ subnets, private endpoints, and policy controls.
 - As a team, discuss and document:
-  1. **Landing Zone Integration:** How will each component fit into the ALZ (networking, identity, policy)?
+  1. **🌐 Landing Zone Integration:** How will each component fit into the ALZ (networking, identity, policy)?
   2. **Security & Governance:** How will you secure data flows, manage secrets, and enforce governance using Azure-native tools?
   3. **Validation:** How will you test and validate your solution (functional, security, and performance testing)?
 

@@ -7,6 +7,8 @@ nav_order: 3
 
 # Step 3: Non-Functional Requirements
 
+**📊 Progress:** Step 3 of 6
+
 [Home](../../index.md) > [AI Agent Challenge](../../ai-agent-challenge.md) > [Step 3 - Non-Functional Requirements](./ifs-agent-step3-nonfunctional-requirements.md)
 
 - [⬅️ Previous: Step 2 - Functional Requirements](./ifs-agent-step2-functional-requirements.md)
@@ -16,19 +18,30 @@ This section is part of the **IFS AI Agent Challenge**. Here, you'll identify an
 
 ---
 
-## Objective
+```mermaid
+flowchart LR
+    A[🚀 Start] --> B[📚 Step 1:\nPrinciples]
+    B --> C[📋 Step 2:\nFunctional Req]
+    C --> D[🔒 Step 3:\nNon-Functional Req]
+    D -->|Current| E[🏗️ Step 4:\nSolution Design]
+    E --> F[🔄 Step 5:\nIntegration]
+    F --> G[📊 Step 6:\nPresentation]
+    style D fill:#90EE90,stroke:#333,stroke-width:2px
+```
+
+## 🎯 Objective
 
 Capture all critical requirements—business, technical, security, compliance, and operational—that must be addressed in your solution.
 
 ---
 
-## Activities
+## 📝 Activities
 
 - Review your findings from Step 2 (Functional Requirements).
 - As a team, discuss and document:
-  1. **Business Requirements:** What must the solution achieve for IFS to consider it a success?
-  2. **Technical Requirements:** What are the key technical needs?
-  3. **Security & Compliance:** What security, privacy, and compliance standards must be met?
+  1. **🏆 Business Requirements:** What must the solution achieve for IFS to consider it a success?
+  2. **⚙️ Technical Requirements:** What are the key technical needs?
+  3. **🛡️ Security & Compliance:** What security, privacy, and compliance standards must be met?
   4. **Operational Requirements:** What are the support, monitoring, and management needs?
 
 ---

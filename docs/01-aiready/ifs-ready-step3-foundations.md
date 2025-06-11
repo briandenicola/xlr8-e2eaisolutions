@@ -7,6 +7,8 @@ nav_order: 3
 
 # Step 3: AI Platform Design
 
+**📊 Progress:** Step 3 of 4
+
 [Home](../../index.md) > [AI Ready Challenge](../../ai-ready-challenge.md) > [Step 3 - AI Platform Design](./ifs-ready-step3-foundations.md)
 
 - [⬅️ Previous: Step 2 - Requirements & Plan](./ifs-ready-step2-requirements.md)
@@ -16,7 +18,16 @@ This section is part of the **IFS AI Ready Challenge**. Here, you'll design the 
 
 ---
 
-## Prerequisites
+```mermaid
+flowchart LR
+    A[🚀 Start] --> B[📝 Step 1:\nStrategy & Plan]
+    B --> C[📋 Step 2:\nRequirements]
+    C --> D[🏗️ Step 3:\nFoundations]
+    D -->|Current| E[📊 Step 4:\nPresentation]
+    style D fill:#90EE90,stroke:#333,stroke-width:2px
+```
+
+## 🧰 Prerequisites
 
 What you need before starting:
 

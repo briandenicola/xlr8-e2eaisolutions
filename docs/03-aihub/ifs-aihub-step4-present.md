@@ -8,6 +8,8 @@ nav_order: 4
 
 # Step 4: Present & Justify
 
+**📊 Progress:** Step 4 of 4
+
 [Home](../../index.md) > [AI Hub Challenge](../../ai-hub-challenge.md) > [Step 4 - Present & Justify](./ifs-aihub-step4-present.md)
 
 - [⬅️ Previous: Step 3 - Design](./ifs-aihub-step3-design.md)
@@ -16,7 +18,16 @@ This section is part of the **IFS AI Hub Challenge**. Here, you'll present your 
 
 ---
 
-## Objective
+```mermaid
+flowchart LR
+    A[🚀 Start] --> B[📝 Step 1:\nScenario]
+    B --> C[📋 Step 2:\nRequirements]
+    C --> D[🏗️ Step 3:\nDesign]
+    D --> E[📊 Step 4:\nPresentation]
+    style E fill:#90EE90,stroke:#333,stroke-width:2px
+```
+
+## 🎯 Objective
 
 Communicate your design clearly, explain your choices, and demonstrate how your solution meets IFS's business and technical requirements while showcasing ROI and strategic alignment.
 
@@ -24,11 +35,11 @@ Communicate your design clearly, explain your choices, and demonstrate how your 
 
 ---
 
-## Mandatory Presentation Activities
+## 📝 Mandatory Presentation Activities
 
 Your presentation must cover:
 
-1. **Solution Summary** – Brief overview of the AI Hub solution
+1. **📊 Solution Summary** – Brief overview of the AI Hub solution
 2. **Architecture Diagram** – Visual representation of your design
 3. **Service Selection Rationale** – Why you chose specific Azure services
 4. **Key Benefits & Value** – How the solution delivers business value

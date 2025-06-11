@@ -7,6 +7,8 @@ nav_order: 6
 
 # Step 6: Present & Justify
 
+**📊 Progress:** Step 6 of 6
+
 [Home](../../index.md) > [AI Agent Challenge](../../ai-agent-challenge.md) > [Step 6 - Present & Justify](./ifs-agent-step6-presentation.md)
 
 - [⬅️ Previous: Step 5 - Integration](./ifs-agent-step5-integration.md)
@@ -15,7 +17,18 @@ This section is part of the **IFS AI Agent Challenge**. Here, you'll present you
 
 ---
 
-## Objective
+```mermaid
+flowchart LR
+    A[🚀 Start] --> B[📚 Step 1:\nPrinciples]
+    B --> C[📋 Step 2:\nFunctional Req]
+    C --> D[🔒 Step 3:\nNon-Functional Req]
+    D --> E[🏗️ Step 4:\nSolution Design]
+    E --> F[🔄 Step 5:\nIntegration]
+    F --> G[📊 Step 6:\nPresentation]
+    style G fill:#90EE90,stroke:#333,stroke-width:2px
+```
+
+## 🎯 Objective
 
 Communicate your design clearly, explain your choices, and demonstrate how your agentic RAG solution meets IFS's business and technical requirements while showcasing responsible AI implementation.
 
@@ -23,11 +36,11 @@ Communicate your design clearly, explain your choices, and demonstrate how your 
 
 ---
 
-## Mandatory Presentation Activities
+## 📝 Mandatory Presentation Activities
 
 Your presentation must cover all areas below to receive approval for implementation:
 
-### Core Presentation Structure (12-18 minutes)
+### 🎤 Core Presentation Structure (12-18 minutes)
 
 1. **Business Case & AI Strategy Alignment (3-4 min)**
    - Quantified business outcomes for RAG implementation

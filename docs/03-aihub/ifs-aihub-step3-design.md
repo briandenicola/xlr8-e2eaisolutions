@@ -8,6 +8,8 @@ nav_order: 3
 
 # Step 3: Design
 
+**📊 Progress:** Step 3 of 4
+
 [Home](../../index.md) > [AI Hub Challenge](../../ai-hub-challenge.md) > [Step 3 - Design](./ifs-aihub-step3-design.md)
 
 - [⬅️ Previous: Step 2 - Requirements](./ifs-aihub-step2-requirements.md)
@@ -17,7 +19,16 @@ This section is part of the **IFS AI Hub Challenge**. Here, you'll design the en
 
 ---
 
-## Objective
+```mermaid
+flowchart LR
+    A[🚀 Start] --> B[📝 Step 1:\nScenario]
+    B --> C[📋 Step 2:\nRequirements]
+    C --> D[🏗️ Step 3:\nDesign]
+    D -->|Current| E[📊 Step 4:\nPresentation]
+    style D fill:#90EE90,stroke:#333,stroke-width:2px
+```
+
+## 🎯 Objective
 
 Define the architecture, controls, and Azure services needed for a robust, secure, and scalable AI Hub solution.
 
@@ -25,7 +36,7 @@ Define the architecture, controls, and Azure services needed for a robust, secur
 
 ---
 
-## Activities
+## 📝 Activities
 
 - Review your findings from Steps 1 and 2.
 - As a team, design and document:
