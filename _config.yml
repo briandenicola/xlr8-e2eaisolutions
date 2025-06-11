@@ -37,7 +37,7 @@ after_footer_scripts:
 
 # Exclude specific directories from processing
 exclude:
-    - workshop-assets/
+  - workshop-assets/
   - "workshop-assets/**"
   - vendor/
   - "vendor/**"
