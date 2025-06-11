@@ -37,20 +37,11 @@ after_footer_scripts:
 
 # Exclude specific directories from processing
 exclude:
+exclude:
   - workshop-assets/
   - "workshop-assets/**"
   - vendor/
   - "vendor/**"
-  - "*.md"
-  - "!docs/**/*.md"
-  - "!docs/references/**/*.md"
-  - LICENSE
-  - Gemfile
-  - Gemfile.lock
-  - "*.lock"
-  - "*.log"
-  - "*.yml"
-  - "*.md.saved"
 
 aux_links:
   GitHub Repository: https://github.com/jonathan-vella/xlr8-e2eaisolutions
