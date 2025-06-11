@@ -3,6 +3,7 @@ layout: default
 title: Step 2 - Requirements & Plan
 parent: AI Ready Challenge
 nav_order: 2
+tags: [ai-ready, requirements, planning, compliance, security]
 ---
 
 # Step 2: Requirements & Plan

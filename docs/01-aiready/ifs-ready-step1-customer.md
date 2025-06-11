@@ -3,6 +3,7 @@ layout: default
 title: Step 1 - AI Strategy & Plan
 parent: AI Ready Challenge
 nav_order: 1
+tags: [ai-ready, strategy, planning, business-case]
 ---
 
 # Step 1: AI Strategy & Plan

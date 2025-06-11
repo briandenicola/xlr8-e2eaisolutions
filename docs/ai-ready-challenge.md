@@ -22,7 +22,7 @@ This section walks you through the process of designing Azure Landing Zones alig
 ## Additional Resources
 
 - [Overview](./01-aiready/ifs-ready-overview.md)
-- [References](./ifs-alz-references.md)
+- [References](./references/ai-ready-references.md)
 
 ### Challenge Workflow
 

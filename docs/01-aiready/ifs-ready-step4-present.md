@@ -3,6 +3,7 @@ layout: default
 title: Step 4 - Present & Justify
 parent: AI Ready Challenge
 nav_order: 4
+tags: [ai-ready, presentation, justification, communication]
 ---
 
 # Step 4: Present & Justify

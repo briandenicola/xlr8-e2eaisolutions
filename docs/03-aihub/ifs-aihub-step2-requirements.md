@@ -3,6 +3,7 @@ layout: default
 title: Step 2 - Requirements
 parent: AI Hub Challenge
 nav_order: 2
+tags: [ai-hub, requirements, security, governance, scalability]
 ---
 
 # Step 2: Requirements
@@ -19,6 +20,14 @@ In this step, you'll define the specific functional and non-functional requireme
 - [Next: Step 3 - Design ➡️](./ifs-aihub-step3-design.md)
 
 This section is part of the **IFS AI Hub Challenge**. Here, you'll identify and document the business, technical, and governance requirements for a centralized AI Hub.
+
+## Table of Contents
+{:.no_toc}
+
+* TOC
+{:toc}
+
+*Note: Generated using Jekyll's automatic table of contents feature*
 
 ---
 

@@ -3,6 +3,7 @@ layout: default
 title: Step 1 - Scenario
 parent: AI Hub Challenge
 nav_order: 1
+tags: [ai-hub, scenario, business-context]
 ---
 
 # Step 1: Scenario
@@ -18,6 +19,14 @@ This initial step establishes the business context and drivers for creating a ce
 - [Next: Step 2 - Requirements ➡️](./ifs-aihub-step2-requirements.md)
 
 This section is part of the **IFS AI Hub Challenge**. Here, you'll analyze the business scenario and user needs for a centralized, secure AI Hub.
+
+## Table of Contents
+{:.no_toc}
+
+* TOC
+{:toc}
+
+*Note: Generated using Jekyll's automatic table of contents feature*
 
 ---
 

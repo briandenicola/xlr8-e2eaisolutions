@@ -22,7 +22,7 @@ This section focuses on creating a scalable architecture for enterprise-wide AI 
 ## Additional Resources
 
 - [Overview](./03-aihub/ifs-aihub-overview.md)
-- [References](./03-aihub/ifs-aihub-references.md)
+- [References](./references/ai-hub-references.md)
 
 ### Challenge Workflow
 

@@ -3,6 +3,7 @@ layout: default
 title: AI Hub Challenge Overview
 parent: AI Hub Challenge
 nav_order: 0
+tags: [ai-hub, overview, architecture, governance]
 ---
 
 # AI Hub Challenge Overview
@@ -12,6 +13,14 @@ nav_order: 0
 - [Next: Step 1 - Scenario ➡️](./ifs-aihub-step1-scenario.md)
 
 Welcome to the **IFS AI Hub Challenge**. This challenge guides you through designing a secure, scalable, and governed Azure-based AI Hub to centrally manage and control shared AI services for IFS, building on lessons learned from the RAG chatbot implementation.
+
+## Table of Contents
+{:.no_toc}
+
+* TOC
+{:toc}
+
+*Note: Generated using Jekyll's automatic table of contents feature*
 
 ---
 

@@ -1,17 +1,15 @@
 ---
 layout: default
-title: References
-parent: AI Hub Challenge
-nav_order: 5
+title: AI Hub Challenge References
+parent: References
+nav_order: 3
 tags: [references, ai-hub, architecture, documentation]
-permalink: /ai-hub-challenge/references/
+permalink: /references/ai-hub/
 ---
 
-# References – AI Hub Challenge
+# AI Hub Challenge References
 
-[Home](../../index.md) > [AI Hub Challenge](../../ai-hub-challenge.md) > [References](./ifs-aihub-references.md)
-
-- [⬅️ Previous: Step 4 - Presentation](./ifs-aihub-step4-present.md)
+This page contains consolidated reference materials for the AI Hub Challenge.
 
 ## Architecture Resources
 
@@ -28,17 +26,10 @@ permalink: /ai-hub-challenge/references/
 
 ### Framework & Guidance
 - [Microsoft Cloud Adoption Framework - AI Scenario](https://learn.microsoft.com/azure/cloud-adoption-framework/scenarios/ai/)
-- [Azure AI services governance](https://learn.microsoft.com/azure/cloud-adoption-framework/scenarios/ai/ai-ready/govern-ai-workloads)
-- [Cost management for AI workloads](https://learn.microsoft.com/azure/cloud-adoption-framework/scenarios/ai/ai-ready/track-costs)
 
-[🔝 Back to Top](#references--ai-hub-challenge)
-
----
-
-## Navigation
-- [⬅️ Previous: Step 4 - Presentation](./ifs-aihub-step4-present.md)
-- [🏠 AI Hub Challenge Home](../../ai-hub-challenge.md)
-
-## Navigation
-- [⬅️ Back to Step 4](./ifs-aihub-step4-present.md)
-- [⬅️ Back to Overview](./ifs-aihub-overview.md)
+## Return to Challenge
+- [AI Hub Challenge Overview](../03-aihub/ifs-aihub-overview.md)
+- [Step 1 - Scenario](../03-aihub/ifs-aihub-step1-scenario.md)
+- [Step 2 - Requirements](../03-aihub/ifs-aihub-step2-requirements.md)
+- [Step 3 - Design](../03-aihub/ifs-aihub-step3-design.md)
+- [Step 4 - Present & Justify](../03-aihub/ifs-aihub-step4-present.md)

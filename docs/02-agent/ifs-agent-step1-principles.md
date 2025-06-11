@@ -3,6 +3,7 @@ layout: default
 title: Step 1 - Agentic AI Principles & Patterns
 parent: AI Agent Challenge
 nav_order: 1
+tags: [ai-agents, llm, autonomous-agents, patterns, principles]
 ---
 
 # Step 1: Agentic AI Principles & Patterns
@@ -19,6 +20,14 @@ This foundational step introduces the key concepts, patterns, and architectures 
 - [Next: Step 2 - Functional Requirements ➡️](./ifs-agent-step2-functional-requirements.md)
 
 This step provides essential understanding of Agentic AI principles and patterns needed for the IFS AI Agent Challenge. Complete this foundational learning before proceeding to the functional requirements in Step 2.
+
+## Table of Contents
+{:.no_toc}
+
+* TOC
+{:toc}
+
+*Note: Generated using Jekyll's automatic table of contents feature*
 
 ---
 

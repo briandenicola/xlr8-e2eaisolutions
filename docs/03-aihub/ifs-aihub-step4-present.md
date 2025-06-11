@@ -3,6 +3,7 @@ layout: default
 title: Step 4 - Present & Justify
 parent: AI Hub Challenge
 nav_order: 4
+tags: [ai-hub, presentation, justification, executive-summary]
 ---
 
 # Step 4: Present & Justify
@@ -18,6 +19,14 @@ This final step showcases your AI Hub solution to key stakeholders at IFS. By de
 - [⬅️ Previous: Step 3 - Design](./ifs-aihub-step3-design.md) *(prerequisite)*
 
 This section is part of the **IFS AI Hub Challenge**. Here, you'll present your AI Hub solution and justify your design decisions to the group.
+
+## Table of Contents
+{:.no_toc}
+
+* TOC
+{:toc}
+
+*Note: Generated using Jekyll's automatic table of contents feature*
 
 ---
 

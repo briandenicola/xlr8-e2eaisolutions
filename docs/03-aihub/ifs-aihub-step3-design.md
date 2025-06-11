@@ -3,6 +3,7 @@ layout: default
 title: Step 3 - Design
 parent: AI Hub Challenge
 nav_order: 3
+tags: [ai-hub, architecture, design, azure, governance]
 ---
 
 # Step 3: Design
@@ -19,6 +20,14 @@ This step represents the core architecture work for the AI Hub solution. You'll 
 - [Next: Step 4 - Present ➡️](./ifs-aihub-step4-present.md)
 
 This section is part of the **IFS AI Hub Challenge**. Here, you'll design the end-to-end architecture for the AI Hub, ensuring alignment with Azure best practices and reference architectures.
+
+## Table of Contents
+{:.no_toc}
+
+* TOC
+{:toc}
+
+*Note: Generated using Jekyll's automatic table of contents feature*
 
 ---
 

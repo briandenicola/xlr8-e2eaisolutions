@@ -24,7 +24,7 @@ This section focuses on creating a chatbot architecture that integrates with the
 ## Additional Resources
 
 - [Challenge Overview](./02-agent/ifs-agent-overview.md)
-- [References](./02-agent/ifs-agent-references.md)
+- [References](./references/ai-agent-references.md)
 
 ### Challenge Workflow
 

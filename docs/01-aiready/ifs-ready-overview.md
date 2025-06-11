@@ -3,6 +3,7 @@ layout: default
 title: AI Ready Challenge Overview
 parent: AI Ready Challenge
 nav_order: 0
+tags: [ai-ready, landing-zone, overview, challenge]
 ---
 
 # AI Ready Challenge Overview
@@ -12,6 +13,14 @@ nav_order: 0
 - [Next: Step 1 - AI Strategy & Plan ➡️](./ifs-ready-step1-customer.md)
 
 Welcome to the **IFS AI Ready Challenge**. You'll help customers safely adopt Azure for AI by following the [Cloud Adoption Framework for AI](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/ai/) process and proven Azure Well-Architected Framework (WAF) patterns.
+
+## Table of Contents
+{:.no_toc}
+
+* TOC
+{:toc}
+
+*Note: Generated using Jekyll's automatic table of contents feature*
 
 ---
 

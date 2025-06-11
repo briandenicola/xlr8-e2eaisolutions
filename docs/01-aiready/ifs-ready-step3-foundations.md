@@ -3,6 +3,7 @@ layout: default
 title: Step 3 - AI Platform Design
 parent: AI Ready Challenge
 nav_order: 3
+tags: [ai-ready, azure-landing-zone, platform-design, governance]
 ---
 
 # Step 3: AI Platform Design
@@ -19,6 +20,14 @@ This step involves designing a secure, compliant Azure Landing Zone optimized fo
 - [Next: Step 4 - Presentation ➡️](./ifs-ready-step4-present.md)
 
 This section is part of the **IFS AI Ready Challenge**. Here, you'll design the AI Ready Azure Landing Zone platform environment that meets IFS's regulatory, compliance, and best practice requirements, providing the foundation for future AI workloads.
+
+## Table of Contents
+{:.no_toc}
+
+* TOC
+{:toc}
+
+*Note: Generated using Jekyll's automatic table of contents feature*
 
 ---
 
