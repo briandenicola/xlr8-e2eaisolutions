@@ -1,11 +1,15 @@
 ---
 layout: default
 title: References
-parent: Agentic AI Challenge
+parent: AI Agent Challenge
 nav_order: 7
 ---
 
-# References – Agentic AI Challenge
+# References – AI Agent Challenge
+
+[Home](../../index.md) > [AI Agent Challenge](../../ai-agent-challenge.md) > [References](./ifs-agent-references.md)
+
+- [⬅️ Previous: Step 6 - Present & Justify](./ifs-agent-step6-presentation.md)
 
 - [Baseline OpenAI E2E Chat Reference Architecture (Microsoft Learn)](https://learn.microsoft.com/azure/architecture/ai-ml/architecture/baseline-openai-e2e-chat)
 - [Azure OpenAI baseline in an Azure landing zone](https://learn.microsoft.com/azure/architecture/ai-ml/architecture/azure-openai-baseline-landing-zone)
@@ -15,5 +19,5 @@ nav_order: 7
 ---
 
 ## Navigation
-- [⬅️ Back to Step 5](./ifs-rag-step5-present.md)
-- [⬅️ Back to Overview](./ifs-rag-overview.md)
+- [⬅️ Previous: Step 6 - Present & Justify](./ifs-agent-step6-presentation.md)
+- [🏠 AI Agent Challenge Home](../../ai-agent-challenge.md)

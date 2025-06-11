@@ -1,13 +1,17 @@
 ---
 layout: default
-title: Agentic AI Challenge Overview
-parent: Agentic AI Challenge
+title: AI Agent Challenge Overview
+parent: AI Agent Challenge
 nav_order: 0
 ---
 
-# Agentic AI Challenge Overview
+# AI Agent Challenge Overview
 
-Welcome to the **IFS Agentic AI Challenge**. This challenge guides you through designing, deploying, and operationalizing an internal AI workload using Agentic AI principles, building on the foundation established in the AI Ready Challenge.
+[Home](../../index.md) > [AI Agent Challenge](../../ai-agent-challenge.md) > [Overview](./ifs-agent-overview.md)
+
+- [Next: Step 1 - Principles ➡️](./ifs-agent-step1-principles.md)
+
+Welcome to the **IFS AI Agent Challenge**. This challenge guides you through designing, deploying, and operationalizing an internal AI workload using Agentic AI principles, building on the foundation established in the AI Ready Challenge.
 
 ---
 
@@ -19,6 +23,8 @@ Before starting this challenge, ensure you have:
 - **Azure Landing Zone foundation** established from Challenge 1
 - **Access to internal stakeholders** for use case validation and requirements gathering
 - **One selected use case** from the AI Ready Challenge for detailed implementation
+
+[🔝 Back to Top](#ai-agent-challenge-overview)
 
 ---
 
@@ -53,12 +59,12 @@ Before starting this challenge, ensure you have:
 
 This challenge is divided into six steps:
 
-1. [Step 1: Agentic AI Principles & Patterns](./ifs-rag-step1-agentic-ai-principles.md) – Learn foundational concepts and Azure multi-agent architecture patterns
-2. [Step 2: Functional Requirements](./ifs-rag-step2-fr.md) – Capture intended capabilities and behaviors of the AI workload
-3. [Step 3: Non-Functional Requirements](./ifs-rag-step3-nfr.md) – Document scalability, performance, security, and compliance attributes
-4. [Step 4: Design AI Workload](./ifs-rag-step4-design.md) – Create workload architecture with Agentic AI patterns
-5. [Step 5: Integrate with AI Ready Platform](./ifs-rag-step5-integrate.md) – Deploy into Azure Landing Zone with Day 2 operations
-6. [Step 6: Present End-to-End Story](./ifs-rag-step6-present.md) – Share journey from use case to deployment and operations
+1. [Step 1: Agentic AI Principles & Patterns](./ifs-agent-step1-principles.md) – Learn foundational concepts and Azure multi-agent architecture patterns
+2. [Step 2: Functional Requirements](./ifs-agent-step2-functional-requirements.md) – Capture intended capabilities and behaviors of the AI workload
+3. [Step 3: Non-Functional Requirements](./ifs-agent-step3-nonfunctional-requirements.md) – Document scalability, performance, security, and compliance attributes
+4. [Step 4: Solution Design](./ifs-agent-step4-solution-design.md) – Create workload architecture with Agentic AI patterns
+5. [Step 5: Integration](./ifs-agent-step5-integration.md) – Deploy into Azure Landing Zone with Day 2 operations
+6. [Step 6: Presentation](./ifs-agent-step6-presentation.md) – Share journey from use case to deployment and operations
 
 ---
 
@@ -66,11 +72,29 @@ This challenge is divided into six steps:
 
 ```mermaid
 flowchart LR
-    A["Step 1:<br>Agentic AI Principles & Patterns"] --> B["Step 2:<br>Functional Requirements"]
-    B --> C["Step 3:<br>Non-Functional Requirements"]
-    C --> D["Step 4:<br>Design AI Workload"]
-    D --> E["Step 5:<br>Integrate with AI Ready Platform"]
-    E --> F["Step 6:<br>Present End-to-End Story"]
+    %% Define the flow of the AI Agent Challenge
+    Start([Start]) --> Step1
+    Step1[Step 1:<br>Agentic AI Principles] --> Step2[Step 2:<br>Functional Req.]
+    Step2 --> Step3[Step 3:<br>Non-Functional Req.]
+    Step3 --> Step4[Step 4:<br>Solution Design]
+    Step4 --> Step5[Step 5:<br>Integration]
+    Step5 --> Step6[Step 6:<br>Present & Justify]
+    Step6 --> End([End])
+    
+    %% Add descriptions
+    classDef step fill:#0072C6,stroke:#025,color:white,stroke-width:2px
+    classDef endpoint fill:#5CB85C,stroke:#4CAE4C,color:white,stroke-width:2px
+    
+    class Step1,Step2,Step3,Step4,Step5,Step6 step
+    class Start,End endpoint
+    
+    %% Add annotations
+    Step1 -.-> Ann1[Agentic AI patterns<br>and multi-agent<br>principles]
+    Step2 -.-> Ann2[User stories<br>and application<br>requirements]
+    Step3 -.-> Ann3[Security, scalability,<br>and compliance needs]
+    Step4 -.-> Ann4[Agentic AI workload<br>architecture design]
+    Step5 -.-> Ann5[Azure Landing Zone<br>integration planning]
+    Step6 -.-> Ann6[Solution presentation<br>and justification]
 ```
 
 ## How to Use This Challenge
@@ -107,6 +131,5 @@ By completing this challenge, teams will gain:
 ---
 
 ## Navigation
-
-- [⬅️ Back to AI Ready Challenge](../01-aiready/)
-- [Next: Step 1 – Agentic AI Principles & Patterns ➡️](./ifs-rag-step1-agentic-ai-principles.md)
+- [Next: Step 1 - Principles ➡️](./ifs-agent-step1-principles.md)
+- [🏠 AI Agent Challenge Home](../../ai-agent-challenge.md)
