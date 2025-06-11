@@ -12,6 +12,9 @@ The AI Agent Challenge guides you through designing a secure internal Retrieval-
 
 This section focuses on creating a chatbot architecture that integrates with the existing Azure Landing Zones while meeting specific security and performance requirements.
 
+> [!NOTE]
+> This is the **second challenge** in the XLR8 journey. Your RAG chatbot will deploy into the Azure foundation created in Challenge 1, and the lessons learned will inform the enterprise AI Hub design in Challenge 3.
+
 ## Challenge Steps
 
 1. [Agentic AI Principles & Patterns](./02-agent/ifs-agent-step1-principles.md)
@@ -25,6 +28,7 @@ This section focuses on creating a chatbot architecture that integrates with the
 
 - [Challenge Overview](./02-agent/ifs-agent-overview.md)
 - [References](./02-agent/ifs-agent-references.md)
+- [Shared Glossary](./shared-glossary.md)
 
 ### Challenge Workflow
 

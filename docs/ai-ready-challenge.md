@@ -12,6 +12,9 @@ The AI Ready Challenge guides you through designing a secure, scalable, and gove
 
 This section walks you through the process of designing Azure Landing Zones aligned with IFS's business requirements and security standards.
 
+> [!NOTE]
+> This is the **first challenge** in the XLR8 journey. The foundation you design here will directly support the AI Agent application in Challenge 2 and the enterprise AI Hub in Challenge 3.
+
 ## Challenge Steps
 
 1. [Customer Context](./01-aiready/ifs-ready-step1-customer.md)
@@ -23,6 +26,7 @@ This section walks you through the process of designing Azure Landing Zones alig
 
 - [Overview](./01-aiready/ifs-ready-overview.md)
 - [References](./ifs-alz-references.md)
+- [Shared Glossary](./shared-glossary.md)
 
 ### Challenge Workflow
 

@@ -12,6 +12,9 @@ The AI Hub Challenge guides you through designing a dedicated, secure "AI Hub" e
 
 This section focuses on creating a scalable architecture for enterprise-wide AI governance and management.
 
+> [!NOTE]
+> This is the **third and final challenge** in the XLR8 journey. Your AI Hub design scales the patterns from the previous challenges into an enterprise-wide platform that can support multiple AI applications and services.
+
 ## Challenge Steps
 
 1. [Scenario](./03-aihub/ifs-aihub-step1-scenario.md)
@@ -23,6 +26,7 @@ This section focuses on creating a scalable architecture for enterprise-wide AI 
 
 - [Overview](./03-aihub/ifs-aihub-overview.md)
 - [References](./03-aihub/ifs-aihub-references.md)
+- [Shared Glossary](./shared-glossary.md)
 
 ### Challenge Workflow
 

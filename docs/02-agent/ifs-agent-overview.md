@@ -44,6 +44,60 @@ Before starting this challenge, ensure you have:
 
 ---
 
+## XLR8 Challenge Journey
+
+> [!NOTE]
+> This AI Agent Challenge is the second in a series of three connected challenges that build upon each other to create a comprehensive AI solution for IFS.
+
+### How the Three Challenges Connect
+
+```mermaid
+flowchart TB
+    Ready["1️⃣ AI Ready Challenge
+    Secure, governed Azure foundation"]
+    Agent["2️⃣ AI Agent Challenge
+    Internal RAG chatbot application"]
+    Hub["3️⃣ AI Hub Challenge
+    Centralized AI service management"]
+    
+    Ready --> Agent
+    Agent --> Hub
+    
+    classDef ready fill:#0078D4,color:white,stroke:#0078D4,stroke-width:2px
+    classDef agent fill:#107C10,color:white,stroke:#107C10,stroke-width:2px
+    classDef hub fill:#8661C5,color:white,stroke:#8661C5,stroke-width:2px
+    
+    class Ready ready
+    class Agent agent
+    class Hub hub
+```
+
+### Your Role in the Journey
+
+In this **AI Agent Challenge**, you'll build upon the AI foundation established in the first challenge:
+
+1. **Building on the Foundation**: You'll deploy the RAG chatbot into the secure Azure Landing Zone created in Challenge 1
+2. **Proves the Concept**: Your functional agent application demonstrates the practical value of the AI infrastructure
+3. **Reveals Scaling Needs**: The lessons learned will directly inform the centralized AI Hub design in Challenge 3
+    classDef agent fill:#107C10,color:white,stroke:#107C10,stroke-width:2px
+    classDef hub fill:#8661C5,color:white,stroke:#8661C5,stroke-width:2px
+    
+    class Ready ready
+    class Agent agent
+    class Hub hub
+```
+
+**Progressive AI Journey:**
+1. [**AI Ready Challenge ←**](../../ai-ready-challenge.md) - Established the secure Azure foundation that this challenge builds upon
+2. **AI Agent Challenge (Current)** - Builds an internal RAG chatbot on the foundation
+3. [**AI Hub Challenge →**](../../ai-hub-challenge.md) - Will create a centralized AI management platform based on lessons learned here
+
+This challenge leverages the Azure Landing Zone created in the AI Ready Challenge as its foundation, ensuring security and governance while focusing on application functionality.
+
+> For consistent terminology across all challenges, refer to the [**Shared Glossary →**](../../shared-glossary.md)
+
+---
+
 ## Challenge Objectives
 
 - Select and refine one AI use case from the AI Ready Challenge for internal deployment

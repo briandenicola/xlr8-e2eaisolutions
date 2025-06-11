@@ -44,6 +44,19 @@ Define the architecture, controls, and Azure services needed for a robust, secur
 
 ---
 
+## Cross-Challenge Connection
+
+> [!TIP]
+> Your RAG chatbot design must align with the Azure Landing Zone from Challenge 1 and will inform the AI Hub architecture in Challenge 3.
+
+**Related Components in Other Challenges:**
+- This solution will deploy into the foundation created in [AI Ready Challenge - Foundations Design](../../01-aiready/ifs-ready-step3-foundations.md)
+- The lessons from this implementation will guide the design of [AI Hub Challenge - Design](../../03-aihub/ifs-aihub-step3-design.md)
+
+When designing your solution, consider how it would fit into a centralized AI Hub architecture that serves multiple applications.
+
+---
+
 ## 📝 Activities
 
 - Review your requirements from Step 3.
@@ -484,3 +497,11 @@ To successfully complete this step, your solution design should be technically s
 - [⬅️ Previous: Step 3 - Non-Functional Requirements](./ifs-agent-step3-nonfunctional-requirements.md)
 - [Next: Step 5 - Integration ➡️](./ifs-agent-step5-integration.md)
 - [🏠 AI Agent Challenge Home](../../ai-agent-challenge.md)
+
+## Related Steps in Other Challenges
+
+> [!TIP]
+> This solution design:
+>
+> - **Builds upon** the [**AI Ready Challenge - Step 3: Foundations →**](../../docs/01-aiready/ifs-ready-step3-foundations.md) - Using the secure Azure Landing Zone as a foundation
+> - **Informs** the [**AI Hub Challenge - Step 3: Design →**](../../docs/03-aihub/ifs-aihub-step3-design.md) - The AI Hub will provide centralized management for AI services like those used in this solution

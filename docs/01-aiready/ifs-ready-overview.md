@@ -37,6 +37,42 @@ Welcome to the **IFS AI Ready Challenge**. You'll help customers safely adopt Az
 
 ---
 
+## XLR8 Challenge Journey
+
+> [!NOTE]
+> This AI Ready Challenge is the first in a series of three connected challenges that build upon each other to create a comprehensive AI solution for IFS.
+
+### How the Three Challenges Connect
+
+```mermaid
+flowchart TB
+    Ready["1️⃣ AI Ready Challenge
+    Secure, governed Azure foundation"]
+    Agent["2️⃣ AI Agent Challenge
+    Internal RAG chatbot application"]
+    Hub["3️⃣ AI Hub Challenge
+    Centralized AI service management"]
+    
+    Ready --> Agent
+    Agent --> Hub
+    
+    classDef ready fill:#0078D4,color:white,stroke:#0078D4,stroke-width:2px
+    classDef agent fill:#107C10,color:white,stroke:#107C10,stroke-width:2px
+    classDef hub fill:#8661C5,color:white,stroke:#8661C5,stroke-width:2px
+    
+    class Ready ready
+    class Agent agent
+    class Hub hub
+```
+
+### Your Role in the Journey
+
+In this **AI Ready Challenge**, you'll establish the secure Azure foundation that subsequent challenges will build upon:
+
+1. **Foundation First**: Your Azure Landing Zone design will provide the secure, compliant foundation for all future AI workloads
+2. **Enables Future Growth**: The governance controls and security patterns you define here will be applied in the AI Agent and AI Hub challenges
+3. **Direct Connection**: The RAG chatbot in Challenge 2 will deploy into the environment you design here
+
 ## CAF AI Adoption Phases
 
 This challenge maps to the Cloud Adoption Framework for AI phases:
@@ -47,6 +83,45 @@ This challenge maps to the Cloud Adoption Framework for AI phases:
 4. **Govern** – Apply policies and guardrails (AI governance)
 5. **Manage** – Implement monitoring, operations, and risk detection
 6. **Secure** – Enforce security controls and data protection
+
+---
+
+## XLR8 Challenge Journey 
+
+> [!NOTE]
+> This AI Ready Challenge is the first in a series of three connected challenges that build upon each other to create a comprehensive AI solution for IFS.
+
+### How the Three Challenges Connect
+
+```mermaid
+flowchart TB
+    Ready["1️⃣ AI Ready Challenge
+    Secure, governed Azure foundation"]
+    Agent["2️⃣ AI Agent Challenge
+    Internal RAG chatbot application"]
+    Hub["3️⃣ AI Hub Challenge
+    Centralized AI service management"]
+    
+    Ready --> Agent
+    Agent --> Hub
+    
+    classDef ready fill:#0078D4,color:white,stroke:#0078D4,stroke-width:2px
+    classDef agent fill:#107C10,color:white,stroke:#107C10,stroke-width:2px
+    classDef hub fill:#8661C5,color:white,stroke:#8661C5,stroke-width:2px
+    
+    class Ready ready
+    class Agent agent
+    class Hub hub
+```
+
+**Progressive AI Journey:**
+1. **AI Ready Challenge (Current)** - Establishes the secure Azure foundation needed for all AI workloads
+2. [**AI Agent Challenge →**](../../ai-agent-challenge.md) - Builds an internal RAG chatbot on the foundation
+3. [**AI Hub Challenge →**](../../ai-hub-challenge.md) - Creates a centralized AI management platform based on lessons learned
+
+Each challenge builds upon the work completed in the previous one, creating a complete enterprise AI solution.
+
+> For consistent terminology across all challenges, refer to the [**Shared Glossary →**](../../shared-glossary.md)
 
 ---
 

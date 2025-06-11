@@ -48,6 +48,19 @@ What you need before starting:
 
 ---
 
+## Cross-Challenge Connection
+
+> [!TIP]
+> The Azure Landing Zone you design here will be the foundation for the AI applications in later challenges.
+
+The AI foundation you design in this step will directly support:
+- The RAG chatbot deployment in [AI Agent Challenge - Solution Design](../../02-agent/ifs-agent-step4-solution-design.md)
+- The centralized AI services in [AI Hub Challenge - Design](../../03-aihub/ifs-aihub-step3-design.md)
+
+Design your landing zones with these future workloads in mind!
+
+---
+
 ## Why Azure Landing Zones Are Essential
 
 **Azure Landing Zones provide the foundation for successful AI initiatives.** Organizations with proper ALZ foundations experience:
@@ -452,6 +465,14 @@ To successfully complete this step, you must produce:
 - [⬅️ Previous: Step 2 - Requirements & Plan](./ifs-ready-step2-requirements.md)
 - [Next: Step 4 - Presentation ➡️](./ifs-ready-step4-present.md)
 - [🏠 AI Ready Challenge Home](../../ai-ready-challenge.md)
+
+## Related Steps in Other Challenges
+
+> [!TIP]
+> The Azure Landing Zone you design here serves as the foundation for:
+>
+> - [**AI Agent Challenge - Step 4: Solution Design →**](../../docs/02-agent/ifs-agent-step4-solution-design.md) - Builds the RAG chatbot on this foundation
+> - [**AI Hub Challenge - Step 3: Design →**](../../docs/03-aihub/ifs-aihub-step3-design.md) - Creates a centralized AI management platform using these foundational patterns
 
 ---
 

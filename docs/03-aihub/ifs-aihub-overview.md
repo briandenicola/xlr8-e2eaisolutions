@@ -26,6 +26,58 @@ Welcome to the **IFS AI Hub Challenge**. This challenge guides you through desig
 
 ---
 
+## XLR8 Challenge Journey
+
+> [!NOTE]
+> This AI Hub Challenge is the third and final challenge in a series of three connected challenges that build upon each other to create a comprehensive AI solution for IFS.
+
+### How the Three Challenges Connect
+
+```mermaid
+flowchart TB
+    Ready["1️⃣ AI Ready Challenge
+    Secure, governed Azure foundation"]
+    Agent["2️⃣ AI Agent Challenge
+    Internal RAG chatbot application"]
+    Hub["3️⃣ AI Hub Challenge
+    Centralized AI service management"]
+    
+    Ready --> Agent
+    Agent --> Hub
+    
+    classDef ready fill:#0078D4,color:white,stroke:#0078D4,stroke-width:2px
+    classDef agent fill:#107C10,color:white,stroke:#107C10,stroke-width:2px
+    classDef hub fill:#8661C5,color:white,stroke:#8661C5,stroke-width:2px
+    
+    class Ready ready
+    class Agent agent
+    class Hub hub
+```
+
+### Your Role in the Journey
+
+In this **AI Hub Challenge**, you'll build upon both previous challenges:
+
+1. **Scaled Enterprise Solution**: You'll design a centralized platform that can serve multiple applications like the one created in Challenge 2
+2. **Governance at Scale**: You'll extend the governance principles from Challenge 1 to manage AI services centrally
+3. **Lessons Applied**: You'll incorporate learnings from the RAG chatbot deployment to inform your enterprise-wide AI Hub architecture
+    
+    class Ready ready
+    class Agent agent
+    class Hub hub
+```
+
+**Progressive AI Journey:**
+1. [**AI Ready Challenge ←**](../../ai-ready-challenge.md) - Established the secure Azure foundation
+2. [**AI Agent Challenge ←**](../../ai-agent-challenge.md) - Built an internal RAG chatbot and demonstrated the need for a centralized AI management approach
+3. **AI Hub Challenge (Current)** - Creates a centralized AI management platform that builds on lessons learned from the first two challenges
+
+This challenge applies the experience gained from implementing a specific AI workload (in the AI Agent Challenge) to create a scalable, central platform for managing all AI services across the organization.
+
+> For consistent terminology across all challenges, refer to the [**Shared Glossary →**](../../shared-glossary.md)
+
+---
+
 ## Challenge Structure
 
 This challenge is divided into four steps:

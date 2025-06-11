@@ -43,12 +43,26 @@ Define the architecture, controls, and Azure services needed for a robust, secur
 
 ---
 
+## Cross-Challenge Connection
+
+> [!TIP]
+> Your AI Hub design builds upon both previous challenges, creating a centralized platform for enterprise-wide AI adoption.
+
+**Related Components from Previous Challenges:**
+- The secure foundation established in [AI Ready Challenge - Foundations Design](../../01-aiready/ifs-ready-step3-foundations.md)
+- The practical implementation lessons from [AI Agent Challenge - Solution Design](../../02-agent/ifs-agent-step4-solution-design.md)
+
+Your AI Hub design should incorporate governance controls from Challenge 1 and support applications like the one built in Challenge 2.
+
+---
+
 ## 📝 Activities
 
 - Review your findings from Steps 1 and 2.
 - As a team, design and document:
   1. **Architecture:** Draw a high-level architecture diagram showing the AI Hub architecture.
-  2. **Service Selection:** List Azure services that will be part of the AI Hub.  3. **Network Security:** Detail the network design including VNets, subnets, NSGs, and private endpoints.
+  2. **Service Selection:** List Azure services that will be part of the AI Hub.
+  3. **Network Security:** Detail the network design including VNets, subnets, NSGs, and private endpoints.
   
   > [!IMPORTANT]
   > Ensure your network design includes private endpoints for all Azure AI services to maintain data security and comply with data residency requirements. This is particularly critical for AI services that process sensitive information.
@@ -335,3 +349,11 @@ To successfully complete this step, your design should provide a complete techni
 - [⬅️ Previous: Step 2 - Requirements](./ifs-aihub-step2-requirements.md)
 - [Next: Step 4 - Present ➡️](./ifs-aihub-step4-present.md)
 - [🏠 AI Hub Challenge Home](../../ai-hub-challenge.md)
+
+## Related Steps in Other Challenges
+
+> [!TIP]
+> This AI Hub design:
+>
+> - **Builds upon** the [**AI Ready Challenge - Step 3: Foundations →**](../../docs/01-aiready/ifs-ready-step3-foundations.md) - Using the secure Azure Landing Zone as a foundation
+> - **Leverages lessons from** the [**AI Agent Challenge - Step 4: Solution Design →**](../../docs/02-agent/ifs-agent-step4-solution-design.md) - Expanding the single-solution approach into an enterprise-wide AI management platform
