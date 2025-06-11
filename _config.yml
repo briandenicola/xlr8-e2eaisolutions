@@ -6,10 +6,34 @@ remote_theme: pmarsceill/just-the-docs
 url: https://jonathan-vella.github.io
 baseurl: "/xlr8-e2eaisolutions"
 
+# just-the-docs specific settings
+search_enabled: true
+aux_links_new_tab: true
+heading_anchors: true
+
+# Sass/SCSS settings
+sass:
+  sass_dir: _sass
+  style: compressed
+
 # GitHub Pages specific settings
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
+
+# Make sure Jekyll processes all URLs correctly with baseurl
+permalink: pretty
+relative_links:
+  enabled: true
+  collections: true
+
+# Mermaid support
+head_scripts:
+  - https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
+  
+# Custom JavaScript
+after_footer_scripts:
+  - assets/js/mermaid-init.js
 
 # Exclude specific directories from processing
 exclude:
@@ -17,55 +41,34 @@ exclude:
   - "workshop-assets/**"
   - vendor/
   - "vendor/**"
-  - "*.md"
-  - "!docs/**/*.md"
-  - README.md
-  - LICENSE
-  - NAVIGATION_STRUCTURE.md
-  - raci.md
-  - ".*"
-  - NAVIGATION_STRUCTURE.md
-  - raci.md
-  - Gemfile
-  - Gemfile.lock
-  - "*.lock"
-  - "*.log"
-  - "*.yml"
-  - "*.md.saved"
 
 aux_links:
-  Template Repository: https://github.com/jonathan-vella/xlr8-e2eaisolutions
-
-# Collapse the "On This Page" navigation for each page
-toc:
-  enabled: true
-  h_min: 2
-  h_max: 3
+  GitHub Repository: https://github.com/jonathan-vella/xlr8-e2eaisolutions
 
 # For proper linking in the navigation
-# This is entirely commented out to prevent duplicate navigation
-# collections:
-#   docs:
-#     permalink: "/:collection/:path/"
-#     output: true
+collections:
+  docs:
+    permalink: "/:collection/:path/"
+    output: true
 
-# Navigation settings
-kramdown:
-  parse_block_html: true
+# Navigation settings 
+nav_external_links:
+  - title: Azure Documentation
+    url: https://learn.microsoft.com/azure
+    hide_icon: false
+    opens_in_new_tab: true
 
 # Enable search
 search_enabled: true
 search:
   # Split pages into sections that can be searched individually
   heading_level: 2
-  # Maximum amount of previews per search result
   previews: 3
-  # Maximum amount of words to display before a matched word in the preview
   preview_words_before: 5
-  # Maximum amount of words to display after a matched word in the preview
   preview_words_after: 10
-  # Set to true to index the entire content of your site
-  full_content: false
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: true
 
 # Enable callouts
 callouts_level: quiet # or loud
@@ -84,3 +87,5 @@ callouts:
   warning:
     title: Warning
     color: red
+
+mermaid: true
