@@ -91,6 +91,34 @@ This challenge is divided into four steps:
 3. [Step 3: AI Solution Design](./ifs-ready-step3-foundations.md) – Architect AI workloads and platform, applying governance and security controls
 4. [Step 4: Present & Justify](./ifs-ready-step4-present.md) – Share design, decisions, and alignment to CAF and WAF principles
 
+### Challenge Workflow
+
+```mermaid
+flowchart LR
+    %% Define the flow of the AI Ready Challenge
+    Start([Start]) --> Step1
+    Step1[Step 1: AI Strategy & Plan] --> Step2[Step 2: Requirements]
+    Step2 --> Step3[Step 3: AI Solution Design]
+    Step3 --> Step4[Step 4: Present & Justify]
+    Step4 --> End([End])
+    
+    %% Add descriptions
+    classDef step fill:#0072C6,stroke:#025,color:white,stroke-width:2px
+    classDef endpoint fill:#5CB85C,stroke:#4CAE4C,color:white,stroke-width:2px
+    
+    class Step1,Step2,Step3,Step4 step
+    class Start,End endpoint
+    
+    %% Add annotations
+    Step1 -.-> Ann1[Business outcomes, AI use cases, Adoption planning]
+    Step2 -.-> Ann2[Business, technical, compliance, RAI]
+    Step3 -.-> Ann3[Architecture, governance, security, operations]
+    Step4 -.-> Ann4[Solution alignment to CAF & WAF principles]
+    
+    classDef annotation fill:#F8F9FA,stroke:#DDD,color:#333
+    class Ann1,Ann2,Ann3,Ann4 annotation
+```
+
 ---
 
 ## How to Use This Challenge

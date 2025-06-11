@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Step 1 - Scenario
+title: Step 1 - Functional Requirements
 parent: Agentic AI challenge
 nav_order: 1
 ---
