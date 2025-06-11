@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Step 3 - Design
-parent: Agentic AI challenge
+title: Step 4 - Solution Design
+parent: Agentic AI Challenge
 nav_order: 4
 ---
 
-# Step 3: Design
+# Step 4: Solution Design
 
 This section is part of the **IFS Agentic AI challenge**. Here, you’ll design the end-to-end architecture for the IFS Knowledge Assistant chatbot, ensuring alignment with Azure best practices and the Baseline OpenAI E2E Chat reference architecture.
 
@@ -52,5 +52,5 @@ By the end of this step, you should have:
 ---
 
 ## Navigation
-- [⬅️ Back to Step 2](./ifs-rag-step2-requirements.md)
-- [Next: Step 4 – Integrate ➡️](./ifs-rag-step4-integrate.md)
+- [⬅️ Back to Step 3](./ifs-rag-step3-nfr.md)
+- [Next: Step 5 – Integration ➡️](./ifs-rag-step5-integrate.md)

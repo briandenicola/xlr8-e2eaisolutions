@@ -28,7 +28,7 @@ Understand IFS's background, challenges, and strategic vision for AI adoption.
 ### [AI Ready Challenge](./ai-ready-challenge.md)
 Design a secure, scalable, and governed Azure foundation to support IFS's AI transformation journey.
 
-### [Agentic AI challenge](./rag-challenge.md)
+### [Agentic AI Challenge](./rag-challenge.md)
 Design a secure internal Retrieval-Augmented Generation (RAG) chatbot application for IFS employees.
 
 ### [AI Hub Challenge](./ai-hub-challenge.md)

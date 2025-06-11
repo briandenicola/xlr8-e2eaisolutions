@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Step 2 - Non Functional Requirements
-parent: Agentic AI challenge
+title: Step 3 - Non-Functional Requirements
+parent: Agentic AI Challenge
 nav_order: 3
 ---
 
-# Step 2: Requirements
+# Step 3: Non-Functional Requirements
 
 This section is part of the **IFS Agentic AI challenge**. Here, you’ll identify and document the business and technical requirements for the IFS Knowledge Assistant chatbot.
 
@@ -58,5 +58,5 @@ By the end of this step, you should have:
 ---
 
 ## Navigation
-- [⬅️ Back to Step 1](./ifs-rag-step1-scenario.md)
-- [Next: Step 3 – Design ➡️](./ifs-rag-step3-design.md)
+- [⬅️ Back to Step 2](./ifs-rag-step2-fr.md)
+- [Next: Step 4 – Solution Design ➡️](./ifs-rag-step4-design.md)

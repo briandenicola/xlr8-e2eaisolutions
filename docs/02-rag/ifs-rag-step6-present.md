@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Step 5 - Present
-parent: Agentic AI challenge
+title: Step 6 - Present & Justify
+parent: Agentic AI Challenge
 nav_order: 6
 ---
 
-# Step 5: Present & Justify
+# Step 6: Present & Justify
 
 This section is part of the **IFS Agentic AI challenge**. Here, you'll present your RAG solution and justify your design decisions to the group.
 
@@ -112,5 +112,5 @@ By the end of this step, you should have:
 ---
 
 ## Navigation
-- [⬅️ Back to Step 4](./ifs-rag-step4-integrate.md)
+- [⬅️ Back to Step 5](./ifs-rag-step5-integrate.md)
 - [Next: References ➡️](./ifs-rag-references.md)

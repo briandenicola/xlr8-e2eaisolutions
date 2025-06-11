@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Step 1 - Functional Requirements
-parent: Agentic AI challenge
+title: Step 2 - Functional Requirements
+parent: Agentic AI Challenge
 nav_order: 2
 ---
 
-# Step 1: Scenario
+# Step 2: Functional Requirements
 
 This section is part of the **IFS Agentic AI challenge**. Here, you’ll analyze the business scenario and user needs for the IFS Knowledge Assistant chatbot.
 
@@ -56,5 +56,5 @@ By the end of this step, you should have:
 ---
 
 ## Navigation
-- [⬅️ Back to Overview](./ifs-rag-overview.md)
-- [Next: Step 2 – Requirements ➡️](./ifs-rag-step2-requirements.md)
+- [⬅️ Back to Step 1](./ifs-rag-step1-agentic-ai-principles.md)
+- [Next: Step 3 – Non-Functional Requirements ➡️](./ifs-rag-step3-nfr.md)

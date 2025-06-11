@@ -567,4 +567,4 @@ Now that you understand Agentic AI principles and patterns, you're ready to:
 
 ---
 
-[⬅️ Back to Agentic AI Challenge Overview](./ifs-rag-overview.md) | [Next: Step 2 – Functional Requirements ➡️](./ifs-rag-step1-scenario.md)
+[⬅️ Back to Agentic AI Challenge Overview](./ifs-rag-overview.md) | [Next: Step 2 – Functional Requirements ➡️](./ifs-rag-step2-fr.md)
