@@ -1,2 +1,12 @@
-# Set jonathan-vella as the owner for all files in the repository
+# Set default owner for all files in the repository
 * @jonathan-vella
+
+# Example: Assign folder-specific owners
+# /docs/01-aiready/ @username1 @username2
+/docs/02-rag/ @bovrhovn @fparpas @rodanthi-alexiou
+/docs/03-aihub/ @bovrhovn @fparpas @rodanthi-alexiou
+/media/images/ @bovrhovn @fparpas @rodanthi-alexiou
+
+# Example: Assign file-specific owners
+# /docs/index.md @username8
+# *.md @documentation-team
