@@ -37,14 +37,13 @@ after_footer_scripts:
 
 # Exclude specific directories from processing
 exclude:
-  - workshop-assets/
+    - workshop-assets/
   - "workshop-assets/**"
   - vendor/
   - "vendor/**"
   - "*.md"
   - "!docs/**/*.md"
   - "!docs/references/**/*.md"
-  - README.md
   - LICENSE
   - Gemfile
   - Gemfile.lock
