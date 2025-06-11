@@ -2,7 +2,7 @@
 layout: default
 title: Step 4 - Integrate
 parent: Agentic AI challenge
-nav_order: 4
+nav_order: 5
 ---
 
 # Step 4: Integrate

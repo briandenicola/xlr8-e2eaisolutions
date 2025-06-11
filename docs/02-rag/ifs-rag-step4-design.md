@@ -2,7 +2,7 @@
 layout: default
 title: Step 3 - Design
 parent: Agentic AI challenge
-nav_order: 3
+nav_order: 4
 ---
 
 # Step 3: Design

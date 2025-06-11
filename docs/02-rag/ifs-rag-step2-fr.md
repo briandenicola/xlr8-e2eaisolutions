@@ -2,7 +2,7 @@
 layout: default
 title: Step 1 - Functional Requirements
 parent: Agentic AI challenge
-nav_order: 1
+nav_order: 2
 ---
 
 # Step 1: Scenario
