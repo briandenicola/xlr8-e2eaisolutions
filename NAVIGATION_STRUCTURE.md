@@ -15,7 +15,7 @@ The IFS AI Transformation Workshop documentation is structured for the just-the-
 │   ├── Step 3 - Foundations (nav_order: 3)
 │   ├── Step 4 - Present (nav_order: 4)
 │   └── References (nav_order: 5)
-├── 🤖 RAG Challenge (nav_order: 4, has_children: true)
+├── 🤖 Agentic AI challenge (nav_order: 4, has_children: true)
 │   ├── Step 1 - Scenario (nav_order: 1)
 │   ├── Step 2 - Requirements (nav_order: 2)
 │   ├── Step 3 - Design (nav_order: 3)

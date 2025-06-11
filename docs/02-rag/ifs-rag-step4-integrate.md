@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Step 4 - Integrate
-parent: RAG Challenge
+parent: Agentic AI challenge
 nav_order: 4
 ---
 
 # Step 4: Integrate
 
-This section is part of the **IFS RAG Challenge**. Here, you’ll plan how to integrate your RAG solution into a secure, scalable Azure Landing Zone environment, following best practices and reference architectures.
+This section is part of the **IFS Agentic AI challenge**. Here, you’ll plan how to integrate your RAG solution into a secure, scalable Azure Landing Zone environment, following best practices and reference architectures.
 
 ---
 

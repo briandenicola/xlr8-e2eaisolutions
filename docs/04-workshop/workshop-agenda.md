@@ -42,11 +42,11 @@ Welcome to the **IFS End-to-End Azure AI Solution Workshop**. This two-day works
 | Time | Session | Description |
 |------|---------|-------------|
 | 9:00 - 9:15 | **Day 2 Introduction** | Recap of Day 1 and overview of Day 2 activities |
-| 9:15 - 10:30 | **RAG Challenge - Part 1** | * Define the Workload Scenario<br>* Elicit Requirements |
+| 9:15 - 10:30 | **Agentic AI challenge - Part 1** | * Define the Workload Scenario<br>* Elicit Requirements |
 | 10:30 - 10:45 | **Break** |  |
-| 10:45 - 12:30 | **RAG Challenge - Part 2** | * Design Application Architecture<br>* Plan for Integration with Landing Zone |
+| 10:45 - 12:30 | **Agentic AI challenge - Part 2** | * Design Application Architecture<br>* Plan for Integration with Landing Zone |
 | 12:30 - 13:30 | **Lunch** |  |
-| 13:30 - 14:15 | **RAG Challenge - Presentations** | * Group presentations of chatbot architecture<br>* Discussion of implementation considerations |
+| 13:30 - 14:15 | **Agentic AI challenge - Presentations** | * Group presentations of chatbot architecture<br>* Discussion of implementation considerations |
 | 14:15 - 15:45 | **AI Hub Challenge** | * Define Requirements for Scaling to Enterprise AI<br>* Design Centralized AI Hub Architecture |
 | 15:45 - 16:00 | **Break** |  |
 | 16:00 - 16:30 | **AI Hub Challenge - Presentations** | * Group presentations of AI Hub architecture<br>* Discussion of enterprise scalability |

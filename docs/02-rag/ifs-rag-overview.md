@@ -1,13 +1,13 @@
 ---
 layout: default
-title: RAG Challenge Overview
-parent: RAG Challenge
+title: Agentic AI challenge Overview
+parent: Agentic AI challenge
 nav_order: 0
 ---
 
-# RAG Challenge Overview
+# Agentic AI challenge Overview
 
-Welcome to the **IFS RAG Challenge**. This challenge guides you through designing a secure, scalable, and governed Azure-based Retrieval-Augmented Generation (RAG) chatbot for IFS employees, leveraging the Baseline OpenAI E2E Chat reference architecture.
+Welcome to the **IFS Agentic AI challenge**. This challenge guides you through designing a secure, scalable, and governed Azure-based Retrieval-Augmented Generation (RAG) chatbot for IFS employees, leveraging the Baseline OpenAI E2E Chat reference architecture.
 
 ---
 

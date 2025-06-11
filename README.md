@@ -93,7 +93,7 @@ The workshop follows a logical progression that mirrors an organization's AI ado
 - IaC (Bicep).
 
 **Materials:**  
-- [RAG Challenge Overview](./docs/02-rag/ifs-rag-overview.md)
+- [Agentic AI challenge Overview](./docs/02-rag/ifs-rag-overview.md)
 - [Step 1: Define the Scenario](./docs/02-rag/ifs-rag-step1-scenario.md)
 - [Step 2: Elicit Requirements](./docs/02-rag/ifs-rag-step2-requirements.md)
 - [Step 3: Design Architecture](./docs/02-rag/ifs-rag-step3-design.md)
@@ -172,7 +172,7 @@ The workshop follows a logical progression that mirrors an organization's AI ado
 - [Workshop Agenda](./docs/04-workshop/workshop-agenda.md)
 - [Scenario definition for Innovate Financial Services](./docs/ifs-customer-story.md)
 - [Whiteboard Design Session guide for the Platform Foundation](./docs/01-aiready/ifs-ready-overview.md)
-- [Whiteboard Design Session guide for the RAG Challenge Workload](./docs/02-rag/ifs-rag-overview.md)
+- [Whiteboard Design Session guide for the Agentic AI challenge Workload](./docs/02-rag/ifs-rag-overview.md)
 - [Whiteboard Design Session guide for the AI Hub](./docs/03-aihub/ifs-aihub-overview.md)
 - [Frequently Asked Questions](./docs/ifs-faq.md)
 - Workshop presentation slides (available separately)

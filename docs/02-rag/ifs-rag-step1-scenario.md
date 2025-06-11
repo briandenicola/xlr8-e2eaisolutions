@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Step 1 - Scenario
-parent: RAG Challenge
+parent: Agentic AI challenge
 nav_order: 1
 ---
 
 # Step 1: Scenario
 
-This section is part of the **IFS RAG Challenge**. Here, you’ll analyze the business scenario and user needs for the IFS Knowledge Assistant chatbot.
+This section is part of the **IFS Agentic AI challenge**. Here, you’ll analyze the business scenario and user needs for the IFS Knowledge Assistant chatbot.
 
 ---
 

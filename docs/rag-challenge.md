@@ -1,14 +1,14 @@
 ---
 layout: default
-title: RAG Challenge
+title: Agentic AI challenge
 nav_order: 4
 has_children: true
 permalink: /rag-challenge/
 ---
 
-# RAG Challenge
+# Agentic AI challenge
 
-The RAG Challenge guides you through designing a secure internal Retrieval-Augmented Generation (RAG) chatbot application for IFS employees.
+The Agentic AI challenge guides you through designing a secure internal Retrieval-Augmented Generation (RAG) chatbot application for IFS employees.
 
 This section focuses on creating a chatbot architecture that integrates with the existing Azure Landing Zones while meeting specific security and performance requirements.
 

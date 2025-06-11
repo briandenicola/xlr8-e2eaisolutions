@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Step 2 - Requirements
-parent: RAG Challenge
+parent: Agentic AI challenge
 nav_order: 2
 ---
 
 # Step 2: Requirements
 
-This section is part of the **IFS RAG Challenge**. Here, you’ll identify and document the business and technical requirements for the IFS Knowledge Assistant chatbot.
+This section is part of the **IFS Agentic AI challenge**. Here, you’ll identify and document the business and technical requirements for the IFS Knowledge Assistant chatbot.
 
 ---
 

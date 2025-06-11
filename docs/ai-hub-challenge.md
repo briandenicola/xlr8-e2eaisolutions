@@ -28,4 +28,4 @@ This section focuses on creating a scalable architecture for enterprise-wide AI 
 - [⬅️ Back to Home](./index.md)
 - [Customer Story](./ifs-customer-story.md)
 - [AI Ready Challenge](./ai-ready-challenge.md)
-- [RAG Challenge](./rag-challenge.md)
+- [Agentic AI challenge](./rag-challenge.md)

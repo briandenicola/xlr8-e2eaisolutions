@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Step 3 - Design
-parent: RAG Challenge
+parent: Agentic AI challenge
 nav_order: 3
 ---
 
 # Step 3: Design
 
-This section is part of the **IFS RAG Challenge**. Here, you’ll design the end-to-end architecture for the IFS Knowledge Assistant chatbot, ensuring alignment with Azure best practices and the Baseline OpenAI E2E Chat reference architecture.
+This section is part of the **IFS Agentic AI challenge**. Here, you’ll design the end-to-end architecture for the IFS Knowledge Assistant chatbot, ensuring alignment with Azure best practices and the Baseline OpenAI E2E Chat reference architecture.
 
 ---
 

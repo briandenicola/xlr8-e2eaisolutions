@@ -1,11 +1,11 @@
 ---
 layout: default
 title: References
-parent: RAG Challenge
+parent: Agentic AI challenge
 nav_order: 6
 ---
 
-# References – RAG Challenge
+# References – Agentic AI challenge
 
 - [Baseline OpenAI E2E Chat Reference Architecture (Microsoft Learn)](https://learn.microsoft.com/azure/architecture/ai-ml/architecture/baseline-openai-e2e-chat)
 - [Azure OpenAI baseline in an Azure landing zone](https://learn.microsoft.com/azure/architecture/ai-ml/architecture/azure-openai-baseline-landing-zone)

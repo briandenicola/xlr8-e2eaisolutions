@@ -27,5 +27,5 @@ This section walks you through the process of designing Azure Landing Zones alig
 ## Navigation
 - [⬅️ Back to Home](./index.md)
 - [Customer Story](./ifs-customer-story.md)
-- [RAG Challenge](./rag-challenge.md)
+- [Agentic AI challenge](./rag-challenge.md)
 - [AI Hub Challenge](./ai-hub-challenge.md)

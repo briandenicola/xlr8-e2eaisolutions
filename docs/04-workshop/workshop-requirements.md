@@ -79,7 +79,7 @@ While not mandatory, the following Microsoft certifications provide a solid foun
   
   This certification validates your understanding of cloud concepts, Azure services, security, privacy, compliance, and pricing.
 
-- [Microsoft Certified: Azure Administrator Associate (AZ-104)](https://learn.microsoft.com/en-us/certifications/azure-administrator/)
+- [Microsoft Certified: Entra IDministrator Associate (AZ-104)](https://learn.microsoft.com/en-us/certifications/azure-administrator/)
   
   This certification demonstrates your ability to implement, manage, and monitor Azure environments.
 
