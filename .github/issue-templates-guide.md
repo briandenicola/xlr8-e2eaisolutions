@@ -1,13 +1,13 @@
 # 📚 Documentation Issue Templates Guide
 
 > **Executive Summary:**  
-> This guide explains when and how to use the specialized issue templates for managing documentation tasks in the XLR8 E2E Azure AI Solutions workshop repository.
+> This guide explains when and how to use the specialized issue templates for managing documentation tasks in the XLR8 E2E Azure AI Solutions workshop repository. Our templates are implemented as YAML forms for an improved user experience.
 
 ![Documentation Workflow Banner](https://via.placeholder.com/800x200?text=XLR8+Documentation+Workflow)
 
 ## 🧰 Available Templates
 
-We have created four specialized issue templates to help manage documentation tasks:
+We have created four specialized issue templates implemented as interactive YAML forms to help manage documentation tasks:
 
 | 📝 Template | 🎯 Purpose | 🔍 When to Use |
 |------------|-----------|--------------|
@@ -15,6 +15,8 @@ We have created four specialized issue templates to help manage documentation ta
 | **🔄 Content Update** | Streamlined template for updating existing content | For straightforward changes to existing documents |
 | **🌟 New Content Creation** | Template focused on creating new documentation | For developing entirely new content or sections |
 | **🐞 Documentation Issue** | Template for reporting problems or errors | For highlighting issues in existing documentation |
+
+Each template includes form controls like dropdowns, text fields, and checkboxes to ensure consistent information gathering and improve the user experience.
 
 ## ⏱️ Choosing the Right Template
 
@@ -116,78 +118,74 @@ Our documentation process involves specific roles working together:
 
 ## 📝 Example Issues
 
-Here are examples of how to use each template effectively:
+Here are examples of how to use each template effectively. When using our YAML-based templates, you'll fill out interactive form fields instead of manually formatting text.
 
 <details>
 <summary>📚 <b>Documentation Task Example</b></summary>
 
-```markdown
-Title: [AI Ready] - Improve Cloud Adoption Framework references and diagrams
+When filling out the Documentation Task form, you would provide:
 
-Challenge Area: AI Ready Challenge
-Task Type: Content Update
-Related Files: 
+- **Title**: [AI Ready] - Improve Cloud Adoption Framework references and diagrams
+- **Challenge Area**: AI Ready Challenge (dropdown selection)
+- **Task Type**: Content Update (dropdown selection)
+- **Related Files**: 
   - docs/ai-ready/ifs-aiready-step2-principles.md
   - docs/ai-ready/ifs-aiready-step3-architecture.md
-Estimated Time: ☕☕☕ Large (4+ hours)
-
-Description:
-Update all Cloud Adoption Framework references to align with the latest Microsoft guidance. 
-Create new Mermaid diagrams to illustrate the integration points with Azure AI services.
-```
+- **Estimated Time**: ☕☕☕ Large (4+ hours) (dropdown selection)
+- **Description**:
+  Update all Cloud Adoption Framework references to align with the latest Microsoft guidance. 
+  Create new Mermaid diagrams to illustrate the integration points with Azure AI services.
 
 </details>
 
 <details>
 <summary>🔄 <b>Content Update Example</b></summary>
 
-```markdown
-Title: [AI Agent] - Update: RAG pattern description with latest Azure OpenAI capabilities
+When filling out the Content Update form, you would provide:
 
-Challenge Area: AI Agent Challenge
-File(s) to Update: docs/ai-agent/ifs-aiagent-step1-principles.md
-Estimated Time: ☕☕ Medium (1-2 hours)
-Priority: 🟠 High
+- **Title**: [AI Agent] - Update: RAG pattern description with latest Azure OpenAI capabilities
+- **Challenge Area**: AI Agent Challenge (dropdown selection) 
+- **File(s) to Update**: docs/ai-agent/ifs-aiagent-step1-principles.md
+- **Estimated Time**: ☕☕ Medium (1-2 hours) (dropdown selection)
+- **Priority**: 🟠 High (dropdown selection)
 
-What Needs to Be Updated:
-The RAG pattern description needs to incorporate the latest Azure OpenAI capabilities
-including semantic ranking and the newest embedding models.
-```
+- **What Needs to Be Updated**:
+  The RAG pattern description needs to incorporate the latest Azure OpenAI capabilities
+  including semantic ranking and the newest embedding models.
 
 </details>
 
 <details>
 <summary>🌟 <b>New Content Creation Example</b></summary>
 
-```markdown
-Title: [AI Hub] - New: Create security best practices guide for AI Hub implementation
+When filling out the New Content Creation form, you would provide:
 
-Challenge Area: AI Hub Challenge
-File Path: docs/ai-hub/ifs-aihub-security-guide.md
-Estimated Time: ☕☕☕☕ Very Large (8+ hours)
-Version for Inclusion: v1.2.0
-
-Content Overview:
-A comprehensive security guide for implementing AI Hub solutions, covering authentication,
-authorization, data protection, and secure API access patterns.
-```
+- **Title**: [AI Hub] - New: Create security best practices guide for AI Hub implementation
+- **Challenge Area**: AI Hub Challenge (dropdown selection)
+- **File Naming Pattern**: ifs-aihub-security-guide.md
+- **Proposed File Path**: docs/ai-hub/ifs-aihub-security-guide.md
+- **Estimated Time**: ☕☕☕☕ Very Large (8+ hours) (dropdown selection)
+- **Version for Inclusion**: v1.2.0
+- **Content Overview**:
+  A comprehensive security guide for implementing AI Hub solutions, covering authentication,
+  authorization, data protection, and secure API access patterns.
 
 </details>
 
 <details>
 <summary>🐞 <b>Documentation Issue Example</b></summary>
 
-```markdown
-Title: [General] - Issue: Broken links in references section
+When filling out the Documentation Issue form, you would provide:
 
-Challenge Area: General Documentation
-Affected File(s): docs/references/external-resources.md
-Severity: 🟡 Medium
+- **Title**: [General] - Issue: Broken links in references section
+- **Challenge Area**: General Documentation (dropdown selection)
+- **Affected File(s)**: docs/references/external-resources.md
+- **Severity**: 🟡 Medium (dropdown selection)
+- **Issue Description**:
+  Multiple links in the external resources page are broken or pointing to outdated content.
+  Specifically, the links to Azure OpenAI documentation and the Responsible AI guidelines.
 
-Issue Description:
-Multiple links in the external resources page are broken or pointing to outdated content.
-Specifically, the links to Azure OpenAI documentation and the Responsible AI guidelines.
-```
+</details>
 
 </details>
 
@@ -221,4 +219,4 @@ Use these templates to streamline your process and deliver amazing content.
 
 ---
 
-*Last updated: June 2023*
+*Last updated: June 12, 2025*
