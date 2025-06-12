@@ -28,12 +28,27 @@ body:
     validations:
       required: true
       
+  - type: dropdown
+    id: file-directory
+    attributes:
+      label: File Directory
+      description: Which directory contains the file(s) to update?
+      options:
+        - docs/01-aiready
+        - docs/02-agent
+        - docs/03-aihub
+        - docs/references
+        - docs/ (root docs)
+        - Other (specify in file paths)
+    validations:
+      required: true
+      
   - type: input
     id: files-to-update
     attributes:
       label: File(s) to Update
-      description: List the exact file paths (e.g., `docs/ai-ready/step1.md`)
-      placeholder: "docs/ai-ready/ifs-aiready-step1-customer.md"
+      description: "List the exact file paths (GitHub will auto-suggest as you type)"
+      placeholder: "docs/01-aiready/ifs-aiready-step1-customer.md"
     validations:
       required: true
       
@@ -66,8 +81,8 @@ body:
     id: required-by-date
     attributes:
       label: Required by Date
-      description: When should this be completed by?
-      placeholder: "YYYY-MM-DD"
+      description: "When should this be completed by? (YYYY-MM-DD format)"
+      placeholder: "2025-07-01"
       
   - type: markdown
     attributes:
@@ -118,13 +133,20 @@ body:
     id: content-author
     attributes:
       label: Content Author
-      description: "@username of person responsible for making the changes"
+      description: "Who will make these changes? (Type @ to mention a GitHub user)"
+      placeholder: "@username"
+      
+  - type: input
+    id: reviewer
+    attributes:
+      label: Reviewer
+      description: "Who should review these changes? (Type @ to mention a GitHub user)"
       placeholder: "@username"
       
   - type: dropdown
-    id: reviewer-needed
+    id: review-type
     attributes:
-      label: Reviewer Needed
+      label: Review Type
       description: What type of review is needed for this update?
       options:
         - Technical
