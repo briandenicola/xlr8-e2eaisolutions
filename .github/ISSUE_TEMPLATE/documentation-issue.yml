@@ -28,12 +28,27 @@ body:
     validations:
       required: true
       
+  - type: dropdown
+    id: file-directory
+    attributes:
+      label: File Directory
+      description: Which directory contains the file(s) with issues?
+      options:
+        - docs/01-aiready
+        - docs/02-agent
+        - docs/03-aihub
+        - docs/references
+        - docs/ (root docs)
+        - Other (specify in file paths)
+    validations:
+      required: true
+      
   - type: input
     id: affected-files
     attributes:
       label: Affected File(s)
-      description: Full path to affected file(s)
-      placeholder: "docs/ai-ready/ifs-aiready-step1-customer.md"
+      description: "Full path to affected file(s) (GitHub will auto-suggest as you type)"
+      placeholder: "docs/01-aiready/ifs-aiready-step1-customer.md"
     validations:
       required: true
       
@@ -120,6 +135,24 @@ body:
       label: Suggested Fix
       description: If you have a suggestion for how to fix the issue, describe it here
       placeholder: "I suggest changing/fixing this by..."
+      
+  - type: markdown
+    attributes:
+      value: "## 👥 Issue Assignment"
+      
+  - type: input
+    id: reported-by
+    attributes:
+      label: Reported By
+      description: "Who is reporting this issue? (Type @ to mention a GitHub user)"
+      placeholder: "@username"
+      
+  - type: input
+    id: assigned-to
+    attributes:
+      label: Assigned To
+      description: "Who should fix this issue? (Type @ to mention a GitHub user)"
+      placeholder: "@username"
       
   - type: markdown
     attributes:

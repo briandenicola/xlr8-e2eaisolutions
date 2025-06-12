@@ -28,11 +28,26 @@ body:
     validations:
       required: true
       
+  - type: dropdown
+    id: file-directory
+    attributes:
+      label: File Directory
+      description: Which directory will contain this new file?
+      options:
+        - docs/01-aiready
+        - docs/02-agent
+        - docs/03-aihub
+        - docs/references
+        - docs/ (root docs)
+        - Other (specify in file paths)
+    validations:
+      required: true
+      
   - type: input
     id: file-naming-pattern
     attributes:
       label: File Naming Pattern
-      description: Follow the pattern `ifs-[challenge]-step[step#]-[slug].md`
+      description: "Follow the pattern `ifs-[challenge]-step[step#]-[slug].md` (GitHub will auto-suggest similar files)"
       placeholder: "ifs-aiready-step3-solution.md"
     validations:
       required: true
@@ -41,8 +56,8 @@ body:
     id: proposed-file-path
     attributes:
       label: Proposed File Path
-      description: Full path for the new file
-      placeholder: "docs/ai-ready/ifs-aiready-step3-solution.md"
+      description: "Full path for the new file (GitHub will auto-suggest as you type)"
+      placeholder: "docs/01-aiready/ifs-aiready-step3-solution.md"
     validations:
       required: true
       
@@ -62,8 +77,8 @@ body:
     id: required-by-date
     attributes:
       label: Required by Date
-      description: When should this be completed by?
-      placeholder: "YYYY-MM-DD"
+      description: "When should this be completed by? (YYYY-MM-DD format)"
+      placeholder: "2025-07-01"
       
   - type: input
     id: version-for-inclusion
@@ -134,28 +149,28 @@ body:
     id: content-author
     attributes:
       label: Content Author
-      description: "@username of person responsible for creating the content"
+      description: "Who will create this content? (Type @ to mention a GitHub user)"
       placeholder: "@username"
       
   - type: input
     id: technical-reviewer
     attributes:
       label: Technical Reviewer
-      description: "@username of person verifying technical accuracy"
+      description: "Who will verify technical accuracy? (Type @ to mention a GitHub user)"
       placeholder: "@username"
       
   - type: input
     id: documentation-reviewer
     attributes:
       label: Documentation Reviewer
-      description: "@username of person checking documentation standards"
+      description: "Who will check documentation standards? (Type @ to mention a GitHub user)"
       placeholder: "@username"
       
   - type: input
     id: final-approver
     attributes:
       label: Final Approver
-      description: "@username of person with final approval"
+      description: "Who has final approval? (Type @ to mention a GitHub user)"
       placeholder: "@username"
       
   - type: markdown

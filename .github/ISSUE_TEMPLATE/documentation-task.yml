@@ -42,12 +42,27 @@ body:
     validations:
       required: true
       
+  - type: dropdown
+    id: file-directory
+    attributes:
+      label: File Directory
+      description: Which directory contains the file(s) to update?
+      options:
+        - docs/01-aiready
+        - docs/02-agent
+        - docs/03-aihub
+        - docs/references
+        - docs/ (root docs)
+        - Other (specify in file paths)
+    validations:
+      required: true
+      
   - type: input
     id: related-files
     attributes:
       label: Related Files
-      description: List the files this task affects or will create (e.g., `docs/ai-ready/step1.md`)
-      placeholder: "docs/ai-ready/ifs-aiready-step1-customer.md"
+      description: "List the files this task affects or will create (GitHub will auto-suggest as you type)"
+      placeholder: "docs/01-aiready/ifs-aiready-step1-customer.md"
     validations:
       required: true
       
@@ -67,8 +82,8 @@ body:
     id: required-by-date
     attributes:
       label: Required by Date
-      description: When should this be completed by?
-      placeholder: "YYYY-MM-DD"
+      description: "When should this be completed by? (YYYY-MM-DD format)"
+      placeholder: "2025-07-01"
       
   - type: input
     id: version-impact
@@ -116,28 +131,28 @@ body:
     id: content-author
     attributes:
       label: Content Author
-      description: "@username - Person responsible for creating/updating the content"
+      description: "Who will create/update the content? (Type @ to mention a GitHub user)"
       placeholder: "@username"
       
   - type: input
     id: technical-reviewer
     attributes:
       label: Technical Reviewer
-      description: "@username - Person verifying technical accuracy"
+      description: "Who will verify technical accuracy? (Type @ to mention a GitHub user)"
       placeholder: "@username"
       
   - type: input
     id: documentation-reviewer
     attributes:
       label: Documentation Reviewer
-      description: "@username - Person checking documentation standards"
+      description: "Who will check documentation standards? (Type @ to mention a GitHub user)"
       placeholder: "@username"
       
   - type: input
     id: final-approver
     attributes:
       label: Final Approver
-      description: "@username - Person with final approval"
+      description: "Who has final approval? (Type @ to mention a GitHub user)"
       placeholder: "@username"
       
   - type: markdown
