@@ -1,8 +1,14 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Documentation Standards
+  - name: 📚 Documentation Standards
     url: https://github.com/jonathan-vella/xlr8-e2eaisolutions/blob/main/docs/documentation-standards.md
     about: Review our documentation standards before creating or updating content
-  - name: Versioning Guide
+  - name: 🔖 Versioning Guide
     url: https://github.com/jonathan-vella/xlr8-e2eaisolutions/blob/main/docs/versioning-guide.md
     about: Learn about our versioning system and how we track documentation changes
+  - name: 🧩 Challenge Structure Guide
+    url: https://github.com/jonathan-vella/xlr8-e2eaisolutions/blob/main/docs/challenge-structure.md
+    about: Understand how our challenge documentation is organized
+  - name: 📝 Issue Templates Guide
+    url: https://github.com/jonathan-vella/xlr8-e2eaisolutions/blob/main/.github/issue-templates-guide.md
+    about: Learn when to use each issue template

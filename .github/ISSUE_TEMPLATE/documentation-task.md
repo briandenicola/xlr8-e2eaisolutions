@@ -1,19 +1,26 @@
 ---
-name: Documentation Task
-about: Use this template for documenting new content or updating existing documentation
+name: 📚 Documentation Task
+about: Use this template for comprehensive documentation tasks that require detailed planning
 title: '[CHALLENGE] - Brief description of the task'
 labels: documentation
 assignees: ''
 ---
 
-## 📋 Task Overview
+# 📚 Documentation Task Order
 
-**Challenge Area:** <!-- Choose one: AI Ready Challenge | AI Agent Challenge | AI Hub Challenge | General Documentation -->
+> **Executive Summary:** 
+> Create or update documentation following our standards to ensure high-quality content for our users.
 
-**Task Type:** <!-- Choose one: New Content | Content Update | Content Fix | Reference Update | Structure Change -->
+## 📝 Task Specifications
 
-**Related Files:** <!-- List the files this task affects or will create -->
-- `docs/path/to/file.md`
+| 🔍 Field | 📋 Details |
+|---------|----------|
+| **Challenge Area** | <!-- Choose one: AI Ready Challenge \| AI Agent Challenge \| AI Hub Challenge \| General Documentation --> |
+| **Task Type** | <!-- Choose one: New Content \| Content Update \| Content Fix \| Reference Update \| Structure Change --> |
+| **Related Files** | <!-- List the files this task affects or will create (e.g., `docs/ai-ready/step1.md`) --> |
+| **Estimated Time** | <!-- Choose one: ☕ Small (< 2 hours) \| ☕☕ Medium (2-4 hours) \| ☕☕☕ Large (4+ hours) --> |
+| **Required by Date** | <!-- When should this be completed by? --> |
+| **Version Impact** | <!-- Which version will this change be included in? e.g., v1.1.1, v1.2.0 --> |
 
 ## 📝 Description
 
@@ -27,23 +34,14 @@ assignees: ''
 - [ ] Requirement 2
 - [ ] Requirement 3
 
-## 📊 Task Details
+## 👥 Team Assignment
 
-**Estimated Effort:** <!-- Choose one: Small (< 2 hours) | Medium (2-4 hours) | Large (4+ hours) -->
-
-**Required by Date:** <!-- When should this be completed by? -->
-
-**Version Impact:** <!-- Which version will this change be included in? e.g., v1.1.1, v1.2.0 -->
-
-## 👥 Role Assignments
-
-**Content Author:** <!-- @username - Person responsible for creating/updating the content -->
-
-**Technical Reviewer:** <!-- @username - Person verifying technical accuracy -->
-
-**Documentation Reviewer:** <!-- @username - Person checking documentation standards compliance -->
-
-**Final Approver:** <!-- @username - Person with final approval -->
+| 🧑‍💻 Role | 👤 Assigned To |
+|---------|-------------|
+| **Content Author** | <!-- @username - Person responsible for creating/updating the content --> |
+| **Technical Reviewer** | <!-- @username - Person verifying technical accuracy --> |
+| **Documentation Reviewer** | <!-- @username - Person checking documentation standards --> |
+| **Final Approver** | <!-- @username - Person with final approval --> |
 
 ## 📚 References & Resources
 
@@ -52,29 +50,42 @@ assignees: ''
 - [Link to reference material](#)
 - [Relevant Microsoft Learn documentation](#)
 
-## 📋 Checklist
+## 📋 Documentation Standards Checklist
 
-**Before Submitting:**
+<details>
+<summary>📑 <b>Click to expand the documentation checklist</b></summary>
+
+### 📌 Before Submitting:
 - [ ] Content follows the [Documentation Standards](../docs/documentation-standards.md)
 - [ ] Proper frontmatter with version, last_updated, and tags
-- [ ] Consistent file naming according to guidelines
+- [ ] Consistent file naming (`ifs-[challenge]-step[step#]-[slug].md`)
 - [ ] Table of contents added (for longer documents)
 - [ ] Breadcrumb navigation included
 - [ ] All links verified working
+- [ ] Added "Back to Top" links after major sections
+- [ ] 2-3 sentence executive summary at the top of the file
+- [ ] Estimated time to complete included for each step
+- [ ] Step progress indicators (`Step X of Y`) added
 
-**Technical Content:**
+### 🎨 Technical Content:
 - [ ] Azure architecture recommendations are current
-- [ ] Screenshots/diagrams are clear and properly labeled
-- [ ] Code examples (if any) are properly formatted
+- [ ] Screenshots/diagrams are clear with descriptive alt text
+- [ ] Code examples use language-specific fenced blocks (```json, ```yaml)
 - [ ] Complex concepts include explanations
+- [ ] Mermaid diagrams added for workflows where applicable
+- [ ] Consistent headings and subheadings used
+- [ ] Relevant icons for each step type included
+</details>
 
-## ⏩ Workflow Status
+## ⏩ Task Progress
 
-- [ ] **Draft**: Content creation in progress
-- [ ] **Technical Review**: Awaiting technical accuracy check
-- [ ] **Documentation Review**: Awaiting standards compliance check
-- [ ] **Final Review**: Awaiting final approval
-- [ ] **Complete**: Ready to merge
+| ✅ Stage | 📅 Date | 👤 Completed By |
+|---------|-------|---------------|
+| **☕ Draft** | <!-- Date --> | <!-- @username --> |
+| **☕☕ Technical Review** | <!-- Date --> | <!-- @username --> |
+| **☕☕ Documentation Review** | <!-- Date --> | <!-- @username --> |
+| **☕☕☕ Final Review** | <!-- Date --> | <!-- @username --> |
+| **✓ Complete** | <!-- Date --> | <!-- @username --> |
 
 ## 🔄 Related Issues/PRs
 
@@ -82,6 +93,6 @@ assignees: ''
 - Related to #[issue number]
 - Implements #[issue number]
 
-## 📝 Notes
+## 📝 Additional Notes
 
 <!-- Any additional information that might be helpful -->
