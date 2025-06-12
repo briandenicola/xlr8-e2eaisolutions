@@ -1,5 +1,5 @@
 ---
-name: 🔄 Content Update
+name: 🔄 Content Update - x
 about: Use this template for straightforward updates to existing documentation
 title: '[CHALLENGE] - Update: Brief description'
 labels: content-update
