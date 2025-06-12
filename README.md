@@ -1,7 +1,8 @@
 # Workshop: Designing an End-to-End Azure AI Solution
 
-**Version:** 1.1  
-**Date:** 2025-04-30
+**Version:** 1.1.0  
+**Last Updated:** 2025-06-12  
+**Tags:** #workshop #azure #ai #landing-zone #trustworthy-ai #documentation
 
 ![IFS Logo](./media/images/ifs.png)
 
@@ -61,14 +62,14 @@ The workshop follows a logical progression that mirrors an organization's AI ado
 - [Step 2: Define Requirements](./docs/01-aiready/ifs-ready-step2-requirements.md)
 - [Step 3: Design Foundations](./docs/01-aiready/ifs-ready-step3-foundations.md)
 - [Step 4: Present and Justify](./docs/01-aiready/ifs-ready-step4-present.md)
-- [References](./docs/ifs-ready-references.md)
+- [References](./docs/references/ai-ready-references.md)
 
 ---
 
-### Module 3: Designing the AI Workload - RAG Chatbot
+### Module 3: Designing the AI Workload - AI Agent Challenge
 #### In scope: AI Ready – Process to build AI workloads in Azure | Well Architected Framework
 
-**Objective:** Design a specific "IFS Knowledge Assistant" RAG chatbot application, ensuring it leverages the platform foundation securely and efficiently.
+**Objective:** Design a secure internal Retrieval-Augmented Generation (RAG) chatbot application for IFS employees, ensuring it leverages the platform foundation securely and efficiently.
 
 **Activities:**  
 - Define workload requirements.  
@@ -80,7 +81,7 @@ The workshop follows a logical progression that mirrors an organization's AI ado
 
 **Key Concepts:**  
 - RAG pattern.  
-- Prompt Flow.  
+- Agentic AI principles.  
 - Azure OpenAI.  
 - Azure AI Search.  
 - App Service.  
@@ -93,13 +94,14 @@ The workshop follows a logical progression that mirrors an organization's AI ado
 - IaC (Bicep).
 
 **Materials:**  
-- [Agentic AI challenge Overview](./docs/02-rag/ifs-rag-overview.md)
-- [Step 1: Define the Scenario](./docs/02-rag/ifs-rag-step1-scenario.md)
-- [Step 2: Elicit Requirements](./docs/02-rag/ifs-rag-step2-requirements.md)
-- [Step 3: Design Architecture](./docs/02-rag/ifs-rag-step3-design.md)
-- [Step 4: Integration](./docs/02-rag/ifs-rag-step4-integrate.md)
-- [Step 5: Present and Justify](./docs/02-rag/ifs-rag-step5-present.md)
-- [References](./docs/02-rag/ifs-rag-references.md)
+- [AI Agent Challenge Overview](./docs/02-agent/ifs-agent-overview.md)
+- [Step 1: Agentic AI Principles & Patterns](./docs/02-agent/ifs-agent-step1-principles.md)
+- [Step 2: Functional Requirements](./docs/02-agent/ifs-agent-step2-functional-requirements.md)
+- [Step 3: Non-Functional Requirements](./docs/02-agent/ifs-agent-step3-nonfunctional-requirements.md)
+- [Step 4: Solution Design](./docs/02-agent/ifs-agent-step4-solution-design.md)
+- [Step 5: Integration](./docs/02-agent/ifs-agent-step5-integration.md)
+- [Step 6: Presentation](./docs/02-agent/ifs-agent-step6-presentation.md)
+- [References](./docs/references/ai-agent-references.md)
 
 ---
 
@@ -130,7 +132,7 @@ The workshop follows a logical progression that mirrors an organization's AI ado
 - [Step 2: Define Requirements](./docs/03-aihub/ifs-aihub-step2-requirements.md)
 - [Step 3: Design Architecture](./docs/03-aihub/ifs-aihub-step3-design.md)
 - [Step 4: Present and Justify](./docs/03-aihub/ifs-aihub-step4-present.md)
-- [References](./docs/03-aihub/ifs-aihub-references.md)
+- [References](./docs/references/ai-hub-references.md)
 
 ---
 
@@ -156,7 +158,26 @@ The workshop follows a logical progression that mirrors an organization's AI ado
 - **Automation:** Utilizing Infrastructure as Code (IaC) and CI/CD practices.
 - **Enterprise Evolution:** Natural progression from initial workload to enterprise-wide capabilities.
 
----
+## Documentation Improvements
+
+The documentation for this workshop has been enhanced with several improvements:
+
+### Content Organization
+- **Centralized References**: All reference materials are now in a dedicated `/references/` directory
+- **Challenge-specific CHANGELOG files**: Track version history for each challenge
+- **Table of Contents**: Added to long documentation files for easier navigation
+
+### Standardization
+- **Consistent File Naming**: Files follow the pattern `ifs-[challenge]-step[step#]-[slug].md`
+- **Uniform Tags**: All files include relevant tags for filtering and search
+- **Navigation Structure**: Improved breadcrumb navigation and cross-linking
+
+### Versioning
+- **Version Numbers**: All files include semantic versioning (MAJOR.MINOR.PATCH)
+- **Last Updated Dates**: Track when content was last modified
+- **CHANGELOG**: Comprehensive version history in the root CHANGELOG.md
+
+These improvements make the documentation more maintainable, easier to navigate, and better organized for both facilitators and participants.
 
 ## Prerequisites
 
@@ -172,11 +193,19 @@ The workshop follows a logical progression that mirrors an organization's AI ado
 - [Workshop Agenda](./docs/04-workshop/workshop-agenda.md)
 - [Scenario definition for Innovate Financial Services](./docs/ifs-customer-story.md)
 - [Whiteboard Design Session guide for the Platform Foundation](./docs/01-aiready/ifs-ready-overview.md)
-- [Whiteboard Design Session guide for the Agentic AI challenge Workload](./docs/02-rag/ifs-rag-overview.md)
+- [Whiteboard Design Session guide for the AI Agent Challenge](./docs/02-agent/ifs-agent-overview.md)
 - [Whiteboard Design Session guide for the AI Hub](./docs/03-aihub/ifs-aihub-overview.md)
 - [Frequently Asked Questions](./docs/ifs-faq.md)
+- [Reference Materials](./docs/references/index.md)
 - Workshop presentation slides (available separately)
 - IFS logo image at [media/images/ifs.png](./media/images/ifs.png)
+
+## Documentation
+
+- [Documentation Standards](./docs/documentation-standards.md)
+- [Documentation Improvements](./docs/documentation-improvements.md)
+- [Versioning Guide](./docs/versioning-guide.md)
+- [CHANGELOG](./CHANGELOG.md)
 
 ---
 
@@ -190,7 +219,11 @@ The documentation site structure includes:
 - Home page with workshop overview
 - Workshop agenda with detailed timeline
 - Challenge sessions with step-by-step guides
+- Centralized references section
 - Navigation hierarchy for easy content exploration
+- Version information and last updated dates
+- Comprehensive table of contents for long documents
+- Consistent tagging system for better search and filtering
 
 ---
 
