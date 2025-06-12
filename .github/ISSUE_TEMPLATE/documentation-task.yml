@@ -1,0 +1,204 @@
+name: 📚 Documentation Task
+description: Use this template for comprehensive documentation tasks that require detailed planning
+title: "[CHALLENGE] - Brief description of the task"
+labels: ["documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # 📚 Documentation Task Order
+
+        > **Executive Summary:** 
+        > Create or update documentation following our standards to ensure high-quality content for our users.
+  
+  - type: markdown
+    attributes:
+      value: "## 📝 Task Specifications"
+      
+  - type: dropdown
+    id: challenge-area
+    attributes:
+      label: Challenge Area
+      description: Which challenge area does this task affect?
+      options:
+        - AI Ready Challenge
+        - AI Agent Challenge
+        - AI Hub Challenge
+        - General Documentation
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: task-type
+    attributes:
+      label: Task Type
+      description: What type of documentation task is this?
+      options:
+        - New Content
+        - Content Update
+        - Content Fix
+        - Reference Update
+        - Structure Change
+    validations:
+      required: true
+      
+  - type: input
+    id: related-files
+    attributes:
+      label: Related Files
+      description: List the files this task affects or will create (e.g., `docs/ai-ready/step1.md`)
+      placeholder: "docs/ai-ready/ifs-aiready-step1-customer.md"
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: estimated-time
+    attributes:
+      label: Estimated Time
+      description: How long do you expect this task to take?
+      options:
+        - ☕ Small (< 2 hours)
+        - ☕☕ Medium (2-4 hours)
+        - ☕☕☕ Large (4+ hours)
+    validations:
+      required: true
+      
+  - type: input
+    id: required-by-date
+    attributes:
+      label: Required by Date
+      description: When should this be completed by?
+      placeholder: "YYYY-MM-DD"
+      
+  - type: input
+    id: version-impact
+    attributes:
+      label: Version Impact
+      description: Which version will this change be included in?
+      placeholder: "v1.1.1, v1.2.0"
+    validations:
+      required: true
+      
+  - type: markdown
+    attributes:
+      value: "## 📝 Description"
+      
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Provide a detailed description of what needs to be done
+      placeholder: "Please provide a detailed description of the documentation task..."
+    validations:
+      required: true
+      
+  - type: markdown
+    attributes:
+      value: "## 🎯 Requirements"
+      
+  - type: textarea
+    id: requirements
+    attributes:
+      label: Requirements
+      description: Specific points that need to be addressed in this task
+      placeholder: |
+        - [ ] Requirement 1
+        - [ ] Requirement 2
+        - [ ] Requirement 3
+    validations:
+      required: true
+      
+  - type: markdown
+    attributes:
+      value: "## 👥 Team Assignment"
+      
+  - type: input
+    id: content-author
+    attributes:
+      label: Content Author
+      description: "@username - Person responsible for creating/updating the content"
+      placeholder: "@username"
+      
+  - type: input
+    id: technical-reviewer
+    attributes:
+      label: Technical Reviewer
+      description: "@username - Person verifying technical accuracy"
+      placeholder: "@username"
+      
+  - type: input
+    id: documentation-reviewer
+    attributes:
+      label: Documentation Reviewer
+      description: "@username - Person checking documentation standards"
+      placeholder: "@username"
+      
+  - type: input
+    id: final-approver
+    attributes:
+      label: Final Approver
+      description: "@username - Person with final approval"
+      placeholder: "@username"
+      
+  - type: markdown
+    attributes:
+      value: "## 📚 References & Resources"
+      
+  - type: textarea
+    id: references
+    attributes:
+      label: References & Resources
+      description: Add links to relevant resources, examples, or context
+      placeholder: |
+        - [Link to reference material](#)
+        - [Relevant Microsoft Learn documentation](#)
+        
+  - type: markdown
+    attributes:
+      value: |
+        ## 📋 Documentation Standards Checklist
+        
+        ### 📌 Before Submitting:
+        - [ ] Content follows the [Documentation Standards](../docs/documentation-standards.md)
+        - [ ] Proper frontmatter with version, last_updated, and tags
+        - [ ] Consistent file naming (`ifs-[challenge]-step[step#]-[slug].md`)
+        - [ ] Table of contents added (for longer documents)
+        - [ ] Breadcrumb navigation included
+        - [ ] All links verified working
+        - [ ] Added "Back to Top" links after major sections
+        - [ ] 2-3 sentence executive summary at the top of the file
+        - [ ] Estimated time to complete included for each step
+        - [ ] Step progress indicators (`Step X of Y`) added
+        
+        ### 🎨 Technical Content:
+        - [ ] Azure architecture recommendations are current
+        - [ ] Screenshots/diagrams are clear with descriptive alt text
+        - [ ] Code examples use language-specific fenced blocks (```json, ```yaml)
+        - [ ] Complex concepts include explanations
+        - [ ] Mermaid diagrams added for workflows where applicable
+        - [ ] Consistent headings and subheadings used
+        - [ ] Relevant icons for each step type included
+      
+  - type: markdown
+    attributes:
+      value: "## 🔄 Related Issues/PRs"
+      
+  - type: textarea
+    id: related-issues
+    attributes:
+      label: Related Issues/PRs
+      description: Link to any related issues or pull requests
+      placeholder: |
+        - Related to #[issue number]
+        - Implements #[issue number]
+        
+  - type: markdown
+    attributes:
+      value: "## 📝 Additional Notes"
+      
+  - type: textarea
+    id: additional-notes
+    attributes:
+      label: Additional Notes
+      description: Any additional information that might be helpful
+      placeholder: "Add any other context or notes about this task..."

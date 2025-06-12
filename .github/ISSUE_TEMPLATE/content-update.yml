@@ -1,0 +1,157 @@
+name: 🔄 Content Update
+description: Use this template for straightforward updates to existing documentation
+title: "[CHALLENGE] - Update: Brief description"
+labels: ["content-update"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # 🔄 Content Update Order
+
+        > **Executive Summary:** 
+        > Make specific targeted changes to existing documentation to improve accuracy, clarity, or completeness.
+  
+  - type: markdown
+    attributes:
+      value: "## 📝 Update Specifications"
+      
+  - type: dropdown
+    id: challenge-area
+    attributes:
+      label: Challenge Area
+      description: Which challenge area does this update affect?
+      options:
+        - AI Ready Challenge
+        - AI Agent Challenge
+        - AI Hub Challenge
+        - General Documentation
+    validations:
+      required: true
+      
+  - type: input
+    id: files-to-update
+    attributes:
+      label: File(s) to Update
+      description: List the exact file paths (e.g., `docs/ai-ready/step1.md`)
+      placeholder: "docs/ai-ready/ifs-aiready-step1-customer.md"
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: estimated-time
+    attributes:
+      label: Estimated Time
+      description: How long do you expect this update to take?
+      options:
+        - ☕ Small (< 1 hour)
+        - ☕☕ Medium (1-2 hours)
+        - ☕☕☕ Large (2+ hours)
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: How urgent is this update?
+      options:
+        - 🟢 Low
+        - 🟡 Medium
+        - 🟠 High
+        - 🔴 Urgent
+    validations:
+      required: true
+      
+  - type: input
+    id: required-by-date
+    attributes:
+      label: Required by Date
+      description: When should this be completed by?
+      placeholder: "YYYY-MM-DD"
+      
+  - type: markdown
+    attributes:
+      value: "## 🔍 What Needs to Be Updated?"
+      
+  - type: textarea
+    id: update-description
+    attributes:
+      label: Update Description
+      description: Describe specifically what needs to be changed in the document(s)
+      placeholder: "Please provide a detailed description of what needs to be updated..."
+    validations:
+      required: true
+      
+  - type: markdown
+    attributes:
+      value: "## 📝 Proposed Changes"
+      
+  - type: textarea
+    id: proposed-changes
+    attributes:
+      label: Proposed Changes
+      description: Describe the changes to be made, or provide draft content if available
+      placeholder: "Outline your proposed changes here..."
+    validations:
+      required: true
+      
+  - type: markdown
+    attributes:
+      value: "## ✅ Success Criteria"
+      
+  - type: textarea
+    id: success-criteria
+    attributes:
+      label: Success Criteria
+      description: How will we know the update is complete and correct?
+      placeholder: |
+        - [ ] Criterion 1
+        - [ ] Criterion 2
+    validations:
+      required: true
+      
+  - type: markdown
+    attributes:
+      value: "## 👥 Team Assignment"
+      
+  - type: input
+    id: content-author
+    attributes:
+      label: Content Author
+      description: "@username of person responsible for making the changes"
+      placeholder: "@username"
+      
+  - type: dropdown
+    id: reviewer-needed
+    attributes:
+      label: Reviewer Needed
+      description: What type of review is needed for this update?
+      options:
+        - Technical
+        - Documentation
+        - Both
+        - None
+    validations:
+      required: true
+      
+  - type: markdown
+    attributes:
+      value: |
+        ## 📋 Update Checklist
+        
+        - [ ] Content is technically accurate and up-to-date
+        - [ ] Format follows existing documentation standards
+        - [ ] Links have been verified
+        - [ ] Changes match the specified requirements
+        - [ ] Any new terminology is consistent with our shared glossary
+        
+  - type: markdown
+    attributes:
+      value: "## 📝 Additional Notes"
+      
+  - type: textarea
+    id: additional-notes
+    attributes:
+      label: Additional Notes
+      description: Any additional context or notes
+      placeholder: "Add any other context or notes about this update..."

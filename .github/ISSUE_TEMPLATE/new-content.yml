@@ -1,0 +1,222 @@
+name: 🌟 New Content Creation
+description: Use this template for creating entirely new documentation content
+title: "[CHALLENGE] - New: Brief description of content"
+labels: ["new-content"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # 🌟 New Content Creation Order
+
+        > **Executive Summary:** 
+        > Create brand new documentation that follows our standards and provides valuable information to our users.
+  
+  - type: markdown
+    attributes:
+      value: "## 📝 Content Specifications"
+      
+  - type: dropdown
+    id: challenge-area
+    attributes:
+      label: Challenge Area
+      description: Which challenge area will this new content belong to?
+      options:
+        - AI Ready Challenge
+        - AI Agent Challenge
+        - AI Hub Challenge
+        - General Documentation
+    validations:
+      required: true
+      
+  - type: input
+    id: file-naming-pattern
+    attributes:
+      label: File Naming Pattern
+      description: Follow the pattern `ifs-[challenge]-step[step#]-[slug].md`
+      placeholder: "ifs-aiready-step3-solution.md"
+    validations:
+      required: true
+      
+  - type: input
+    id: proposed-file-path
+    attributes:
+      label: Proposed File Path
+      description: Full path for the new file
+      placeholder: "docs/ai-ready/ifs-aiready-step3-solution.md"
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: estimated-time
+    attributes:
+      label: Estimated Time
+      description: How long do you expect this content creation to take?
+      options:
+        - ☕☕ Medium (2-4 hours)
+        - ☕☕☕ Large (4-8 hours)
+        - ☕☕☕☕ Very Large (8+ hours)
+    validations:
+      required: true
+      
+  - type: input
+    id: required-by-date
+    attributes:
+      label: Required by Date
+      description: When should this be completed by?
+      placeholder: "YYYY-MM-DD"
+      
+  - type: input
+    id: version-for-inclusion
+    attributes:
+      label: Version for Inclusion
+      description: Which version will this content be included in?
+      placeholder: "v1.2.0"
+    validations:
+      required: true
+      
+  - type: markdown
+    attributes:
+      value: "## 📝 Content Overview"
+      
+  - type: textarea
+    id: content-overview
+    attributes:
+      label: Content Overview
+      description: Provide an overview of the new content to be created
+      placeholder: "Please provide a detailed overview of the new content..."
+    validations:
+      required: true
+      
+  - type: markdown
+    attributes:
+      value: "## 🏗️ Proposed Content Structure"
+      
+  - type: textarea
+    id: content-structure
+    attributes:
+      label: Proposed Content Structure
+      description: Outline the proposed structure of the document
+      placeholder: |
+        1. **Introduction**
+           - Purpose
+           - Scope
+
+        2. **Main Section 1**
+           - Subsection A
+           - Subsection B
+
+        3. **Main Section 2**
+           - Subsection A
+           - Subsection B
+
+        4. **Conclusion/Summary**
+    validations:
+      required: true
+      
+  - type: markdown
+    attributes:
+      value: "## 🎯 Target Audience"
+      
+  - type: textarea
+    id: target-audience
+    attributes:
+      label: Target Audience
+      description: Who is this content intended for? What knowledge level is assumed?
+      placeholder: "Describe the target audience and their expected knowledge level..."
+    validations:
+      required: true
+      
+  - type: markdown
+    attributes:
+      value: "## 👥 Team Assignment"
+      
+  - type: input
+    id: content-author
+    attributes:
+      label: Content Author
+      description: "@username of person responsible for creating the content"
+      placeholder: "@username"
+      
+  - type: input
+    id: technical-reviewer
+    attributes:
+      label: Technical Reviewer
+      description: "@username of person verifying technical accuracy"
+      placeholder: "@username"
+      
+  - type: input
+    id: documentation-reviewer
+    attributes:
+      label: Documentation Reviewer
+      description: "@username of person checking documentation standards"
+      placeholder: "@username"
+      
+  - type: input
+    id: final-approver
+    attributes:
+      label: Final Approver
+      description: "@username of person with final approval"
+      placeholder: "@username"
+      
+  - type: markdown
+    attributes:
+      value: "## 📚 Reference Materials"
+      
+  - type: textarea
+    id: reference-materials
+    attributes:
+      label: Reference Materials
+      description: List any reference materials that should be consulted
+      placeholder: |
+        - [Reference 1](#)
+        - [Reference 2](#)
+        
+  - type: markdown
+    attributes:
+      value: "## 🔄 Integration Points"
+      
+  - type: textarea
+    id: integration-points
+    attributes:
+      label: Integration Points
+      description: How does this content connect to existing documentation?
+      placeholder: |
+        - Links from: `docs/path/to/existing-file.md`
+        - References to: `docs/path/to/another-file.md`
+        
+  - type: markdown
+    attributes:
+      value: |
+        ## 📋 Content Creation Checklist
+        
+        ### 📌 Content Quality:
+        - [ ] 2-3 sentence executive summary at the top
+        - [ ] Consistent file naming (`ifs-[challenge]-step[step#]-[slug].md`)
+        - [ ] Estimated time to complete included
+        - [ ] Step progress indicators (`Step X of Y`) added
+        - [ ] All images have descriptive alt text
+        - [ ] Language-specific fenced code blocks used
+        - [ ] Includes a detailed Table of Contents
+        
+        ### 🔄 Navigation Elements:
+        - [ ] Breadcrumb navigation at the top
+        - [ ] "Back to Top" links after major sections
+        - [ ] Previous/next navigation at top and bottom
+        - [ ] Cross-links to related content in other challenges
+        - [ ] Links to prerequisites for dependent steps
+        
+        ### 📊 Metadata & Organization:
+        - [ ] Proper frontmatter with version, last_updated, and tags
+        - [ ] Added relevant tags (#aihub, #rag, #agents)
+        - [ ] Success criteria clearly formatted
+      
+  - type: markdown
+    attributes:
+      value: "## 📝 Additional Notes"
+      
+  - type: textarea
+    id: additional-notes
+    attributes:
+      label: Additional Notes
+      description: Any additional context or notes
+      placeholder: "Add any other context or notes about this content..."

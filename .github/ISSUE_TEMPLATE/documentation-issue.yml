@@ -1,0 +1,146 @@
+name: 🐞 Documentation Issue
+description: Report errors, inconsistencies, or problems with existing documentation
+title: "[CHALLENGE] - Issue: Brief description of the problem"
+labels: ["documentation-issue"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # 🐞 Documentation Issue Report
+
+        > **Executive Summary:** 
+        > Report an error or problem with existing documentation that needs to be fixed.
+  
+  - type: markdown
+    attributes:
+      value: "## 📝 Issue Details"
+      
+  - type: dropdown
+    id: challenge-area
+    attributes:
+      label: Challenge Area
+      description: Which challenge area is affected by this issue?
+      options:
+        - AI Ready Challenge
+        - AI Agent Challenge
+        - AI Hub Challenge
+        - General Documentation
+    validations:
+      required: true
+      
+  - type: input
+    id: affected-files
+    attributes:
+      label: Affected File(s)
+      description: Full path to affected file(s)
+      placeholder: "docs/ai-ready/ifs-aiready-step1-customer.md"
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      description: How severe is this issue?
+      options:
+        - 🔴 Critical (blocks usage)
+        - 🟠 High
+        - 🟡 Medium
+        - 🟢 Low (cosmetic)
+    validations:
+      required: true
+      
+  - type: input
+    id: found-in-version
+    attributes:
+      label: Found In Version
+      description: The version where this issue exists
+      placeholder: "v1.1.0"
+      
+  - type: input
+    id: browser-environment
+    attributes:
+      label: Browser/Environment
+      description: If relevant to how the content is displayed
+      placeholder: "Chrome 115, Edge 114, etc."
+      
+  - type: markdown
+    attributes:
+      value: "## 🐛 Issue Description"
+      
+  - type: textarea
+    id: issue-description
+    attributes:
+      label: Issue Description
+      description: Describe the issue or error in detail
+      placeholder: "Please provide a detailed description of the issue..."
+    validations:
+      required: true
+      
+  - type: markdown
+    attributes:
+      value: "## 📍 Location"
+      
+  - type: input
+    id: section-heading
+    attributes:
+      label: Section/Heading
+      description: Where in the document is the issue located?
+      placeholder: "Introduction, Architecture diagram section, etc."
+    validations:
+      required: true
+      
+  - type: input
+    id: line-number
+    attributes:
+      label: Line Number (if known)
+      description: Line number if available
+      placeholder: "42"
+      
+  - type: markdown
+    attributes:
+      value: "## ✅ Expected Content"
+      
+  - type: textarea
+    id: expected-content
+    attributes:
+      label: Expected Content
+      description: Describe what the correct content should be, if known
+      placeholder: "The content should say/show..."
+    validations:
+      required: true
+      
+  - type: markdown
+    attributes:
+      value: "## 💡 Suggested Fix"
+      
+  - type: textarea
+    id: suggested-fix
+    attributes:
+      label: Suggested Fix
+      description: If you have a suggestion for how to fix the issue, describe it here
+      placeholder: "I suggest changing/fixing this by..."
+      
+  - type: markdown
+    attributes:
+      value: "## 🔍 Additional Context"
+      
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Any additional information that might help resolve the issue
+      placeholder: "Add any other context about the issue here..."
+      
+  - type: markdown
+    attributes:
+      value: |
+        ## 👥 Issue Tracking
+        
+        This section will be filled out during the issue resolution process:
+        
+        | ✅ Stage | 📅 Date | 👤 Person |
+        |---------|-------|---------|
+        | **☕ Reported** | <!-- Today's Date --> | <!-- @reporter --> |
+        | **☕☕ Assigned** | <!-- Assignment Date --> | <!-- @assignee --> |
+        | **✓ Fixed** | <!-- Fix Date --> | <!-- @fixer --> |
