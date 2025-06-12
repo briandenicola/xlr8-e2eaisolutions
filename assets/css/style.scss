@@ -6,4 +6,17 @@
   font-size: 1.2rem !important;
 }
 
+/* Version information styling */
+.version-info {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+  color: #5c5962;
+  font-size: 0.8rem;
+  
+  p {
+    margin: 0;
+  }
+}
+
 /* Add any custom CSS here */

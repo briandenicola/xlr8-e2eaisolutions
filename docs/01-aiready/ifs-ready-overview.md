@@ -4,6 +4,8 @@ title: AI Ready Challenge Overview
 parent: AI Ready Challenge
 nav_order: 0
 tags: [ai-ready, landing-zone, overview, challenge]
+version: 1.1.0
+last_updated: 2025-06-12
 ---
 
 # AI Ready Challenge Overview

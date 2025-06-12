@@ -4,6 +4,8 @@ title: AI Hub Challenge Overview
 parent: AI Hub Challenge
 nav_order: 0
 tags: [ai-hub, overview, architecture, governance]
+version: 1.1.0
+last_updated: 2025-06-12
 ---
 
 # AI Hub Challenge Overview

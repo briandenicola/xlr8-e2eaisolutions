@@ -4,6 +4,8 @@ title: Step 1 - Scenario
 parent: AI Hub Challenge
 nav_order: 1
 tags: [ai-hub, scenario, business-context]
+version: 1.1.0
+last_updated: 2025-06-12
 ---
 
 # Step 1: Scenario

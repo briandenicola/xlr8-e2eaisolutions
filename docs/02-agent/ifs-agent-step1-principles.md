@@ -4,6 +4,8 @@ title: Step 1 - Agentic AI Principles & Patterns
 parent: AI Agent Challenge
 nav_order: 1
 tags: [ai-agents, llm, autonomous-agents, patterns, principles]
+version: 1.1.0
+last_updated: 2025-06-12
 ---
 
 # Step 1: Agentic AI Principles & Patterns

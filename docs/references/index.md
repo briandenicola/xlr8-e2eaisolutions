@@ -5,6 +5,8 @@ nav_order: 9
 has_children: true
 permalink: /references/
 tags: [references, documentation, resources]
+version: 1.1.0
+last_updated: 2025-06-12
 ---
 
 # Reference Materials

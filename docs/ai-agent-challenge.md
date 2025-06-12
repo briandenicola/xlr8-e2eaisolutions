@@ -4,6 +4,8 @@ title: AI Agent Challenge
 nav_order: 4
 has_children: true
 permalink: /ai-agent-challenge/
+version: 1.1.0
+last_updated: 2025-06-12
 ---
 
 # AI Agent Challenge

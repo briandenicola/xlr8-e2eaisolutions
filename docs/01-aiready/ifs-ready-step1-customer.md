@@ -4,6 +4,8 @@ title: Step 1 - AI Strategy & Plan
 parent: AI Ready Challenge
 nav_order: 1
 tags: [ai-ready, strategy, planning, business-case]
+version: 1.1.0
+last_updated: 2025-06-12
 ---
 
 # Step 1: AI Strategy & Plan

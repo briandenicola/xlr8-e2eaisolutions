@@ -3,6 +3,8 @@ layout: default
 title: Home
 nav_order: 1
 permalink: /
+version: 1.1.0
+last_updated: 2025-06-12
 ---
 
 # Innovate Financial Services - AI Transformation
@@ -29,6 +31,17 @@ Understand IFS's background, challenges, and strategic vision for AI adoption.
 Design a secure, scalable, and governed Azure foundation to support IFS's AI transformation journey.
 
 ### [AI Agent Challenge](./ai-agent-challenge.md)
+
+## Documentation Resources
+
+### [References](./references/index.md)
+Centralized reference materials for all challenges.
+
+### [Versioning Guide](./versioning-guide.md)
+Information on how documentation versions and updates are managed.
+
+### [Documentation Improvements](./documentation-improvements.md)
+Summary of organization and structure improvements made to this documentation.
 Design a secure internal Retrieval-Augmented Generation (RAG) chatbot application for IFS employees using agentic AI principles.
 
 ### [AI Hub Challenge](./ai-hub-challenge.md)

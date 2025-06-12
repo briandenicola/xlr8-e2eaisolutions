@@ -4,6 +4,8 @@ title: AI Hub Challenge
 nav_order: 5
 has_children: true
 permalink: /ai-hub-challenge/
+version: 1.1.0
+last_updated: 2025-06-12
 ---
 
 # AI Hub Challenge

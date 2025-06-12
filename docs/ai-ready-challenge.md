@@ -4,6 +4,8 @@ title: AI Ready Challenge
 nav_order: 3
 has_children: true
 permalink: /ai-ready-challenge/
+version: 1.1.0
+last_updated: 2025-06-12
 ---
 
 # AI Ready Challenge

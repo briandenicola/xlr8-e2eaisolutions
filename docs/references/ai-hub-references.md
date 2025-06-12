@@ -5,6 +5,8 @@ parent: References
 nav_order: 3
 tags: [references, ai-hub, architecture, documentation]
 permalink: /references/ai-hub/
+version: 1.1.0
+last_updated: 2025-06-12
 ---
 
 # AI Hub Challenge References

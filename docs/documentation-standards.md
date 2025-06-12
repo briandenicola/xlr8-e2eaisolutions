@@ -1,12 +1,21 @@
 ---
 layout: default
 title: Documentation Standards
-nav_order: 10
+nav_order: 12
+version: 1.1.0
+last_updated: 2025-06-12
+tags: [documentation, standards, guidelines]
 ---
 
 # Documentation Standards
 
 This document outlines the standardized naming conventions and documentation structure for the IFS AI Challenges.
+
+## Table of Contents
+{:.no_toc}
+
+* TOC
+{:toc}
 
 ## File Naming Conventions
 
@@ -14,11 +23,40 @@ All challenge files follow a consistent naming pattern:
 
 ### Challenge Main Files
 - Main challenge pages: `ai-ready-challenge.md`, `ai-agent-challenge.md`, `ai-hub-challenge.md`
+
+## Frontmatter Requirements
+
+All documentation files should include the following frontmatter:
+
+```yaml
+---
+layout: default
+title: Document Title
+parent: Parent Page (if applicable)
+nav_order: X
+tags: [tag1, tag2, tag3]
+version: 1.1.0
+last_updated: YYYY-MM-DD
+---
+```
+
+### Required Fields
+- **layout**: Usually "default" unless a specific layout is needed
+- **title**: Clear, descriptive title of the page
+- **nav_order**: Numeric order in the navigation menu
+- **tags**: Array of relevant keywords for searching and filtering
+- **version**: Document version following semantic versioning (MAJOR.MINOR.PATCH)
+- **last_updated**: Date of last update in YYYY-MM-DD format
+
+### Optional Fields
+- **parent**: Parent page for hierarchical navigation
+- **has_children**: Set to "true" for pages with child pages
+- **permalink**: Custom URL path for the page
 - Each in repository root for easy navigation
 
 ### Challenge-Specific Files
 
-Files are organized by challenge in numbered directories:
+Files are organized in numbered directories by challenge:
 - Challenge 1: `01-aiready/`
 - Challenge 2: `02-agent/`
 - Challenge 3: `03-aihub/`
@@ -156,6 +194,97 @@ Where:
 - `parent` - The parent section (e.g., AI Ready Challenge)
 - `nav_order` - The order of the page in navigation (0 for overview, 1-N for steps)
 
+## Versioning Guidelines
+
+### Version Numbers
+
+All documentation follows [Semantic Versioning](https://semver.org/):
+
+1. **MAJOR** version (x.0.0): Incompatible changes that significantly alter content or structure
+2. **MINOR** version (1.x.0): New content or features in a backward-compatible manner
+3. **PATCH** version (1.0.x): Backward-compatible bug fixes, typo corrections, minor improvements
+
+### Changelog Management
+
+1. **Main CHANGELOG.md**: Records major version changes across the entire documentation set
+2. **Challenge-specific CHANGELOGs**: Detail changes specific to each challenge folder
+3. **Format**: Follow the [Keep a Changelog](https://keepachangelog.com/) format with Added, Changed, and Fixed sections
+
+### Update Process
+
+When updating documentation:
+
+1. Update the `version` and `last_updated` in the frontmatter
+2. Record changes in the appropriate CHANGELOG file
+3. If changes affect multiple sections, update the main CHANGELOG.md
+
+## Formatting Guidelines
+
+### Headings and Hierarchy
+
+1. Use `#` for page title, already specified in frontmatter
+2. Use `##` for major sections
+3. Use `###` for subsections
+4. Use `####` for sub-subsections
+5. Don't skip heading levels
+
+### Navigation Elements
+
+1. **Breadcrumbs**: Add at the top of each file:
+   ```markdown
+   [Home](../../index.md) > [Parent Page](../parent.md) > [Current Page](./current.md)
+   ```
+
+2. **Progress Indicators**: Include at the top of challenge steps:
+   ```markdown
+   **📊 Progress:** Step X of Y
+   **⏱️ Estimated Time:** Z hours
+   ```
+
+3. **Navigation Links**: Add at top and bottom of challenge steps:
+   ```markdown
+   - [⬅️ Previous: Step X](./previous-step.md) | [Next: Step X ➡️](./next-step.md)
+   ```
+
+4. **Back to Top Links**: Add after each major section in long documents:
+   ```markdown
+   [Back to Top](#top)
+   ```
+
+### Table of Contents
+
+Include a table of contents in longer documents:
+
+```markdown
+## Table of Contents
+{:.no_toc}
+
+* TOC
+{:toc}
+```
+
+### Code Blocks
+
+Always specify the language for syntax highlighting:
+
+````markdown
+```yaml
+key: value
+```
+````
+
+### Callouts and Notes
+
+Use consistent formatting for callouts:
+
+```markdown
+> **Note**: Important information to highlight.
+
+> **Warning**: Critical warnings that require attention.
+
+> **Tip**: Helpful suggestions to improve implementation.
+```
+
 ## Example File Set
 
 A complete challenge should have this file structure:
@@ -170,3 +299,50 @@ ai-{challenge}-challenge.md
   ├── ifs-{challenge}-step3-{descriptor}.md
   └── ifs-{challenge}-step4-{descriptor}.md
 ```
+
+## References Organization
+
+### Reference File Structure
+
+All reference materials should be organized in the `/references/` folder with:
+
+1. **Main references index.md**: Overview of all reference materials
+2. **Challenge-specific reference files**: Separate files for each challenge
+3. **Cross-challenge references**: Materials relevant to multiple challenges
+
+### Reference Linking
+
+When linking to references:
+
+1. Link from challenge files to specific reference sections using anchors
+2. Use relative paths for all internal links
+3. Include reference lists at the end of challenge steps where applicable
+
+Example reference link format:
+```markdown
+[Azure Well-Architected Framework](../references/ai-ready-references.md#azure-well-architected-framework)
+```
+
+## Image and Media Guidelines
+
+### Image Organization
+
+1. Store all images in `/media/images/` folder
+2. Use descriptive filenames for images
+3. Group images by challenge or concept when possible
+
+### Image Formatting
+
+1. Use Markdown image syntax: `![Alt Text](../media/images/image-name.png)`
+2. Include descriptive alt text for accessibility
+3. For diagrams, include a text description below the image
+4. For architectural diagrams, include links to reference documentation
+
+## Accessibility Guidelines
+
+1. Use proper heading hierarchy
+2. Include alt text for all images
+3. Use sufficient color contrast
+4. Avoid conveying information solely through color
+5. Use descriptive link text instead of "click here"
+6. Provide text alternatives for diagrams and flowcharts

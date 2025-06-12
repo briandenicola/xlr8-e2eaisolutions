@@ -5,6 +5,8 @@ parent: References
 nav_order: 1
 tags: [references, ai-ready, landing-zone, architecture, documentation]
 permalink: /references/ai-ready/
+version: 1.1.0
+last_updated: 2025-06-12
 ---
 
 # AI Ready Challenge References

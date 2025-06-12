@@ -5,6 +5,8 @@ parent: References
 nav_order: 2
 tags: [references, ai-agents, architecture, documentation]
 permalink: /references/ai-agent/
+version: 1.1.0
+last_updated: 2025-06-12
 ---
 
 # AI Agent Challenge References
