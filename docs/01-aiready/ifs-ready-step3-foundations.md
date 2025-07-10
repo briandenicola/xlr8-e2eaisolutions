@@ -293,11 +293,11 @@ Define a scalable, secure, and governed AI Ready Azure Landing Zone architecture
 
 To successfully complete this step, you must produce:
 
-✅ **Management group and subscription layout diagram** accounting for platform vs application zones
-✅ **Policy baseline assignments** covering tagging, regulatory & compliance controls  
-✅ **Network topology diagram** showing secure connectivity
-✅ **Identity and access plan** with least-privileged operations
-✅ **Operational readiness plan** with monitoring, management, and automation
+- ✓ **Management group and subscription layout diagram** accounting for platform vs application zones
+- ✓ **Policy baseline assignments** covering tagging, regulatory & compliance controls
+- ✓ **Network topology diagram** showing secure connectivity
+- ✓ **Identity and access plan** with least-privileged operations
+- ✓ **Operational readiness plan** with monitoring, management, and automation
 
 ### Team Validation Process
 
