@@ -62,45 +62,6 @@ Recall that in the **AI Ready Challenge**, IFS established a landing zone with s
 - Identity and access management policies to enforce least privilege
 - Compliance and governance frameworks to meet regulatory requirements
 
-### Network Topology
-
-Your RAG solution needs to fit within this network structure:
-
-```mermaid
-flowchart TB
-    Internet([Internet]) --- FW
-    
-    subgraph Connectivity["Connectivity Subscription"]
-        FW[Azure Firewall]
-        ERGW[ExpressRoute Gateway]
-        VPNGW[VPN Gateway]
-        
-        FW --- VWAN[Virtual WAN Hub]
-        VWAN --- ERGW
-        VWAN --- VPNGW
-    end
-    
-    subgraph Internal["Internal Subscription"]
-        VNET["Application VNET"]
-        
-        subgraph Subnets["VNET Subnets"]
-            direction LR
-            WebSN["Web Tier"]
-            AppSN["App Tier"]
-            DataSN["Data Tier"]
-            PrivateSN["Private Endpoint Subnet"]
-        end
-    end
-    
-    VWAN --- VNET
-    
-    classDef subscription fill:#0072C6,color:white,stroke:#025,stroke-width:2px
-    classDef network fill:#007ACC,color:white,stroke:#025,stroke-width:1px
-    
-    class Connectivity,Internal subscription
-    class VNET,Subnets,WebSN,AppSN,DataSN,PrivateSN network
-```
-
 ### Document Your Integration Approach
 
 Your integration plan should address:
